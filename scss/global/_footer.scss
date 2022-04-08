@@ -1,0 +1,350 @@
+
+/* Common footer */
+
+.footer-widget-area {
+    padding: 80px 0 20px !important;
+	
+	@include phone {
+		padding: 50px 0 20px !important;
+	}
+	
+	.container {
+		width: 90% !important;
+		max-width: 920px !important;
+		padding: 0 !important;
+		margin: 0 auto !important;
+	}
+	
+    .footer-widget {
+		@include tablet {
+			width: 100% !important;
+			max-width: 100% !important;
+			margin: 0 auto !important;
+		}
+		
+        .widget_nav_menu {
+			@include desktop {
+				margin-bottom: 60px !important;
+			}
+		}
+		
+        #block-2 {
+            margin-bottom: 5px !important;
+        }
+		
+        #block-3 {
+            margin-bottom: 0;
+            p {
+                display: none;
+            }
+        }
+        #block-6 {
+            margin-bottom: 0 !important;
+        }
+    }
+	
+    #menu-footer-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        @include tablet { 
+            flex-direction: column;
+        }
+		
+        li {
+			margin: 0 !important;
+			
+			@include tablet {
+				margin-bottom: 10px !important;
+			
+				&:last-child {
+                    margin-bottom: 0 !important;
+                }
+            }
+        
+			a {
+				position: relative;
+				color: #FBF5F3;
+				font-size: 16px;
+				font-weight: 300;
+				line-height: 120%;
+				text-transform: uppercase;
+				transition-duration: .4s;
+				
+				&:after {
+					content: '';
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					width: 0;
+					height: 1px;
+					background-color: #FBF5F3;
+					transition: all 0.35s ease-in-out;
+				}
+
+				&:hover {
+					&:after {
+						width: 100%;
+						left: 0;
+					}
+				}
+			}
+		}
+    }
+	
+    #block-2 {
+		@include tablet {
+			
+			max-width: 300px;
+			margin: auto;
+		}
+		
+        p {
+			color: #FBF5F3 !important;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 130%;
+            margin-bottom: 0;
+			text-align: center;
+        }
+    }
+	
+    #block-6 {
+        text-align: center;
+		
+		p {
+            margin-bottom: 0;
+        }
+		
+        a {
+			position: relative;
+			color: #FBF5F3 !important;
+			font-size: 16px;
+			font-weight: 300;
+            line-height: 120%;
+            transition-duration: .4s;
+            
+            &:after {
+                content: '';
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 0;
+                height: 1px;
+                background-color: #FBF5F3;
+                transition: all 0.35s ease-in-out;
+            }
+
+            &:hover {
+                &:after {
+                    width: 100%;
+                    left: 0;
+                }
+            }
+        }
+		
+    }
+}
+
+
+footer.footer-bottom {
+	padding: 10px 0 60px !important;
+	margin: 0 !important;
+	
+	@include phone {
+		padding: 0 0 10px !important;
+	}
+	
+	.container {
+		width: 90% !important;
+		max-width: 920px !important;
+		padding: 0 !important;
+		margin: 0 auto;
+	}
+	
+    .footer-bottom-right {
+        padding: 0;
+		margin: 0 auto;
+    }
+	
+    ul.footer-socials {
+        width: 400px;
+		
+        justify-content: space-between; 
+        flex-wrap: nowrap;
+		margin: auto;
+        @include phone {
+            width: 100%;
+            max-width: 400px;
+        }
+		
+        li {
+            display: flex;
+            align-items: center;
+			
+            @include phone {
+                transform: scale(.5);
+            }
+			
+			a {
+				margin: 0 !important;
+			}
+        }       
+    }
+}
+
+.bb-icon-rounded-instagram {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/instagram.svg);
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-facebook {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/facebook.svg);
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-pinterest {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/pinterest.svg);       
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-twitter {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/twitter.svg);
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-rss {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/other.svg);
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-youtube {
+    transition-duration: .4s;
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/youtube.svg);
+    }
+    &:hover {
+        transform: scale(1.1);
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+/* */
+
+
+#page .footer-bottom {
+    padding-bottom: 25px;
+    padding-top: 10px;
+    margin-top: -1px;
+    @include tablet {
+        padding-bottom: 10px;
+    }
+}
+
+
+
+.footer-account {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    .footer-account__item1 {
+        width: $width-dashbord;
+        background: #870557;
+        @media (max-width: 1300px) {
+            width: 250px;
+        }
+        @media (max-width: 799px) {
+            display: none;
+        }
+    }
+
+    .footer-account__item2 {
+        width: calc(100% - 375px);
+        padding-right: 6%;
+        background: #EFEEEE;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 25px;
+        color: #3B3B3B;
+
+        @media (max-width: 1024px) {
+            padding-right: 40px;
+        }
+        @media (max-width: 1300px) {
+            width: calc(100% - 250px);
+        }
+        @media (max-width: 799px) {
+            width: 100%;
+            justify-content: center;
+            padding-right: 0;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: right;
+            color: #3B3B3B;
+        }
+    }
+}

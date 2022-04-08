@@ -1,0 +1,121 @@
+.section-page-banner {
+	position: relative;
+    height: 480px;
+	
+	&:after {
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: radial-gradient(100% 308.39% at 0% 0%, #000000 0%, rgba(0, 0, 0, 0.5) 100%);
+		opacity: 0.5;
+	}
+}
+
+#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar {
+	padding: 100px 0 !important;
+	overflow: auto;
+	
+	@include tablet {
+		padding: 50px 0 !important;
+	}
+	
+	.et_pb_row {
+		display: flex;
+		margin: 0 auto !important;
+		
+		@include tablet {
+			flex-direction: column-reverse;
+		}
+		
+		.et_pb_column {
+			@include desktop {
+				
+				&:first-of-type {
+					width: 25%;
+					margin-right: 5%;
+				}
+				
+				&:last-of-type {
+					width: 70%;
+				}
+			}
+			
+			@include tablet {
+				&:first-of-type {
+					
+				}
+				
+				&:last-of-type {
+					margin-bottom: 50px;
+				}
+			}
+		}
+	}
+	
+	.sidebar-column {
+		.et_pb_menu {
+			background: transparent !important;
+			
+			@include tablet {
+				max-width: 400px;
+				margin: auto;
+			}
+			
+			@include phoneS {
+				max-width: 340px;
+				margin-bottom: 30px;
+			}
+			
+			.et_mobile_nav_menu {
+				display: none !important;
+			}
+			
+			ul {
+				padding: 0 !important;
+			}
+			
+			li {
+				padding: 0 !important;
+				margin: 0 0 10px !important;
+				
+				&:last-of-type {
+					margin-bottom: 0 !important;
+				}
+				
+				a {
+					position: relative;
+					display: block;
+					color: #7E7E7E;
+					font-size: 20px;
+					font-weight: 500;
+					line-height: 120%;
+					text-transform: uppercase;
+					padding: 0 !important;
+					
+					@include tablet {
+						font-size: 18px;
+						text-align: center;
+					}
+					
+					@include phoneS {
+						
+					}
+					
+					&:hover {
+						color: #870557 !important;
+					}
+				}
+				
+				&.current_page_item {
+					a {
+						color: $violet !important;
+
+					}
+				}
+			}
+		}
+	}
+}

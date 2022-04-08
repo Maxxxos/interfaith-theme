@@ -1,0 +1,798 @@
+
+.home {
+	h2 {
+		font-size: 48px !important;
+		
+		@include tablet {
+			font-size: 36px !important;
+		}
+		
+		@include phone {
+			font-size: 30px !important;
+		}
+	}
+	
+	.section-quote-2columns {
+		margin-bottom: 80px !important;
+	}
+}
+
+.et-db #et-boc .et-l #slider-main {
+	padding: 0 !important;
+	
+	.et_pb_row.swiper-slide.slide-main {
+		width: 100%!important;
+		max-width: 100%!important;
+	}
+}
+#slider-main.et_pb_section {
+	padding: 0 !important;
+    background-color: #192127 !important;
+	
+    .owl-stage-outer {
+        z-index: -1;
+    }
+	
+    .slide-main.et_pb_row {
+		width: 100% !important;
+		max-width: 100% !important;
+		height: 80vh;
+		min-height: 500px;
+		max-height: 800px;
+		padding: 76px 10% 0 !important;
+		margin: 0 !important;
+		background-size: cover !important;
+		background-position: center !important;
+		background-repeat: no-repeat;
+		@include phone {
+			padding: 50px 10% 0 !important;
+		}
+		.et_pb_column {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
+		
+        .et_pb_text {
+			max-width: 800px;
+			margin: 0 auto;
+			text-align: center !important;
+			
+            h1, h3 {
+				color: #FBF5F3 !important;
+				font-size: 72px;
+				font-weight: 500;
+				line-height: 110%;
+				text-transform: none !important;
+				padding-bottom: 20px !important;
+				text-align: center !important;
+				
+				@include laptop {
+					font-size: 60px;
+				}
+				
+				@include phone{
+					font-size: 44px;
+				}
+				
+				@include phoneS {
+					font-size: 35px;
+				}
+			}
+
+        }
+		
+        p {
+			max-width: 520px;
+			color: #FBF5F3!important;
+            font-size: 24px;
+            margin: 0 auto !important;
+        }
+		
+		.main-btn {
+			margin: 30px auto 0 !important;
+		}
+    }
+	
+    .owl-nav {
+        position: absolute;
+        top: 45%;
+        width: 100%;
+		
+		button {
+			font-size: 55px;
+			background: none !important;
+			margin: 0 30px !important;
+			
+			@include phone {
+                margin: 0 15px !important;
+            }
+		}
+		
+        .owl-next {
+			float: right;
+        }
+		
+        .owl-prev {
+            
+        }
+    }
+	
+    .owl-dots {
+		position: absolute;
+		bottom: 40px;
+		left: 0;
+		right: 0;
+        text-align: center !important;
+        @include phone {
+			bottom: 10px;
+		}
+        .owl-dot {
+            width: 16px;
+            height: 16px;
+            background: #C4C4C4 !important;
+            border-radius: 50% !important;
+            margin: 0 15px;
+            opacity: 1;
+            cursor: pointer;
+            
+            @include phone {
+                width: 10px;
+                height: 10px;
+            }
+
+            &.active {
+                background: #870557 !important;
+            }
+        }
+    }
+}
+
+.et-db #et-boc .et-l .et_pb_section .et_pb_row.section-second-main {
+    padding: 80px 0 100px !important;
+	
+	@include tablet {
+		padding: 80px 0 !important;
+	}
+	
+	.et_pb_row {
+		overflow: auto !important;
+	}
+	
+	.row-header {
+		padding: 0;
+		margin: 0 auto;
+		
+		h2 {
+			color: #222222;
+			padding-bottom: 0 !important;
+		}
+	}
+	
+	.row-description {
+		padding: 0 0 80px !important;
+		
+		.et_pb_column {
+			@include desktop {
+				float: left;
+				width: 46% !important;
+				
+				&:first-of-type {
+					margin-right: 4% !important;
+				}
+			}
+			
+			@include tablet {
+				&:first-of-type {
+					margin-bottom: 20px !important;
+				}
+			}
+		}
+	}
+	
+	.row-courses-3items {
+		padding: 0 !important;
+	}
+}
+#et-boc .et-l .et_pb_section {
+	&.section-second-main {
+		.et_pb_row.row-header {
+			margin-top: 0;
+			padding-bottom: 0;
+			h2 {
+				padding-bottom: 0;
+			}
+		}
+		.row-courses-3items {
+			margin-bottom: 0;
+		}
+	}
+	&.section-courses {
+		.et_pb_row.row-header {
+			margin-top: 0;
+			padding-bottom: 0;
+			h2 {
+				padding-bottom: 0;
+				overflow: hidden;
+				@include tablet {
+					text-align: center;
+				}
+			}
+		}
+		.row-courses-2items {
+			margin-bottom: 0;
+		}
+	}
+	&.section-banner-left  {
+		margin-bottom: 0;
+		.et_pb_row.row-header {
+			margin-bottom: 0;
+			padding-bottom: 0;
+
+			h2 {
+				padding-bottom: 0;
+			}
+		}
+
+		.row-courses-2items {
+			margin-bottom: 0;
+		}
+	}
+	&.section-courses {
+		.et_pb_row.row-header {
+			margin-top: 0;
+			padding-bottom: 0;
+			h2 {
+				padding-bottom: 0;
+			}
+		}
+		.row-courses-2items {
+			margin-bottom: 0;
+		}
+	}
+	&.section-banner-right {
+		&:last-child {
+			margin-bottom: 100px;
+			@include tablet {
+				margin-bottom: 80px;
+			}
+
+		}
+	}
+}
+.section-home-cta {
+	position: relative;
+	padding: 220px 0 !important;
+	
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+        left: 0;
+		width: 100%;
+        height: 100%;
+        background: radial-gradient(100% 308.39% at 0% 0%, #000000 0%, rgba(0, 0, 0, 0.5) 100%);
+        opacity: 0.5;
+        z-index: -1;
+    }	
+	
+	@include tablet {
+		padding: 150px 0 !important;
+	}
+	
+	@include phone {
+		padding: 100px 0 !important;
+	}
+	
+	.et_pb_text {
+		color: #FBF5F3 !important;
+		
+		h2 {
+			color: #FBF5F3 !important;
+			padding-bottom: 20px !important;
+		}
+		
+		p {
+			max-width: 700px;
+			margin: 0 auto !important;
+			
+			@include desktop {
+				font-size: 24px !important;
+			}
+		}
+	}
+	
+	a.et_pb_button {
+		margin: 30px auto 0 !important;
+	}
+}
+
+#et-boc .et-l .section-courses {
+    padding: 80px 0 100px !important;
+	
+	@include tablet {
+		padding: 80px 0 !important;
+	}
+	
+	.et_pb_row {
+		overflow: auto !important;
+	}
+	
+	.row-header {
+	
+		h2 {
+			color: #222222;
+			padding-bottom: 0 !important;
+		}
+	}
+	.row-courses-3items {
+		padding: 0 !important;
+	}
+}
+
+.module-courses,
+.row-courses {
+	overflow: hidden;
+	
+	.courses-item {
+		
+		.courses-item__wrap {
+			margin-bottom: 20px;
+			
+			img {
+				display: block;
+				width: 100%;
+				object-fit: cover;
+				border: 1px solid #ccc;
+				border-radius: 4px !important;
+			}
+		}
+		
+		
+			h5 {
+				color: #3b3b3b !important;
+                padding: 10px 0 10px!important;             
+			
+				&.title-2 {
+					font-size: 24px !important;
+				}
+				
+                &.title-3 {
+					font-size: 20px !important;
+                    text-transform: uppercase !important;
+                }
+			}
+			
+			a.main-btn {
+				margin: 25px auto 0 !important;
+				
+			}
+	}
+
+
+    &.item-three {
+        .courses-item {
+            width: 100%;
+			max-width: 400px;
+			margin: 0 auto 50px !important;
+			
+			&:last-of-type {
+				margin: 0 auto !important;
+			}
+			
+			@media (min-width: 900px) {
+				display: inline-block;
+				float: left;
+				width: 32%;
+				margin: 0 2% 0 0 !important;
+				
+				&:last-of-type {
+					margin-right: 0 !important;
+				}
+			}
+			
+            img {
+				height: 300px !important;
+				
+				@media (min-width: 900px) {
+					height: 200px !important;
+				}
+				
+				@media (min-width: 1280px) {
+					height: 290px !important;
+				}
+            }
+        }
+    }	
+	
+    &.item-two {
+        overflow: hidden;
+        .courses-item {
+			width: 100%;
+			max-width: 500px;
+			margin: 0 auto 50px !important;
+			
+			&:last-of-type {
+				margin: 0 auto !important;
+			}
+			
+			@media (min-width: 900px) {
+				display: inline-block;
+				float: left;
+				width: 48%;
+				max-width: 48% !important;
+				margin: 0 4% 0 0 !important;
+				
+				&:last-of-type {
+					margin-right: 0 !important;
+				}
+			}
+			
+            img {
+				height: 350px !important;
+				
+				@media (min-width: 900px) {
+					height: 300px !important;
+				}
+				
+				@media (min-width: 1280px) {
+					height: 400px !important;
+				}
+            }
+			
+			h5 {
+				font-size: 24px !important;
+			}
+			
+            .courses-item__wrap {
+                position: relative;
+				.content-width {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+				}
+                .date-course {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    width: 166px;
+                    height: 55px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+					color: #fff !important;
+					font-size: 16px;
+                    line-height: 100%;
+					font-weight: 500;
+					background: $orange !important;
+                    border-radius: 4px !important;
+                    
+                    @include tablet {
+                        width: 130px;
+                        height: 45px;
+                    }
+                }
+				
+            }
+        }
+    }
+}
+.et-db #et-boc .et-l .et_pb_section.section-banner-right {
+	@include tablet {
+		padding: 0 !important;
+	}
+}
+.et-db #et-boc .et-l .et_pb_section.section-banner-left {
+	position: relative;
+	margin-bottom: 0;
+    @include tablet {
+		padding: 0!important;
+	}
+	@include phone {
+        padding-bottom: 0 !important;   
+  
+    }
+	
+    &::after {
+        position: absolute;
+        content: '';
+		top: 9%;
+		right: 0;
+        width: 80%;
+        height: 82%;
+        background: $orange;
+        z-index: -1;
+		max-width: 1800px;
+		
+        @include laptop {
+            top: 0;
+			height: 100%;
+        }
+		
+        @include phone {
+            display: none;
+        }
+    }
+	
+	.row-header {
+		
+
+		h2 {
+			color: #222222;
+			
+			@include phone {
+				padding-bottom: 0 !important;
+				text-align: center!important;
+			}
+		}
+	}
+	
+	
+    
+    .banner-left-row.et_pb_row:last-of-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+		@include laptop {
+			width: 100% !important;
+			margin-bottom: 0;
+		}
+		@include phone {
+            flex-direction: column;
+            background: $orange;
+            padding-bottom: 45px !important;
+        }
+		
+		.et_pb_column {
+
+			@include desktop {
+				&:first-of-type {
+					width: 70% !important;
+					margin: 0 3% 0 0 !important;
+				}
+				
+				&:last-of-type {
+					width: 27% !important;
+				}
+			}
+			@include laptop {
+				&:first-of-type {
+					margin: 0 auto !important;
+					width: calc(97% - 280px) !important;
+				}
+				&:last-of-type {
+					width: 280px !important;
+				}
+			}
+
+			
+			@include phone {
+				&:first-of-type {
+					width: 100% !important;
+					margin: 0 auto 35px !important;
+				}
+				
+				&:last-of-type {
+					width: 90% !important;
+					margin: 0 auto !important;
+				}
+			}
+		}
+		
+		.et_pb_image {
+			img {
+				display: block;
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+			}
+		}
+		
+		.et_pb_text {
+			margin-bottom: 25px !important;
+			
+			h3 {
+				font-size: 34px;
+				line-height: 120%;
+				font-weight: 500;
+				padding-bottom: 0 !important;
+                
+                @include tablet {
+                    font-size: 30px;
+                }
+				
+                @include phone {
+                    font-size: 26px;
+                }
+            }
+		}
+		
+		.et_pb_button {
+			margin: 0 auto !important;
+		}
+    }
+}
+
+#et-boc .et-l .section-banner-right {
+    padding: 3% 0;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 0;
+	
+    @include phone {
+		padding: 0 !important;
+		margin-bottom: 50px;
+    }
+	
+    &::after {
+        position: absolute;
+        content: '';
+		top: 3%;
+        left: 0;
+        width: 81%;
+        height: 96%;
+        background: $violet;
+        z-index: -1;
+		max-width: 1800px;
+		@include laptop {
+			top: 0;
+			height: 100%;
+		}
+        @include phone {
+            display: none;
+        }
+    }
+	
+	.banner-right-row.et_pb_row:last-of-type {
+		display: flex;
+        justify-content: center;
+        align-items: center;
+		padding: 0 !important;
+		margin-top: 0;
+        @include laptop {
+			width: 100% !important;
+		}
+		@include phone {
+			
+            flex-direction: column-reverse;
+            background: $violet;
+            padding-bottom: 45px !important;
+        }
+		
+		.et_pb_column {
+			@include desktop {
+				&:first-of-type {
+					width: 27% !important;
+					margin: 0 3% 0 0 !important;
+				}
+				
+				&:last-of-type {
+					width: 70% !important;
+				}
+			}
+			
+			@include tablet {
+				&:first-of-type {
+					width: 280px !important;
+					margin: 0 auto !important;
+				}
+				
+				&:last-of-type {
+					width: calc(97% - 280px) !important;
+				}
+			}
+			
+			@include phone {
+				&:first-of-type {
+					width: 90% !important;
+				}
+				
+				&:last-of-type {
+					width: 100% !important;
+					margin: 0 auto 35px !important;
+				}
+			}
+		}
+		
+		.et_pb_image {
+			img {
+				display: block;
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+			}
+		}
+		
+		.et_pb_text {
+			margin-bottom: 25px !important;
+			
+			h3 {
+				font-size: 34px;
+				line-height: 120%;
+				font-weight: 500;
+				padding-bottom: 0 !important;
+                
+                @include tablet {
+                    font-size: 30px;
+                }
+				
+                @include phone {
+                    font-size: 26px;
+                }
+            }
+		}
+		
+		.et_pb_button {
+			margin: 0 auto !important;
+		}
+    }
+	
+}
+
+/**/
+.et-db #et-boc .et-l .et_pb_section.section-banner-title {
+	padding-bottom: 0 !important;
+	.et_pb_row.et_pb_row_12.row-header {
+		padding-bottom: 0%;
+		margin-top: 0;
+		margin-bottom: 0;
+		h2 {
+			padding-bottom: 0%;
+		}
+	}
+}
+
+
+
+#et-boc .et-l .section-instagram {
+    padding: 100px 0 !important;
+	
+    @include phone {
+        padding: 50px 0 !important;
+    }
+	
+    p {
+        @include main-font;
+        color: #1D1D1D;
+        padding-bottom: 40px;
+        @include phone {
+            text-align: center !important;
+        }
+        a {
+            @include max-main-font;
+            color: #870557 !important;
+            text-transform: .4s;
+			position: relative;
+			&:after {
+				content: '';
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				width: 0;
+				height: 1px;
+				background-color: #FBF5F3;
+				transition: all 0.35s ease-in-out;
+			}
+
+			&:hover {
+				&:after {
+					width: 100%;
+					left: 0;
+				}
+			}
+        }
+    }
+	
+    a.main-btn {
+       @include phoneS {
+           width: calc(100% - 40px)!important;
+           margin: auto !important;
+       }
+    }
+}
+
+
+
+
+

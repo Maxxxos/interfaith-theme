@@ -1,0 +1,279 @@
+.bb-header-buttons {
+    .btn-login {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FBF5F3;
+        width: 180px;
+        height: 57px;
+        background: #870557;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition-duration: .4s;
+    }
+}
+.bb-left-panel-mobile {
+    @media (max-width: 799px) {
+        margin-left: 5px;
+    }
+}
+.bb-mobile-header .header-aside {
+    @media (max-width: 799px) {
+        padding-right: 5px;
+    }
+}
+#primary-menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    &>li {
+        &> a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FBF5F3;
+            position: relative;
+            transition-duration: 1s;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                right: 0;
+                bottom: 25px;
+                width: 0;
+                height: 1px;
+                background-color: #FBF5F3;
+                transition: all 0.35s ease-in-out;
+            }
+
+            &:hover {
+                &:after {
+                    width: 100%;
+                    left: 0;
+                }
+            }
+        }
+        &.current-menu-ancestor {
+            &>a {
+                color: #fff;
+                position: relative;
+                &:after {
+                    position: absolute;
+                    bottom: 25px;
+                    content: '';
+                    left: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #fff;
+                }
+            }
+        }
+        .sub-menu {
+            li {
+                a {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #FBF5F3;
+                }
+                &.current-menu-item {
+                    a {
+                      color: #870557;
+                    }
+                }
+            }
+        }
+    }
+}
+#header-aside>div>div>a:hover {
+    color: #fff !important;
+    i {
+         color: #fff !important;
+    }
+}
+.site-header .sub-menu {
+    background-color: #870557;
+    border-radius: 0!important;
+    &::before {
+            border-color: #870557 !important;
+            right: calc(50% - 7px) !important;
+    }
+    a {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FBF5F3;
+        padding: 0.3rem 0.9375rem;
+        &:hover {
+            text-decoration: none !important;
+        }
+    }
+}
+#menu-menu-main {
+    li {
+        a {
+            @include main-font;
+            color: #FBF5F3;
+            transition-duration: .4s;            
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 0;
+                height: 1px;
+                background-color: #FBF5F3;
+                transition: all 0.35s ease-in-out;
+            }
+
+            &:hover {
+                &:after {
+                    width: 100%;
+                    left: 0;
+                }
+            }
+        }
+    }
+}
+
+.bb-mobile-panel-inner {
+    .bb-header-buttons .btn-login {
+        background: #885A89;
+        width: 100%;
+    }
+}
+.site-header {
+    background-color: transparent !important;
+}
+#content {
+    padding-top: 0 !important;
+}
+.sticky-header .site-header.has-scrolled {
+    background: #870557!important;
+    opacity: 1 !important;
+}
+.site-header .sub-menu a:hover {
+    color: #870557 !important;
+}
+.site-header-container #site-logo .bb-logo img,
+.site-header-container #site-logo .site-title img.bb-logo,
+.site-title img.bb-mobile-logo {
+    max-height: 68px !important;
+}
+.my-account .site-header-container #site-logo .bb-logo img,
+.my-account .site-header-container #site-logo .site-title img.bb-logo,
+.my-account .site-title img.bb-mobile-logo {
+    max-height: 60px !important;
+}
+.signup {
+    text-align: right;
+    color: #870557;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#btn-login,
+#signup-form {
+    display: none;
+}
+.rh_form__row-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    @include phone {
+        flex-direction: column;
+    }
+    & > div {
+        max-width: 48%;
+        margin-top: 12px;
+        @include phone {
+            min-width: 100%;
+            justify-content: flex-start;
+        }
+        &:first-child {
+            @include phone {
+                margin-top: 0;
+            }
+        }
+    }
+}
+.row-column {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0 0;
+}
+.popup-wrap .popup-overview .popup-block.active {
+    @include phone {
+        overflow-y: scroll;
+    }
+}
+.popup-wrap .popup-overview .popup-block .popup-block__item2 .popup-form__row .login-button {
+    @include phone {
+        min-width: 100%;
+    }
+}
+.popup-wrap .popup-overview .popup-block .popup-block__item2 {
+    overflow-y: auto;
+    @include phone {
+        overflow-y: visible;
+    }
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border: 1px solid #870557;
+    background: #870557;
+}
+
+.site-header.site-header--bb.has-scrolled {
+    #primary-menu>li.current-menu-ancestor {
+        &>a {
+            color: #fff;
+            position: relative;
+
+            &:after {
+                position: absolute;
+                bottom: 25px;
+                content: '';
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background-color: #fff;
+            }
+        }
+    }
+    .btn-login {
+        background: #EF5C0A;
+    }
+}
+.sticky-header .site-header {
+    box-shadow: none!important;
+}
+.site-navigation__members {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    background: #EFEEEE;
+    height: 76px;
+    align-items: center;
+    padding: 0 4%;
+    form.search-form {
+        margin-bottom: 0;
+        input[type=search] {
+            border: 1px solid #9E9E9E;
+            box-sizing: border-box;
+            border-radius: 26px;
+            min-width: 290px;
+            height: 31px;
+        }
+    }
+}

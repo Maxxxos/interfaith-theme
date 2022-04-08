@@ -1,0 +1,100 @@
+/*
+Theme Name: Interfaith Theme
+Template: buddyboss-theme
+Theme URI:      https://www.buddyboss.com/
+Description:    BuddyBoss Theme makes the BuddyBoss Platform look beautiful.
+Author:         BuddyBoss
+Author URI:     https://www.buddyboss.com/
+Version:        1.7.3
+*/
+
+/* импортируем стили родительской темы */
+/* @import url("../buddyboss-theme/style.css"); */
+
+
+@font-face {
+	font-family: freight-sans-pro;
+	src: url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/a?subset_id=2&fvd=n3&v=3) format("opentype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: freight-sans-pro;
+	src:url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: freight-sans-pro;
+	src:url(https://use.typekit.net/af/8dd886/000000000000000000010b5c/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/8dd886/000000000000000000010b5c/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/8dd886/000000000000000000010b5c/27/a?subset_id=2&fvd=n5&v=3) format("opentype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: freight-sans-pro;
+	src:url(https://use.typekit.net/af/cef9f3/000000000000000000010b5e/27/l?subset_id=2&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/cef9f3/000000000000000000010b5e/27/d?subset_id=2&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/cef9f3/000000000000000000010b5e/27/a?subset_id=2&fvd=n6&v=3) format("opentype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: freight-sans-pro;
+	src:url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/a?subset_id=2&fvd=n7&v=3) format("opentype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: freight-sans-pro;
+	src:url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/3df5fe/000000000000000000010b5b/27/a?subset_id=2&fvd=i4&v=3) format("opentype");
+	font-weight: 400;
+	font-style: italic;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: freight-sans-pro;
+	src:url(https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/65fc7d/000000000000000000010b61/27/a?subset_id=2&fvd=i7&v=3) format("opentype");
+	font-weight: 700;
+	font-style: italic;
+	font-display: auto;
+}
+@font-face {
+	font-family:astoria-sans;
+	src:url(https://use.typekit.net/af/043c31/00000000000000007735a73d/30/l?subset_id=2&fvd=n2&v=3) format("woff2"),url(https://use.typekit.net/af/043c31/00000000000000007735a73d/30/d?subset_id=2&fvd=n2&v=3) format("woff"),url(https://use.typekit.net/af/043c31/00000000000000007735a73d/30/a?subset_id=2&fvd=n2&v=3) format("opentype");
+	font-weight:200;
+	font-style:normal;
+	font-display:auto;
+}
+/*
+@font-face {
+	font-family:astoria-sans;
+	src:url(https://use.typekit.net/af/318063/00000000000000007735a741/30/l?subset_id=2&fvd=i2&v=3) format("woff2"),url(https://use.typekit.net/af/318063/00000000000000007735a741/30/d?subset_id=2&fvd=i2&v=3) format("woff"),url(https://use.typekit.net/af/318063/00000000000000007735a741/30/a?subset_id=2&fvd=i2&v=3) format("opentype");
+	font-weight:200;
+	font-style:italic;
+	font-display:auto;
+}
+	
+@font-face {
+	font-family:astoria-sans;
+	src:url(https://use.typekit.net/af/717ff7/00000000000000007735a720/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/717ff7/00000000000000007735a720/30/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/717ff7/00000000000000007735a720/30/a?subset_id=2&fvd=n7&v=3) format("opentype");
+	font-weight:700;
+	font-style:normal;
+	font-display:auto;
+}
+
+@font-face {
+	font-family:astoria-sans;
+	src:url(https://use.typekit.net/af/a8d473/00000000000000007735a737/30/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/a8d473/00000000000000007735a737/30/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/a8d473/00000000000000007735a737/30/a?subset_id=2&fvd=i7&v=3) format("opentype");
+	font-weight:700;
+	font-style:italic;
+	font-display:auto;
+}*/

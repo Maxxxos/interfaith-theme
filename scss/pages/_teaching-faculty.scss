@@ -1,0 +1,81 @@
+body.page-id-68{
+  #et-boc .et-l .et_pb_section.et_pb_section_0 .et_pb_row_0.et_pb_row.row-title{
+    margin-top: 83px!important;
+    margin-bottom: 30px!important;
+    .teaching-title{
+      p{
+        font-family: "FreightSansProMedium-Regular", sans-serif!important;
+        font-size: 48px;
+        letter-spacing: 0.4px;
+        color: #222222!important;
+        text-transform: uppercase;
+      }
+    }
+    .teaching-subtitle{
+      max-width: 52%;
+      margin: 14px auto auto auto!important;
+      p{
+        font-family: "FreightSansProBook-Regular", sans-serif!important;
+        font-size: 18px;
+        color: #3B3B3B!important;
+        letter-spacing: 0px;
+        line-height: 1.39;
+      }
+    }
+    .local-title{
+      margin-top: 60px;
+      p{
+        font-family: "FreightSansProMedium-Regular", sans-serif!important;
+        font-size: 36px;
+        font-weight: 400;
+      }
+    }
+  }
+  #et-boc .et-l .et_pb_section.et_pb_section_0 .et_pb_row.row-ministers{
+    .et_pb_column{
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 1330px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      .et_pb_module{
+        font-family: "FreightSansProMedium-Regular", sans-serif!important;
+        max-width: 400px!important;
+        margin: 0 0 40px 0!important;
+        box-shadow: 0px 16px 30px rgba(136, 136, 136, 0.15);
+        border-radius: 4px;
+        @include phone {
+          max-width: 332px!important;
+        }
+        img{
+          border-radius: 4px;
+          max-height: 373px;
+        }
+        .name{
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .position{
+          font-size: 16px;
+          color: #870557;
+          text-transform: capitalize;
+        }
+        .description{
+          font-size: 18px;
+          margin: 4px auto auto auto;
+          padding: 0 10px!important;
+          color: #3B3B3B;
+          width: 100%;
+          letter-spacing: -0.17px;
+        }
+        a{
+          font-size: 18px;
+          padding-bottom: 5px;
+          margin-top: 25px;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

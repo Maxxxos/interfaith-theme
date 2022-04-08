@@ -1,0 +1,157 @@
+
+@font-face {
+    font-family: "Cormorant";
+    src: url("../css/fonts/Cormorant.ttf") format('truetype');
+    font-weight: 400;
+}
+
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 991px;
+$laptop-width: 1024px;
+$laptop-medium-width: 1200px;
+$laptop-large-width: 1440px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width + 1}) {
+    @content;
+  }
+}
+
+@mixin laptopL {
+    @media (max-width: #{$laptop-large-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin laptopM {
+    @media (max-width: #{$laptop-medium-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (max-width: #{$laptop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media (max-width: #{$tablet-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin phoneS {
+    @media (max-width: #{$mobile-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin fontsize($desktop, $tablet, $phone) {
+    font-size: $desktop !important;
+
+    @include tablet {
+        font-size: $tablet !important;
+    }
+
+    @include phone {
+        font-size: $phone !important;
+    }
+}
+
+@mixin exfontsize($desktop, $laptopM, $tablet, $phone, $phoneS) {
+    font-size: $desktop !important;
+
+    @include laptopM {
+        font-size: $laptopM !important;
+    }
+
+    @include tablet {
+        font-size: $tablet !important;
+    }
+
+    @include phone {
+        font-size: $phone !important;
+    }
+
+    @include phoneS {
+        font-size: $phoneS !important;
+    }
+}
+
+@mixin responsiveD($property, $laptopL, $laptopM, $laptop) {
+    @include laptopL {
+        #{$property}: $laptopL !important;
+    }
+
+    @include laptopM {
+        #{$property}: $laptopM !important;
+    }
+
+    @include laptop {
+        #{$property}: $laptop !important;
+    }
+}
+
+@mixin responsiveM($property, $tablet, $phone, $phoneS) {
+    @include tablet {
+        #{$property}: $tablet !important;
+    }
+
+    @include phone {
+        #{$property}: $phone !important;
+    }
+
+    @include phoneS {
+        #{$property}: $phoneS !important;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#primary {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0!important;
+}
+body:not(.page-template-page-fullscreen) .site {
+    overflow-x: unset;
+}
+
+@import "global/global";
+@import "global/typography";
+@import "global/header";
+@import "global/footer";
+@import "pages/blog";
+@import "pages/account";
+@import "pages/_dashbord";
+@import "pages/home";
+@import "pages/page";
+@import "pages/internal";
+@import "pages/faq";
+@import "pages/archive-course";
+@import "pages/contact";
+@import "pages/teaching-faculty";
+@import "pages/single";
+@import "pages/search";
+@import "pages/single-course";
+@import "pages/single-minister";
+@import "pages/stories";
+@import "pages/404";
+@import "pages/find-minister";
+@import "pages/map";
+@import "pages/our-teacher";
+@import "pages/discussion";

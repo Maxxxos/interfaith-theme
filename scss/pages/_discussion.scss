@@ -1,0 +1,17 @@
+.forum.bbpress.single-forum.sticky-header.et-db,
+.topic.bbpress.single-topic.sticky-header.et-db {
+    .site-header.site-header--bb {
+        background-color: #870557 !important;
+        
+    }
+    #content {
+         padding-top: 76px !important;
+     }
+    .bbp-author-name,
+    .item-title a {
+        color: #870557;
+    }
+    .color.bs-meta-item {
+        background-color: #870557 !important;
+    }
+}

@@ -1,0 +1,250 @@
+#content  .internal-main-content {
+    width: 100% !important;
+	
+	.section-after-form.et_pb_section {
+		
+		.et_pb_row {
+			width: 100% !important;
+			max-width: 100% !important;
+			
+			&:last-of-type {
+				padding: 0 !important;
+			}
+		}
+		
+		h2 {
+			
+			@include phone {
+				max-width: 400px;
+				margin: 0 auto;
+				padding: 0;
+			}
+		}
+		
+		.row-btn {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			
+			@include phone {
+				flex-direction: column;
+			}
+		}
+	} 
+}
+
+#content .internal-wrap.page-contact .internal-main-content .section-contact-form,
+#content .internal-wrap .internal-main-content .section-contact-form {
+	padding: 0 !important;
+	
+	.et_pb_row {
+		width: 100% !important;
+		max-width: 100% !important;
+	
+		&:last-of-type {
+			padding: 0 !important;
+		}
+	}
+	.row-contact-form {
+		max-width: 740px !important;
+		margin-left: 0!important;
+	}
+	
+	form {
+		padding: 40px 7%;
+		background: #FDFDFD;
+		border-radius: 4px;
+		box-shadow: 0px 8px 24px rgba(136, 136, 136, 0.15);
+		
+
+		label {
+			display: block;
+			color: #565656;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 100%;
+			
+			span:not(.form-text-smoll) {
+				display: block;
+				margin-top: 10px;
+			}
+			
+			.form-text-smoll {
+				color: #565656;
+				font-size: 16px;
+				line-height: 100%;
+				padding-left: 5px;
+			}
+		}
+
+		& input,
+		& input[type=text],
+		& input[type=email],
+		& select {
+			display: block;
+			width: 100%;
+			height: 48px;
+			background: #FBF5F3;
+			border: 2px solid #FBF5F3;
+			border-radius: 4px;
+			padding: 0 15px;
+			transition-duration: .4s;
+
+			&:focus {
+				border: 2px solid #870557;
+			}
+		}
+
+		.classform-select {
+			position: relative;
+
+			&:after {
+				content: "";
+				position: absolute;
+				top: 50%;
+				right: 1rem;
+				display: block;
+				border-style: solid;
+				border-width: 6px 5px 0 5px;
+				border-color: #000 transparent transparent transparent;
+				pointer-events: none;
+				margin-top: -3px;
+				z-index: 1;
+			}
+
+			&.open:after {
+				transform: rotate(180deg);
+			}
+		}
+		
+		.label-1 {
+			max-width: 670px;
+			color: #C0C0C0;
+			font-size: 18px;
+			line-height: 140%;
+			font-weight: 500;
+			padding-bottom: 15px;
+		}
+		
+		.label-2 {
+			max-width: 650px;
+			color: #565656;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 130%;
+			
+			a {
+				color: #870557 !important;
+
+			}
+		}
+		
+		p {
+			padding-bottom: 25px;
+			
+			&:last-child {
+				padding-bottom: 0 !important;
+			}
+
+			span.wpcf7-form-control-wrap {
+				width: 100%;
+
+				span.form-checkbox {
+					width: 100%;
+
+					span.wpcf7-list-item {
+						width: 100%;
+						margin-bottom: 20px;
+						
+						&:last-of-type {
+							margin-bottom: 0px !important;
+						}
+
+						label {
+							display: flex;
+							align-items: center;
+							width: 100px;
+
+							input {
+								display: block;
+								width: 20px;
+								height: 20px;
+								margin: 0 15px 0 0;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		.radio-355 {
+			label {
+				width: 100% !important;
+			}
+		}
+
+		input[type=radio] {
+			position: absolute;
+			z-index: -1;
+			opacity: 0;
+		}
+		
+		input[type=radio]+span::before {
+			content: '';
+			display: inline-block;
+			width: 1.3em;
+			height: 1.3em;
+			flex-shrink: 0;
+			flex-grow: 0;
+			border: 1px solid #adb5bd;
+			border-radius: 0.25em;
+			margin-right: 0.5em;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 50% 50%;
+			margin-bottom: -5px;
+		}
+
+		input[type=radio]:checked+span::before {
+			border-color: #870557;
+			background-color: #870557;
+		}
+		
+		.custom-checkbox input[type=radio]+span {
+			display: inline-flex;
+			align-items: center;
+			user-select: none;
+		}
+		
+		input[type=submit] {
+			width: 180px;
+			height: 56px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #FBF5F3;
+			font-size: 18px;
+			line-height: 100%;
+			font-weight: 500;
+			background: #870557;
+			border-radius: 4px;
+			border: 2px solid #870557;
+			margin: 20px auto 0;
+			
+			&:hover {
+				background: #7D225C !important;
+			}
+		}
+
+		.ajax-loader {
+			position: absolute;
+			z-index: -999999;
+		}
+		
+		.wpcf7-response-output {
+			color: red;
+			text-align: center;
+		}
+	}
+}
+

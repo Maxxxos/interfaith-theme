@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "FreightSansProMedium-Regular"; /* Имя шрифта */
+    src: url("/wp-content/themes/interfaith-theme/css/fonts/FreightSansProMedium-Regular.ttf") format("ttf"),
+    url("/wp-content/themes/interfaith-theme/css/fonts/FreightSansProMedium-Regular.woff") format("woff"),
+    url("/wp-content/themes/interfaith-theme/css/fonts/FreightSansProMedium-Regular.woff2") format("woff2");
+    font-weight: 400;
+
+}
+@font-face {
+    font-family: "FreightSansProBook-Regular"; /* Имя шрифта */
+    src: url("/wp-content/themes/interfaith-theme/css/fonts/FreightSansProBook-Regular.ttf") format("ttf"),
+    url("/wp-content/themes/interfaith-theme/css/fonts/FreightSansProBook-Regular.woff") format("woff"),
+    url("/wp-content/themes/interfaith-theme/css/fonts/FreightSansProBook-Regular.woff2") format("woff2");
+    font-weight: 400;
+
+}
+.et-db.page-id-34205 {
+    .site-header {
+        background: #870557 !important;
+        opacity: 1 !important;
+    }
+
+    #content {
+        margin-top: 75px;
+
+        @include laptopM {
+            padding: 0;
+        }
+
+        article {
+            max-width: 1059px;
+            margin: auto;
+            width: 100%;
+        }
+    }
+    #et-boc .et-l .et_pb_module {
+        &.main-text {
+            max-width: 670px;
+            margin: auto;
+            h2 {
+                font-size: 48px;
+                line-height: 56px;
+                letter-spacing: 0.01em;
+                text-transform: uppercase;
+            }
+        }
+        &.text-description {
+            max-width: 670px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 140%;
+            text-align: center;
+            color: #3B3B3B;
+            a {
+                color: #870557;
+                position: relative;
+                transition-duration: .4s;
+                &:after {
+                    position: absolute;
+                    bottom: 10px;
+                    content: '';
+                    left: 0;
+                    width: 0;
+                    height: 1px;
+                    background-color: #870557;
+                }
+
+                &:hover {
+                    &:after {
+                        width: 100%;
+                    }
+                }
+}
+        }
+    }
+}
+#map {
+    width: 100%;
+    min-height: 500px;
+}
+#et-boc .et-l div.map-wrap {
+    margin: 90px 0 30%;
+}
+
+.wpgmp_filter_wrappers {
+	display: none;
+}
+
+.gm-style-iw.gm-style-iw-c {
+	    background: #fff !important;
+}
+
+.et-db.page-id-34910{
+    .main-slide{
+        display: none!important;
+    }
+    #et-boc .et-l .et_pb_section .et_pb_row.row-map{
+        width: 100%!important;
+    }
+    #et-boc .et-l .et_pb_section.et_pb_section_0 .et_pb_row.et_pb_row_0.row-maps-title{
+        margin-bottom: 60px!important;
+        margin-top: 83px!important;
+    }
+    #et-boc .maps-title{
+        margin-bottom: 14px!important;
+        p{
+            font-family: "FreightSansProMedium-Regular", sans-serif!important;
+            font-size: 48px;
+            letter-spacing: 0.4px;
+            color: #222222!important;
+            text-transform: uppercase;
+        }
+    }
+    #et-boc .maps-descriptions{
+        width: 58%;
+        margin: auto!important;
+        p{
+            font-family: "FreightSansProBook-Regular", sans-serif!important;
+            font-size: 18px;
+            color: #3B3B3B!important;
+            letter-spacing: 0px;
+            line-height: 1.39;
+
+        }
+    }
+
+    .wpgmp-map-1{
+        display: flex;
+        @media (max-width: 980px) {
+            flex-direction: column;
+        }
+        .wpgmp_map_parent{
+            flex-basis: 143.14%;
+            .wpgmp_map{
+                @media (max-width: 1300px) {
+                    width: 100%!important;
+                    height: 70%!important;
+                }
+                @media (max-width: 980px) {
+                    width: 730px!important;
+                    height: 547px!important;
+                    margin: auto!important;
+                }
+            }
+            .wpgmp_iw_content{
+                padding: 24px 24px 0!important;
+            }
+            .gm-style-iw-t{
+                height: 0!important;
+                .wpgmp_infowindow{
+                    &::-webkit-scrollbar-thumb{
+                        display: none;
+                    }
+                }
+                &::after{
+                    z-index: -1!important;
+                }
+            }
+            .gm-style-iw{
+                filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.12));
+                position: relative;
+                max-width: 430px!important;
+                //transform:translate3d(-50%,0%,0);
+                &::after{
+                    position: absolute;
+                    content: " ";
+                    width: 100%;
+                    height: 4px;
+                    left: 0;
+                    bottom: 0;
+                    background-color: #870557;
+                    border-radius: 4px;
+                }
+                .gm-style-iw-d{
+                    min-width: 430px;
+                    padding-bottom: 1px!important;
+                }
+            }
+
+            .fc-main{
+
+                .fc-item-title{
+                    font-family: "FreightSansProMedium-Regular", sans-serif!important;
+                    font-weight: 500;
+                    font-size: 20px;
+                    text-transform: capitalize;
+                }
+                p{
+                    margin-left: 24px;
+                    a{
+                        font-family: "FreightSansProMedium-Regular", sans-serif!important;
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+        }
+        .location_listing1{
+            margin-left: 40px!important;
+            margin-top: -4px!important;
+            .fc-component-6{
+                width: 114%;
+            }
+            .wpgmp_locations{
+                position: static!important;
+                width: 50%;
+                padding: 0!important;
+                margin: 0!important;
+                .wpgmp_location_title{
+                    padding-bottom: 8px!important;
+                    .place_title{
+                        font-family: "FreightSansProMedium-Regular", sans-serif;
+                        color: #3B3B3B!important;
+                        font-weight: 400!important;
+
+                    }
+                }
+                .wpgmp_locations_content{
+                    display: none;
+                }
+            }
+        }
+        .location_pagination1{
+            display: none;
+        }
+    }
+    #content .container .bb-grid .internal-wrap{
+        margin-bottom: 31px!important;
+    }
+}

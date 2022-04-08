@@ -1,0 +1,214 @@
+#et-boc .et-l .faq-slide {
+	position: relative;
+	width: 100%;
+	height: 480px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 !important;
+	background-color: #7b898e;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+	
+    @include laptopM {
+		height: 400px;
+		padding-top: 77px !important;
+	}
+	
+	@include phone {
+		height: 300px;
+	}
+	
+	&::after {
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: radial-gradient(100% 308.39% at 0% 0%, #000000 0%, rgba(0, 0, 0, 0.5) 100%);
+		opacity: 0.5;
+		z-index: -1;
+	}
+	
+	@include laptopM {
+		min-height: 400px;
+	}
+	
+	@include phone {
+		min-height: 250px;
+	}
+	
+	h1 {
+		color: #FBF5F3;
+		font-size: 48px;
+		font-weight: 500;
+		line-height: 120%;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		z-index: 9;
+	}
+
+}
+
+
+#et-boc .section-faq-main {
+	.et_pb_row {
+		max-width: 1000px !important;
+	}
+	
+	.intro-text {
+		p {
+			color: #565656;
+
+			@include desktop {
+				font-size: 24px !important;
+			}
+			
+			a {
+				font-weight: 500;
+			}
+		}
+	}
+	
+}
+
+#et-boc .et-l .section-toggle {
+	
+    h2 {
+		color: #1D1D1D;
+		font-size: 24px !important;
+        padding-bottom: 25px !important;
+    }
+	
+    .et_pb_accordion_item {
+        background: #FDFDFD;
+        box-shadow: 0px 8px 24px rgba(136, 136, 136, 0.15);
+        border-radius: 4px;
+        padding: 45px;
+        margin-bottom: 20px;
+        @include phone {
+            padding: 35px;
+            margin-bottom: 20px!important;
+        }
+        h5 {
+			position: relative;
+			color: #565656;
+			font-size: 24px;
+            line-height: 120%; 
+            font-weight: 500;
+            padding-right: 40px;
+            padding-bottom: 0;
+            cursor: pointer;
+            
+			    
+            @include phone {
+                font-size: 20px;
+            }
+			
+            &:before {
+                position: absolute;
+                content: '';
+                width: 15px;
+                height: 2px;
+                background-color: #565656;
+                transition-duration: .4s;
+                top: 14px;
+                right: 10px;
+                @include phone {
+                    right: -5px;
+                }
+            }
+            &::after {
+                position: absolute;
+                content: '';
+                width: 15px;
+                height: 2px;
+                background-color: #565656;
+                top: 13.5px;
+                right: 10px;
+                transform: rotate(90deg);
+                transition-duration: .4s;
+                opacity: 1;
+                @include phone {
+                    right: -5px;
+                }
+            }
+        }
+        &.et_pb_toggle_open h5 {
+            color: #870557;
+            &::after {
+                opacity: 0;
+            }
+            &:before {
+                background-color: #870557;
+            }
+
+        }
+        .et_pb_toggle_content {
+            padding-top: 15px;
+            max-width: 800px;
+            p {
+                font-size: 18px;
+                line-height: 140%;
+                color: #515151;
+                padding-bottom: 20px;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+            }
+        }
+        .et_pb_toggle_close {
+            .et_pb_toggle_content {
+                display: none;
+            }
+        }
+    }
+}
+
+#et-boc .et-l .section-faq-text {
+    padding: 0 0 100px!important;
+	
+    @include phone {
+        padding: 0 0 50px!important;
+    }
+    
+	
+    .et_pb_text_inner {
+        
+        h2 {
+			color: #1D1D1D;
+			font-size: 24px;
+            font-weight: 400 !important;
+            line-height: 120%;
+            text-transform: uppercase;
+			padding-bottom: 15px;
+        }
+		
+        p {
+			color: #C0C0C0 !important;
+            font-size: 24px;
+            line-height: 120%;
+            
+            @media (max-width: 767px) {
+                font-size: 20px !important;
+            }
+        }
+		
+        a.main-btn {
+            margin: 40px auto 0 !important;
+        }
+    }
+}
+
+#content .container .bb-grid .internal-wrap .internal-main-content .section-toggle.page-about {
+	
+	.et_pb_row {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+}
+.fluid-width-video-wrapper {
+    padding-top: 0!important;
+}

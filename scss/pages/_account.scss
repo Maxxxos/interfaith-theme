@@ -1,0 +1,1325 @@
+.bb-bp-settings-content #settings-form input.settings-input {
+    height: 48px;
+    background: #FBF5F3;
+    border-radius: 4px;
+    border: 2px solid #FBF5F3;
+    transition-duration: .4s;
+    &:focus {
+        border: 2px solid #870557;
+    }
+}
+#buddypress .bb-bp-settings-content {
+    @media (max-width: 1250px) {
+            padding: 3% 5%;
+            max-width: 100%;
+            min-width: auto;
+    }
+    .info.bp-feedback {
+        display: none;
+    }
+    input[type="submit"] {
+        max-width: 100%;
+        min-width: auto;
+    }
+}
+#buddypress .bb-bp-settings-content {
+    h2 {
+        display: none;
+    }
+    label {
+        font-family: 'FreightSansProSemibold-Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #1F1F1F;
+    }
+}
+#buddypress input[type="submit"] {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    flex-grow: 0;
+    margin: 0px 10px;
+    border: 2px solid #870557;
+    transition-duration: .4s;
+    border-radius: 4px !important;
+    height: 50px !important;
+    width: 230px;
+    &:hover {
+        background-color: #7D225C;
+        border: 2px solid #7D225C;
+    }
+}
+.bb-icon-eye {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1F1F1F;
+} 
+.bb-icon-eye:hover {
+    color: #1F1F1F;    
+}
+.item-meta {
+    display: flex;
+    flex-direction: column;
+    .separator {
+        display: none;
+    }
+    .mention-name {
+       font-size: 16px !important;
+       a {
+           transition-duration: .4s;
+           color: #626262;
+           &:hover {
+                color: #870557;
+           }
+       }
+    }
+    .activity {
+        font-weight: 500;
+        font-size: 24px !important;
+        line-height: 28px;
+        color: #1D1D1D !important;
+        text-transform: capitalize;
+    }
+}
+// account sitbar menu
+.account__sitebar-menu {
+    padding-left: 0!important;
+    @media (max-width: 799px) {
+        max-width: 100%!important;
+        width: 100% !important;
+        display: none;
+    }
+    .account__sitebar-list {
+        list-style: none;
+        margin-top: 125px;
+        padding-left: 0;
+        margin-left: 0;
+        @media (max-width: 799px) {
+        margin-top: 20px;
+        }
+        li {
+            padding-bottom: 30px;
+            padding-left: 31%;
+            display: flex;
+            position: relative;
+            @media (max-width: 1300px) {
+                padding-left: 25%;
+            }
+            a {
+                z-index: 10;
+                transition-duration: .4s;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: #FBF5F3;
+            }
+            img {
+                margin-right: 10px;
+            }
+            .img-dashbord {
+                position: relative;
+                margin-right: 10px;
+                width: 21px;
+                height: 20px;
+                display: inline-block;
+                transition-duration: .4s;
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 21px;
+                    height: 20px;
+                    content: url(/wp-content/themes/interfaith-theme/images/dashboard.svg);
+                    transition-duration: .4s;
+                }
+            }
+            .classmates {
+                position: relative;
+                margin-right: 10px;
+                width: 21px;
+                height: 20px;
+                display: inline-block;
+                transition-duration: .4s;
+
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 21px;
+                    height: 20px;
+                    content: url(/wp-content/themes/interfaith-theme/images/class.svg);
+                    transition-duration: .4s;
+                }
+            }
+            .img-courses {
+                position: relative;
+                margin-right: 10px;
+                width: 21px;
+                height: 20px;
+                display: inline-block;
+                transition-duration: .4s;
+
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 21px;
+                    height: 20px;
+                    content: url(/wp-content/themes/interfaith-theme/images/mortarboard.svg);
+                    transition-duration: .4s;
+                }
+            }
+            .img-cpd {
+                position: relative;
+                margin-right: 10px;
+                width: 21px;
+                height: 20px;
+                display: inline-block;
+                transition-duration: .4s;
+
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 21px;
+                    height: 20px;
+                    content: url(/wp-content/themes/interfaith-theme/images/open-book.svg);
+                    transition-duration: .4s;
+                }
+            }
+            .img-forum {
+                position: relative;
+                margin-right: 10px;
+                width: 21px;
+                height: 20px;
+                display: inline-block;
+                transition-duration: .4s;
+
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 21px;
+                    height: 20px;
+                    content: url(/wp-content/themes/interfaith-theme/images/discuss.svg);
+                    transition-duration: .4s;
+                }
+            }
+            .img-profile {
+                position: relative;
+                margin-right: 10px;
+                width: 21px;
+                height: 20px;
+                display: inline-block;
+                transition-duration: .4s;
+
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 21px;
+                    height: 20px;
+                    content: url(/wp-content/themes/interfaith-theme/images/user.svg);
+                    transition-duration: .4s;
+                }
+            }
+            .img-logout {
+                position: relative;
+                margin-right: 10px;
+                width: 21px;
+                height: 20px;
+                display: inline-block;
+                transition-duration: .4s;
+
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 21px;
+                    height: 20px;
+                    content: url(/wp-content/themes/interfaith-theme/images/logout.svg);
+                    transition-duration: .4s;
+                }
+            }
+            .img-settings {
+                position: relative;
+                margin-right: 10px;
+                width: 21px;
+                height: 20px;
+                display: inline-block;
+                transition-duration: .4s;
+
+                &:after {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 21px;
+                    height: 20px;
+                    content: url(/wp-content/themes/interfaith-theme/images/settings.svg);
+                    transition-duration: .4s;
+                }
+            }
+            &.logout {
+                margin-top: 78%;
+                @media (max-width: 799px) {
+                    margin-top: 0;
+                }
+            }
+            &:after {
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 0;
+                width: 90%;
+                height: 100%;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                z-index: 1;
+                transition-duration: .4s;
+            }
+
+            &:hover {
+                text-decoration: none !important;
+
+                a {
+                    color: #870557;
+                }
+
+                &:after {
+                    background-color: #fff;
+                }
+                .img-dashbord {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/dashboard2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-courses {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/mortarboard2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .classmates {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/class2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-cpd {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/open-book2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-forum {
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/discuss2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-profile {
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/user2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-settings {
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/settings2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-logout {
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/logout2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+            }
+            &.selected {
+                position: relative;
+                &:hover {
+                    text-decoration: none !important;
+                }
+                &:after {
+                    background-color: #fff;
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    width: 90%;
+                    height: 100%;
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    z-index: 1;
+                    @media (max-width: 991px) {
+                         width: 95%;
+                    }
+                }
+                a {
+                    color: #870557 !important;
+                    z-index: 10;
+                    transition-duration: .4s;
+                    &:hover {
+                        text-decoration: none!important;
+                    }
+                }
+                .img-dashbord {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/dashboard2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-courses {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/mortarboard2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+                .classmates {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/class2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+                .img-cpd {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/open-book2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+                .img-forum {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/discuss2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-profile {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/user2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+                .img-settings {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/settings2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+
+                .img-logout {
+                    position: relative;
+
+                    &:after {
+                        content: url(/wp-content/themes/interfaith-theme/images/logout2.svg) !important;
+                        z-index: 10;
+                    }
+                }
+            }
+        }
+            
+    }
+}
+#buddypress .settings-header a.button.outline {
+    display: none;
+}
+.flex.align-items-center.member-title-wrap {
+ @media (max-width: 799px) {
+     display: none;
+ }
+}
+.bbp-user-page {
+    .site-header {
+        padding: 0;
+    }
+    #primary {
+        max-width: calc(100% - 300px) !important;
+        margin-bottom: 0;
+        padding-top: 80px!important;
+        @media (max-width: 1300px) {
+            max-width: calc(100% - 250px) !important;
+        }
+        @media (max-width: 799px) {
+            width: 90% !important;
+            max-width: 100% !important;
+            margin: auto;
+            padding: 0 20px;
+        }
+        .bp_members {
+            max-width: 90%;
+            margin: auto;
+            margin-top: 0;
+            @media (max-width: 650px) {
+                max-width: 100%;
+            }
+            h1.entry-title {
+                padding-top: 0;
+                margin-top: 0;
+                color: #1D1D1D;
+                font-family: 'FreightSansProMedium-Regular';
+                font-style: normal;
+                font-weight: normal;
+                text-transform: capitalize!important;
+                margin-bottom: 15px;
+            }
+        }
+        .buddypress-wrap table.profile-fields {
+            @media (max-width: 450px) {
+            display: flex;
+            margin-top: 20px;
+            }
+            tbody {
+                @media (max-width: 450px) {
+                    min-width: 100%;
+                }
+            }
+            .field_type_textbox {
+                @media (max-width: 450px) {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .data,
+                .data p,
+                .label {
+                    @media (max-width: 450px) {
+                        min-width: 100%;
+                        padding-top: 0;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+            p:last-child {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1D1D1D;
+                text-transform: capitalize;
+            }
+        }
+        div#cover-image-container {
+            background: #FDFDFD;
+            box-shadow: 0px 8px 24px rgba(136, 136, 136, 0.15);
+            border-radius: 4px;
+            margin-bottom: 15px;
+            border: none;
+        }
+        .bb-profile-grid.bb-grid .item-body-inner .bp-profile-wrapper {
+            background: #FDFDFD;
+            box-shadow: 0px 8px 24px rgba(136, 136, 136, 0.15);
+            border-radius: 4px;
+            border: none
+        }
+        .bp-dir-hori-nav nav#object-nav {
+            background: none;
+            border: none;
+        }
+    }
+}
+
+#item-header a.position-change-cover-image,
+.field_3.field_nickname {
+    display: none;
+}
+.profile-loop-header .entry-title.bb-profile-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #1D1D1D;
+    @media (max-width: 799px) {
+       font-size: 20px;
+       line-height: 1.5;
+    }
+}
+#item-body>div>div>div>div>header:nth-child(1)>a {
+    @media (max-width: 799px) {
+        padding-top: 20px!important;
+    }
+}
+.buddypress-wrap .profile.public .profile-group-title {
+    display: none;
+}
+body.buddypress.bp-user #page #primary .entry-header {
+    border: none;
+    margin-bottom: 15px;
+}
+.field_email .data p {
+    text-transform: lowercase;
+}
+.border-information {
+    border-top: 1px solid #D6D6D6;
+}
+.bp-profile-wrapper .bp-widget:not(:last-child) {
+    @media (max-width: 799px) {
+        margin-bottom: 20px;
+    }
+}
+#buddypress .bp-profile-content {
+    padding: 0!important;
+    .entry-header {
+        display: contents;
+        align-items: center;
+        padding-top: 20px;
+        @media (max-width: 799px) {
+            padding-top: 15px;
+        }
+        h1 {
+            padding: 0 40px 0;
+            @media (max-width: 799px) {
+                padding: 0 20px 0;
+                font-size: 22px!important;
+            }
+        }
+        a {
+            padding-top: 3px!important;
+            padding-bottom: 0 !important;
+            min-height: 10px!important;
+        }
+    }
+    .bp-widget.details {
+        padding: 35px 55px 1px;
+        border-top: 1px solid #ccc;
+        margin-top: -10px;
+        @media (max-width: 799px) {
+            padding: 35px 20px 1px;
+        }
+        @media (max-width: 450px) {
+            padding: 0;
+            padding-bottom: 10px;
+        }
+        input[type=number], 
+        input[type=text], textarea {
+            width: 100%;
+            max-width: 700px;
+            transition-duration: .4s;
+            min-height: 44px;
+            margin-bottom: 12px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: #515151;
+            &::placeholder {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+                color: #515151;
+                transition-duration: .3s;
+            }
+            &:focus {
+                border-color: #870557;
+                &::placeholder {
+                    color: transparent;
+                }
+            }
+        }
+        table.profile-fields tr td.label {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            color: #626262;
+            padding-top: 10px;
+            @include phone {
+                font-size: 18px;
+            }
+        }
+        .form-btn_row {
+            display: flex;
+        }
+        input[type=submit] {
+            max-width: 153px;
+            width: 100%;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+            height: 53px;
+            background: #870557!important;
+            border: 2px solid #870557 !important;
+            border-radius: 4px;
+            margin-left: 0;
+            transition-duration: .4s;
+            &:hover {
+                background: #fff !important;
+                color: #870557 !important;
+                box-shadow: none;
+            }
+            @media (max-width: 450px) {
+                margin: auto;
+            }
+        }
+    }
+}
+#buddypress div.bp-profile-content table.profile-fields tr td.label {
+  
+    @media (max-width: 799px) {
+       width: 50%;
+    }
+    @media (max-width: 450px) {
+        padding: 15px;
+         line-height: 2;
+    }
+    p {
+        @media (max-width: 450px) {
+            padding: 0;
+             line-height: 2;
+        }
+    }
+}
+#buddypress table.profile-fields tr td.label {
+    width: 10%!important;
+    @media (max-width: 1200px) {
+        width: 30% !important;
+    }
+    @media (max-width: 991px) {
+        width: 35% !important;
+    }
+    @media (max-width: 500px) {
+        min-width: 100% !important;
+    }
+}
+.bbp-user-page #primary .buddypress-wrap table.profile-fields p:last-child {
+    line-height: 1.5;
+}
+#buddypress div.bp-profile-content table.profile-fields tr td.data{
+    @media (max-width: 450px) {
+        padding: 15px;
+        line-height: 2;
+    }
+
+    p {
+        @media (max-width: 450px) {
+            padding: 0;
+             line-height: 2;
+        }
+    }
+}
+.bb-profile-grid.bb-grid {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+body #buddypress #header-cover-image {
+    @media (max-width: 1024px) {
+        height: 130px;
+    }
+}
+.single .site-content-grid {
+    @media (max-width: 799px) {
+        flex-direction: column;
+        display: flex;
+    }
+}
+#masthead {
+ @media (max-width: 799px) {
+     border-bottom: 1px solid rgba(255, 255, 255, .3);
+ }
+}
+#account-menu__toggle {
+    display: none;
+    @media (max-width: 799px) {
+        display: block;
+        text-align: center;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 42px;
+        color: #fff;
+        padding: 90px 10px 15px;
+        background: #870557;
+        position: relative;
+        @media (max-width: 500px) {
+            font-size: 20px;
+        }
+        &:before {
+            font-size: 24px;
+            position: absolute;
+            top: 94px;
+            left: 20px;
+            width: 21px;
+            height: 20px;
+            content: url(/wp-content/themes/interfaith-theme/images/dashboard.svg);
+        }
+    }
+}
+.profile.public {
+    .testimonials-wrap {
+        padding: 0 55px 10px;
+        margin-bottom: 50px;
+        max-width: 900px;
+        @media (max-width: 500px) {
+            padding: 0 20px 10px;
+        }
+        .error__empty-fields {
+            color: red;
+            font-weight: 500;
+            font-size: 20px;
+            display: none;
+            margin-top: -10px;
+        }
+        h2 {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 31px;
+            color: #1D1D1D;
+            margin-bottom: 10px;
+        }    
+        input[type=text],
+        textarea {
+            width: 100%;
+            max-width: 700px;
+            transition-duration: .4s;
+            min-height: 44px;
+            margin-bottom: 12px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: #515151;
+			
+            &::placeholder {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+                color: #515151;
+                transition-duration: .3s;
+            }
+            &:focus {
+                border-color: #870557;
+                &::placeholder {
+                    color: transparent;
+                }
+            }
+        }
+        .comment-form-comment {
+            margin-bottom: 5px;
+        }
+        .testimonials-list {
+            @media (max-width: 500px) {
+                margin-left: 20px;
+            }
+            &.comment-list {
+                list-style: decimal;
+                padding-left: 20px;
+                margin-bottom: 35px;
+                li {
+                    &::marker {
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 23px;
+
+                        /* Black */
+
+                        color: #1D1D1D;
+                    }
+                }
+            }
+            li {
+                font-style: italic;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                color: #1D1D1D;
+                .comment-text {
+                    margin-bottom: 10px;
+					
+                    p {
+                       font-style: italic;
+                       font-weight: 500;
+                       font-size: 20px;
+                       line-height: 25px;
+                       color: #1D1D1D;
+                    }
+                }
+                .name {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #3B3B3B;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .add-site {
+            a.main-btn {
+                max-width: 153px;
+                width: 100%;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                color: #FFFFFF;
+                height: 53px;
+                background: #870557 !important;
+                border-radius: 4px;
+                border: 2px solid #870557 !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition-duration: .4s;
+                cursor: pointer;
+                &:hover {
+                    background: #fff !important;
+                    color: #870557 !important;
+                }
+            }
+            svg {
+                margin-bottom: -5px;
+                margin-right: 10px;
+            }
+        }
+    }
+    th.documents-title-table {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #959595;
+        @media (max-width: 767px) {
+            font-size: 14px;
+        }
+    }
+}
+#buddypress div.bp-profile-content table.profile-fields tr {
+    // & .documents-data:not(:first-child),
+    // & .documents-title-table:not(:first-child) {
+    //     max-width: 20%;
+    // }
+    & .documents-data {
+        padding: 15px 10px 15px;
+    }
+    & .label.documents-data { 
+        min-width: 60% !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05)!important;
+        width: 100%;
+    }
+    & .documents-data p,
+    & .label.documents-data {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #1D1D1D;        
+        display: flex;
+        justify-content: center;
+        justify-content: flex-start;
+        line-height: 2;
+        @media (max-width: 767px) {
+            font-size: 14px;
+        }
+        svg {
+            margin-right: 10px;
+        }
+    }
+}
+.mb-table {
+    margin-bottom: 100px !important;
+}
+#page .bb-course-title a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #870557;
+    transition-duration: .4s;
+    &:hover {
+        color: #1D1D1D;
+    }
+}
+.bb-course-meta .item-avatar img {
+    display: none;
+}
+.bb-course-items .ld-progress-stats .ld-progress-steps {
+    display: none !important;
+}
+.bb-cover-list-item .ld-primary-background {
+    background: #0283FB;
+    border-radius: 4px;
+    padding: 4px 10px;
+    left: 15px;
+    color: #FDFDFD;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.subnav {
+    display: none;
+}
+.buddypress-wrap.bp-dir-hori-nav:not(.bp-vertical-navs) nav {
+    margin-bottom: 0;
+    border: none;
+}
+.account__sitebar-menu .account__sitebar-list li {
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 18px;
+}
+.account__sitebar-menu .account__sitebar-list li a {
+    padding: 15px 0 16px 31%;
+    display: flex;
+    width: 90%;
+    @media (max-width: 1300px) {
+        padding-left: 25%;
+    }
+    @media (max-width: 799px) {
+        padding-left: 42%;
+    }
+    @media (max-width: 550px) {
+        padding-left: 37%;
+    }
+    @media (max-width: 400px) {
+        padding-left: 33%;
+    }
+}
+body #buddypress #header-cover-image {
+    margin: 0!important;
+    height: 160px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#buddypress #item-header-cover-image #item-header-avatar {
+    padding-left: 20px;
+    margin-right: 15px;
+    margin-top: -60px !important;
+}
+#buddypress #item-header-cover-image #item-header-avatar img {
+    max-width: 152px !important;
+    max-height: 152px;
+    object-fit: cover;
+}
+.member-title-wrap {
+    display: none;
+}
+.single-headers .item-meta {
+    padding-top: 40px;
+    @include phone { 
+        padding-top: 10px;
+    }
+}
+.item-meta .activity {
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 28px;
+    color: #1D1D1D;
+}
+.bbp-user-page #primary {
+    margin-top: 76px;
+}
+.bbp-user-page #primary-menu {
+    // justify-content: flex-start!important;
+    // padding-left: 7%;
+    a:hover {
+        color: #870557;
+    }
+}
+.my-account .has-scrolled #primary-menu li a {
+    color: #fff;
+}
+.bbp-user-page .site-header .site-header-container.flex {
+    padding-left: 0!important;
+}
+.bbp-user-page .default-header .main-navigation {
+    border-bottom: 1px solid #D6D6D6;
+}
+.bbp-user-page {
+    .user-wrap.menu-item-has-children .bb-icon-angle-down,
+    #sub-menu {
+        display: none;
+    }
+    .user-wrap.menu-item-has-children .user-name {
+        margin-right: 15px;
+    } 
+    a.user-link {
+        pointer-events: none;
+        cursor: text;
+    }
+}
+.user-wrap.menu-item-has-children .user-name {
+   font-family: 'FreightSansProMedium-Regular';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 23px;
+   color: #1D1D1D;
+   text-transform: capitalize;
+}
+.header-aside-inner {
+    .user-wrap.menu-item-has-children .user-name {
+        color: #fff;
+    }
+}
+//page my classmates
+.page-class-users {
+    h1 {
+       font-weight: normal;
+       font-size: 48px !important;
+       line-height: 140%;
+       color: #1D1D1D;
+        margin-bottom: 0;
+       @media (max-width: 1200px) {
+            font-size: 38px !important;
+       }
+       @media (max-width: 500px) {
+           font-size: 30px !important;
+          
+       }
+    }
+}
+.class-users__grid {
+    max-width: 1270px;
+    
+    @media (min-width: 2000px) {
+        max-width: 90%;
+    }
+    @media (max-width: 1300px) {
+        width: 100%;
+    }
+    .user-item__wrap {
+        min-width: 33.3%;
+        max-width: 433px;
+        padding: 20px;
+        margin-bottom: 10px;
+        @media (min-width: 2000px) {
+            min-width: 25%;
+            max-width: 25%;
+        }
+        @media (max-width: 1530px) {
+            min-width: 33.3%;
+            max-width: 33.3%;
+            margin-bottom: 0;
+            padding: 10px;
+        }
+        @media (max-width: 1100px) {
+            min-width: 50%;
+            max-width: 50%;
+            margin: auto;
+        }
+        @media (max-width: 500px) {
+            width: 90%;
+            min-width: 330px;
+            max-width: 330px;
+            padding: 20px;
+        }
+        &:first-child {
+            @media (max-width: 500px) {
+                padding-top: 0;
+            }
+        }
+        &:last-child {
+            @media (max-width: 500px) {
+                padding-bottom: 0;
+            }
+        }
+        &:nth-child(odd) {
+            @media (max-width: 1100px) {
+                margin-left: 0;
+            }
+            @media (max-width: 500px) {
+                margin-left: auto;
+            }
+        }
+        .user-item {
+            background: #FDFDFD;
+            border: 1px solid #D6D6D6;
+            box-sizing: border-box;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 16%;
+            transition-duration: .4s;
+            @media (max-width: 799px) {
+                padding-top: 35px;
+            }
+            img {
+               width: 240px;
+               height: 240px;
+               object-fit: cover;
+               border-radius: 50%;
+                @media (max-width: 1530px) {
+                    width: 200px;
+                    height: 200px;
+                }
+                @media (max-width: 1530px) {
+                    width: 200px;
+                    height: 200px;
+                }
+                @media (max-width: 1200px) {
+                    width: 160px;
+                    height: 160px;
+                }
+            }
+            h4 {
+                font-weight: 500;
+                font-size: 33px;
+                line-height: 42px;
+                color: #1D1D1D;
+                margin-bottom: 8px;
+                margin-top: 30px;
+                @media (max-width: 1530px) {
+                    margin-top: 10px;
+                    font-size: 28px;
+                    line-height: 1.3;
+                    margin-bottom: 0;
+                }
+                @media (max-width: 1200px) {
+                    font-size: 26px;
+                }
+                @media (max-width: 991px) {
+                    font-size: 22px;
+                }
+            }
+            p {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 23px;
+                color: #626262;
+                margin-bottom: 60px;
+                text-transform: capitalize;
+                @media (max-width: 1530px) {
+                    margin-bottom: 35px;
+                    font-size: 18px;
+                    line-height: 1.3;
+                }
+                @media (max-width: 500px) {
+                    font-size: 16px;
+                    
+                }
+            }
+        }
+        a {
+            &:hover {
+                .user-item {
+                    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+                    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+                    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+                }
+            }
+        }
+    }
+}
+.my-account.my-classmates .dashbord-my-course__item {
+    min-width: 100%;
+}
+#buddypress .bp-settings-container {
+    .bp-navs {
+        background: #E1E1E1!important;
+        a {
+            font-family: 'FreightSansProBook-Regular';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            color: #3B3B3B!important;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                right: 20%;
+                bottom: 14px;
+                width: 0;
+                height: 1px;
+                background-color: #870557;
+                transition: all 0.35s ease-in-out;
+            }
+
+            &:hover {
+                background: none;
+                &:after {
+                    width: 58%;
+                    left: 20%;
+                }
+            }
+        }
+        li {
+            @media (max-width: 900px) {
+                margin-bottom: 0!important;
+            }
+            &.selected {
+                background: #F7F7F7 !important;
+                a {
+                    color: #870557 !important;
+                    background: #F7F7F7 !important;
+                }
+            }
+        }
+        ul.subnav {
+            @media (max-width: 500px) {
+                display: flex!important;
+                flex-direction: column;
+            }
+        }
+    }
+}
+tr {
+    .bs-styled-radio:checked+label {
+        height: 26px !important;
+        max-height: 26px !important;
+        line-height: 1.5 !important;
+        position: relative;
+        &:after {
+            top: 7px !important;            
+        }
+        &:before {
+            top: 0 !important;
+        }
+    }
+    &#friends-notification-settings-accepted,
+    &#friends-notification-settings-request,
+    &#messages-notification-settings-new-message {
+        .bs-styled-radio:checked+label {
+            &:after {
+                top: 6px !important;
+            }
+        }
+    }
+}
+.bp-user.my-account.general.buddypress.bbp-user-page {
+    #primary {
+        padding-left: 0;
+        padding-right: 0;
+        .bp-settings-container {
+            margin-bottom: 100px;
+        }
+    }
+}
+.bb-cover-list-item .ld-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    position: absolute;
+    left: 3.64%;
+    top: 7%;
+    background: #0283FB;
+    border-radius: 4px;
+}

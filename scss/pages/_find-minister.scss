@@ -1,0 +1,104 @@
+.et-db #et-boc .et-l {
+    .find-minister__main-slide {
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: -1;
+        @include laptopM {
+            height: 400px;
+        }
+
+        @include phone {
+            height: 250px;
+        }
+        &::before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(100% 308.39% at 0% 0%, #000000 0%, rgba(0, 0, 0, 0.5) 100%);
+            opacity: 0.5;
+            z-index: -1;
+        }
+        h1 {
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 56px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            color: #FBF5F3;
+            z-index: 3;
+            @include phone {
+                font-size: 35px;
+                margin-top: 75px;
+                line-height: 1.2;
+            }
+        }
+    }
+    .et_pb_section.find-minister__section-text {
+        max-width: 950px;
+        margin: auto;
+        padding: 80px 0 0;
+        width: 90%;
+        @media (min-width: 2000px) {
+             padding-top: 88px;
+        }
+        @include phone {
+            padding: 60px 0 10px;
+        }
+        .et_pb_module {
+            &.main-text {
+                text-align: center;                
+                margin: 0 auto 35px;
+                @include phone {
+                    max-width: 450px;
+                }
+                p {
+                    padding-bottom: 0;
+                    @include max-main-font;
+                    color: #222222;
+                    em {
+                        
+                    }
+                }
+            }
+
+            &.text-description {
+                @include main-font;
+                text-align: center;
+                color: #3B3B3B;
+                max-width: 600px;
+                margin: auto;
+                @include phone {
+                    font-size: 16px;
+                }
+                a {
+                    color: #870557;
+                    transition-duration: .4s;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            &.main-btn__item {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+#et-boc .et-l  .section-courses.page-find-minestry {
+	padding-bottom: 40px !important;
+}
+
+
+.user-logged-in {
+    #block__register-now {
+        display: none!important;
+    }
+}
