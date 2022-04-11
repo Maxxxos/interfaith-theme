@@ -91,3 +91,10 @@ Call Stack:
 04/04/22 10:04:37: index.scss - Undefined mixin desctop: pages/_map.scss on line 131, at column 9
 Call Stack:
 #0 import pages/_map.scss index.scss on line 154
+04/07/22 11:20:07: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 580, at column 0
+04/07/22 11:54:09: index.scss - parse error: failed at `#870557 !important;` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 772, at column 8
+04/07/22 11:54:19: index.scss - parse error: failed at `#870557 !important;` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 772, at column 8
+04/08/22 12:04:09: index.scss - parse error: failed at `#870557 !important;` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 785, at column 13
+04/08/22 12:27:00: index.scss - Undefined mixin table: pages/_single-course.scss on line 710, at column 5
+Call Stack:
+#0 import pages/_single-course.scss index.scss on line 150

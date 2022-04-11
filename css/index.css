@@ -22,50 +22,51 @@ body:not(.page-template-page-fullscreen) .site {
 :root {
   --header-height: 100px;
 }
+html {
+  overflow-x: hidden;
+}
 #primary {
   max-width: 100% !important;
 }
-.et-db #et-boc .et-l .et_pb_section {
+.bb-grid.site-content-grid {
+  display: block !important;
+  margin: 0 !important;
+}
+.et_pb_section {
   padding: 100px 0 !important;
 }
 @media (max-width: 991px) {
-  .et-db #et-boc .et-l .et_pb_section {
+  .et_pb_section {
     padding: 80px 0 !important;
   }
 }
-.et-db #et-boc .et-l .et_pb_section .et_pb_row {
-  width: 98% !important;
+.et_pb_section .et_pb_row {
+  width: 90% !important;
   max-width: 1280px !important;
   padding: 0;
-  margin: 50px auto;
+  margin: 0 auto 50px !important;
   overflow: visible;
 }
-@media (max-width: 1439px) {
-  .et-db #et-boc .et-l .et_pb_section .et_pb_row {
-    width: 90% !important;
-  }
+.et_pb_section .et_pb_row:last-of-type {
+  margin-bottom: 0 !important;
 }
-.et-db #et-boc .et-l .et_pb_section.et_pb_section_0 {
-  margin-bottom: 0;
-}
-.et-db #et-boc .et-l .et_pb_section.et_pb_section_0 .et_pb_row.et_pb_row_0 {
-  margin-top: -5px !important;
-}
-.et-db #et-boc .et-l .et_pb_section ol, .et-db #et-boc .et-l .et_pb_section ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 2.5%;
-}
-.et-db #et-boc .et-l .et_pb_section:last-child .et_pb_row {
-  margin-bottom: 0;
-}
-.et-db #et-boc .et-l .et_pb_section:last-child .et_pb_row ol, .et-db #et-boc .et-l .et_pb_section:last-child .et_pb_row ul {
+.et_pb_section:last-child .et_pb_row ol, .et_pb_section:last-child .et_pb_row ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+.et_pb_text {
+  margin-bottom: 30px !important;
+}
+.et_pb_text:last-of-type {
+  margin-bottom: 0 !important;
+}
+.et_pb_text ol, .et_pb_text ul {
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+}
 #et-boc .et-l p {
-  padding-bottom: 2.5%;
+  padding-bottom: 20px;
 }
 .et-db #et-boc .et-l .section-quote-2columns {
   padding: 0 !important;
@@ -6184,86 +6185,85 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
   background: radial-gradient(100% 308.39% at 0% 0%, #000000 0%, rgba(0, 0, 0, 0.5) 100%);
   opacity: 0.5;
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar {
+body #et-boc .section-page-sidebar {
   padding: 100px 0 !important;
   overflow: auto;
 }
 @media (max-width: 991px) {
-  #content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar {
-    padding: 50px 0 !important;
+  body #et-boc .section-page-sidebar {
+    padding: 70px 0 !important;
   }
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .et_pb_row {
+body #et-boc .section-page-sidebar .et_pb_row {
   display: flex;
   margin: 0 auto !important;
 }
 @media (max-width: 991px) {
-  #content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .et_pb_row {
+  body #et-boc .section-page-sidebar .et_pb_row {
     flex-direction: column-reverse;
   }
 }
 @media (min-width: 992px) {
-  #content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .et_pb_row .et_pb_column:first-of-type {
+  body #et-boc .section-page-sidebar .et_pb_row .et_pb_column:first-of-type {
     width: 25%;
     margin-right: 5%;
   }
-  #content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .et_pb_row .et_pb_column:last-of-type {
+  body #et-boc .section-page-sidebar .et_pb_row .et_pb_column:last-of-type {
     width: 70%;
   }
 }
 @media (max-width: 991px) {
-  #content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .et_pb_row .et_pb_column:last-of-type {
+  body #et-boc .section-page-sidebar .et_pb_row .et_pb_column:last-of-type {
     margin-bottom: 50px;
   }
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu {
+body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu {
   background: transparent !important;
 }
 @media (max-width: 991px) {
-  #content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu {
+  body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu {
     max-width: 400px;
     margin: auto;
   }
 }
 @media (max-width: 479px) {
-  #content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu {
+  body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu {
     max-width: 340px;
     margin-bottom: 30px;
   }
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu .et_mobile_nav_menu {
+body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu .et_mobile_nav_menu {
   display: none !important;
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu ul {
+body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu ul {
   padding: 0 !important;
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu li {
+body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu li {
   padding: 0 !important;
-  margin: 0 0 10px !important;
+  margin: 0 0 15px !important;
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu li:last-of-type {
+body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu li:last-of-type {
   margin-bottom: 0 !important;
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu li a {
-  position: relative;
+body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu li a {
   display: block;
-  color: #7E7E7E;
+  color: #7E7E7E !important;
   font-size: 20px;
-  font-weight: 500;
-  line-height: 120%;
-  text-transform: uppercase;
+  font-weight: 500 !important;
+  line-height: 110% !important;
+  text-transform: uppercase !important;
   padding: 0 !important;
 }
 @media (max-width: 991px) {
-  #content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu li a {
+  body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu li a {
     font-size: 18px;
     text-align: center;
   }
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu li a:hover {
+body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu li a:hover {
   color: #870557 !important;
 }
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar .sidebar-column .et_pb_menu li.current_page_item a {
+body #et-boc .section-page-sidebar .sidebar-column .et_pb_menu li.current_page_item a {
   color: #870557 !important;
 }
 #content .container {
@@ -6271,9 +6271,6 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
   max-width: 100%;
   padding: 0;
   margin: 0;
-}
-#content .container .bb-grid {
-  flex-direction: column;
 }
 #content .container .bb-grid .main-slide {
   position: relative;
@@ -6882,9 +6879,6 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
   width: 290px;
   height: 320px;
   border-radius: 4px;
-}
-.et-db #et-boc .et-l .et_pb_section .et_pb_row.row-ministers {
-  margin: 0;
 }
 .et-db #et-boc .et-l .et_pb_section .et_pb_row.row-ministers img {
   margin-top: 0;
@@ -7867,71 +7861,57 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
     height: auto;
   }
 }
-#content .internal-main-content {
-  width: 100% !important;
+.section-after-form.et_pb_section {
+  padding-top: 0 !important;
 }
-#content .internal-main-content .section-after-form.et_pb_section .et_pb_row {
+.section-after-form.et_pb_section .et_pb_row {
   width: 100% !important;
-  max-width: 100% !important;
+  max-width: 850px !important;
 }
-#content .internal-main-content .section-after-form.et_pb_section .et_pb_row:last-of-type {
+.section-after-form.et_pb_section .et_pb_row:last-of-type {
   padding: 0 !important;
 }
 @media (max-width: 767px) {
-  #content .internal-main-content .section-after-form.et_pb_section h2 {
+  .section-after-form.et_pb_section h2 {
     max-width: 400px;
     margin: 0 auto;
     padding: 0;
   }
 }
-#content .internal-main-content .section-after-form.et_pb_section .row-btn {
+.section-after-form.et_pb_section .row-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 @media (max-width: 767px) {
-  #content .internal-main-content .section-after-form.et_pb_section .row-btn {
+  .section-after-form.et_pb_section .row-btn {
     flex-direction: column;
   }
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form, #content .internal-wrap .internal-main-content .section-contact-form {
-  padding: 0 !important;
-}
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form .et_pb_row, #content .internal-wrap .internal-main-content .section-contact-form .et_pb_row {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form .et_pb_row:last-of-type, #content .internal-wrap .internal-main-content .section-contact-form .et_pb_row:last-of-type {
-  padding: 0 !important;
-}
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form .row-contact-form, #content .internal-wrap .internal-main-content .section-contact-form .row-contact-form {
-  max-width: 740px !important;
-  margin-left: 0 !important;
-}
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form, #content .internal-wrap .internal-main-content .section-contact-form form {
+.contact-form-module form {
   padding: 40px 7%;
   background: #FDFDFD;
   border-radius: 4px;
   box-shadow: 0px 8px 24px rgba(136, 136, 136, 0.15);
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form label, #content .internal-wrap .internal-main-content .section-contact-form form label {
+.contact-form-module form label {
   display: block;
   color: #565656;
   font-size: 18px;
   font-weight: 400;
   line-height: 100%;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form label span:not(.form-text-smoll), #content .internal-wrap .internal-main-content .section-contact-form form label span:not(.form-text-smoll) {
+.contact-form-module form label span:not(.form-text-smoll) {
   display: block;
   margin-top: 10px;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form label .form-text-smoll, #content .internal-wrap .internal-main-content .section-contact-form form label .form-text-smoll {
+.contact-form-module form label .form-text-smoll {
   color: #565656;
   font-size: 16px;
   line-height: 100%;
   padding-left: 5px;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form input, #content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=text], #content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=email], #content .internal-wrap.page-contact .internal-main-content .section-contact-form form select, #content .internal-wrap .internal-main-content .section-contact-form form input, #content .internal-wrap .internal-main-content .section-contact-form form input[type=text], #content .internal-wrap .internal-main-content .section-contact-form form input[type=email], #content .internal-wrap .internal-main-content .section-contact-form form select {
+.contact-form-module form input, .contact-form-module form input[type=text], .contact-form-module form input[type=email], .contact-form-module form select {
   display: block;
   width: 100%;
   height: 48px;
@@ -7941,13 +7921,13 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
   padding: 0 15px;
   transition-duration: 0.4s;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form input:focus, #content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=text]:focus, #content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=email]:focus, #content .internal-wrap.page-contact .internal-main-content .section-contact-form form select:focus, #content .internal-wrap .internal-main-content .section-contact-form form input:focus, #content .internal-wrap .internal-main-content .section-contact-form form input[type=text]:focus, #content .internal-wrap .internal-main-content .section-contact-form form input[type=email]:focus, #content .internal-wrap .internal-main-content .section-contact-form form select:focus {
+.contact-form-module form input:focus, .contact-form-module form input[type=text]:focus, .contact-form-module form input[type=email]:focus, .contact-form-module form select:focus {
   border: 2px solid #870557;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .classform-select, #content .internal-wrap .internal-main-content .section-contact-form form .classform-select {
+.contact-form-module form .classform-select {
   position: relative;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .classform-select:after, #content .internal-wrap .internal-main-content .section-contact-form form .classform-select:after {
+.contact-form-module form .classform-select:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -7960,10 +7940,10 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
   margin-top: -3px;
   z-index: 1;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .classform-select.open:after, #content .internal-wrap .internal-main-content .section-contact-form form .classform-select.open:after {
+.contact-form-module form .classform-select.open:after {
   transform: rotate(180deg);
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .label-1, #content .internal-wrap .internal-main-content .section-contact-form form .label-1 {
+.contact-form-module form .label-1 {
   max-width: 670px;
   color: #C0C0C0;
   font-size: 18px;
@@ -7971,55 +7951,55 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
   font-weight: 500;
   padding-bottom: 15px;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .label-2, #content .internal-wrap .internal-main-content .section-contact-form form .label-2 {
+.contact-form-module form .label-2 {
   max-width: 650px;
   color: #565656;
   font-size: 16px;
   font-weight: 300;
   line-height: 130%;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .label-2 a, #content .internal-wrap .internal-main-content .section-contact-form form .label-2 a {
+.contact-form-module form .label-2 a {
   color: #870557 !important;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form p, #content .internal-wrap .internal-main-content .section-contact-form form p {
+.contact-form-module form p {
   padding-bottom: 25px;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form p:last-child, #content .internal-wrap .internal-main-content .section-contact-form form p:last-child {
+.contact-form-module form p:last-child {
   padding-bottom: 0 !important;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap, #content .internal-wrap .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap {
+.contact-form-module form p span.wpcf7-form-control-wrap {
   width: 100%;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox, #content .internal-wrap .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox {
+.contact-form-module form p span.wpcf7-form-control-wrap span.form-checkbox {
   width: 100%;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item, #content .internal-wrap .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item {
+.contact-form-module form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item {
   width: 100%;
   margin-bottom: 20px;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item:last-of-type, #content .internal-wrap .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item:last-of-type {
+.contact-form-module form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item:last-of-type {
   margin-bottom: 0px !important;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item label, #content .internal-wrap .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item label {
+.contact-form-module form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item label {
   display: flex;
   align-items: center;
   width: 100px;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item label input, #content .internal-wrap .internal-main-content .section-contact-form form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item label input {
+.contact-form-module form p span.wpcf7-form-control-wrap span.form-checkbox span.wpcf7-list-item label input {
   display: block;
   width: 20px;
   height: 20px;
   margin: 0 15px 0 0;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .radio-355 label, #content .internal-wrap .internal-main-content .section-contact-form form .radio-355 label {
+.contact-form-module form .radio-355 label {
   width: 100% !important;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=radio], #content .internal-wrap .internal-main-content .section-contact-form form input[type=radio] {
+.contact-form-module form input[type=radio] {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=radio] + span::before, #content .internal-wrap .internal-main-content .section-contact-form form input[type=radio] + span::before {
+.contact-form-module form input[type=radio] + span::before {
   content: '';
   display: inline-block;
   width: 1.3em;
@@ -8034,16 +8014,16 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
   background-size: 50% 50%;
   margin-bottom: -5px;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=radio]:checked + span::before, #content .internal-wrap .internal-main-content .section-contact-form form input[type=radio]:checked + span::before {
+.contact-form-module form input[type=radio]:checked + span::before {
   border-color: #870557;
   background-color: #870557;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .custom-checkbox input[type=radio] + span, #content .internal-wrap .internal-main-content .section-contact-form form .custom-checkbox input[type=radio] + span {
+.contact-form-module form .custom-checkbox input[type=radio] + span {
   display: inline-flex;
   align-items: center;
   user-select: none;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=submit], #content .internal-wrap .internal-main-content .section-contact-form form input[type=submit] {
+.contact-form-module form input[type=submit] {
   width: 180px;
   height: 56px;
   display: flex;
@@ -8058,14 +8038,14 @@ body.buddypress #page #primary.dashbord-forums-page .dashbord-forums-slide input
   border: 2px solid #870557;
   margin: 20px auto 0;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form input[type=submit]:hover, #content .internal-wrap .internal-main-content .section-contact-form form input[type=submit]:hover {
+.contact-form-module form input[type=submit]:hover {
   background: #7D225C !important;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .ajax-loader, #content .internal-wrap .internal-main-content .section-contact-form form .ajax-loader {
+.contact-form-module form .ajax-loader {
   position: absolute;
   z-index: -999999;
 }
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form form .wpcf7-response-output, #content .internal-wrap .internal-main-content .section-contact-form form .wpcf7-response-output {
+.contact-form-module form .wpcf7-response-output {
   color: red;
   text-align: center;
 }
@@ -8764,7 +8744,7 @@ body .buddyboss-theme.learndash-theme {
   background-color: #fff;
 }
 .bb-vw-container.bb-learndash-banner {
-  height: 600px;
+  height: 550px;
 }
 @media (max-width: 1439px) {
   .bb-vw-container.bb-learndash-banner {
@@ -8772,31 +8752,31 @@ body .buddyboss-theme.learndash-theme {
     padding-right: 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .bb-vw-container.bb-learndash-banner {
-    height: 550px;
+    height: 540px;
     margin-bottom: 20px;
   }
 }
 .bb-course-banner-inner h1.entry-title {
   text-transform: capitalize;
-  font-weight: 600;
-  font-size: 64px;
+  font-family: 'FreightSansProMedium-Regular';
+  font-weight: 400 !important;
+  font-size: 48px;
   line-height: 1.1;
   color: #FBF5F3;
   text-align: left;
-  margin-top: 7%;
-  max-width: 600px;
+  margin-top: 0;
+  max-width: 700px;
+  padding-top: 0;
 }
 @media (max-width: 991px) {
   .bb-course-banner-inner h1.entry-title {
-    font-size: 54px;
     margin-left: 0;
   }
 }
 @media (max-width: 767px) {
   .bb-course-banner-inner h1.entry-title {
-    margin-top: 5%;
     font-size: 40px;
   }
 }
@@ -8844,26 +8824,51 @@ body .buddyboss-theme.learndash-theme {
     font-size: 19px;
   }
 }
+#content .bb-learndash-banner {
+  display: flex;
+  align-items: center;
+}
 #content .bb-course-banner-info {
   max-width: 1280px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 90% !important;
 }
 @media (max-width: 767px) {
   #content .bb-course-banner-info {
-    padding-top: 130px;
+    padding-top: 120px;
   }
 }
 #content .bb-course-banner-info.container {
   margin: auto;
 }
-#content .learndash.learndash_post_sfwd-courses {
-  background-color: #f8f8f8;
+@media (max-width: 991px) {
+  #content .bb-course-banner-info.container {
+    margin: 5% auto;
+  }
+}
+@media (max-width: 767px) {
+  #content .bb-course-banner-info.container {
+    margin: auto;
+  }
 }
 #content .learndash.learndash_post_sfwd-courses .ld-item-lesson-item {
   background: #FDFDFD;
   border: 1px solid #D6D6D6;
   border-radius: 4px;
+}
+#content .learndash.learndash_post_sfwd-courses .ld-item-lesson-item .ld-item-title {
+  font-family: 'FreightSansProMedium-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1D1D1D;
+}
+@media (max-width: 767px) {
+  #content .learndash.learndash_post_sfwd-courses .ld-item-lesson-item .ld-item-title {
+    font-size: 20px;
+  }
 }
 #et_builder_outer_content > div > div > div.et_pb_section.et_pb_section_1.courses-text-block-grey.et_section_regular.et_section_transparent > div > div > div.et_pb_module.et_pb_text.et_pb_text_5.et_pb_text_align_left.et_pb_bg_layout_light > div > p {
   max-width: 250px;
@@ -8872,7 +8877,6 @@ body .buddyboss-theme.learndash-theme {
   padding: 5px 0 0;
 }
 .learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-name {
-  color: #870557 !important;
   font-size: 24px;
   line-height: 1.3;
 }
@@ -8884,12 +8888,14 @@ body .buddyboss-theme.learndash-theme {
 .learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-name:hover {
   color: #870557 !important;
 }
-.learndash-wrapper .ld-item-list.ld-lesson-list .ld-section-heading h2 {
+#content .learndash-wrapper .ld-item-list.ld-lesson-list .ld-section-heading h2 {
+  font-family: 'FreightSansProMedium-Regular';
+  font-style: normal;
+  font-weight: 400;
   font-size: 24px !important;
-  line-height: 1.3;
-  color: #870557;
-  padding-bottom: 7px;
-  text-transform: capitalize;
+  line-height: 1.4;
+  text-transform: capitalize !important;
+  color: #1D1D1D;
 }
 .learndash-wrapper .ld-item-list {
   margin-top: 18px;
@@ -8897,8 +8903,20 @@ body .buddyboss-theme.learndash-theme {
 .learndash-wrapper .bb-learndash-content-wrap > div {
   margin-bottom: 0px;
 }
+.learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-list-item-preview {
+  background-color: #fff;
+  padding: 2.5rem 2.4rem;
+}
 .learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-list-item-preview:hover a.ld-item-name .ld-item-title {
   color: #870557 !important;
+}
+@media (max-width: 767px) {
+  .learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-list-item-preview {
+    padding: 1.5rem 2.4rem 1.5rem 1rem;
+  }
+}
+.ld-item-list-section-heading.ld-item-section-heading-1634351737938 {
+  display: none;
 }
 .bb-about-instructor .bb-content-wrap p {
   font-size: 18px;
@@ -8965,15 +8983,53 @@ body .buddyboss-theme.learndash-theme {
     height: 178px;
   }
 }
-div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info {
-  margin-top: 95px;
-  margin-bottom: 39px;
+.lms-topic-sidebar-progress .course-progress-wrap {
+  margin-top: 15px;
+}
+div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info#et-boc {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 @media (max-width: 767px) {
-  div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info {
-    margin-top: 50px;
-    margin-bottom: 0;
+  div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info#et-boc {
+    margin-top: 80px;
+    margin-bottom: 80px;
   }
+}
+div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info#et-boc .bb-grid {
+  padding: 0;
+}
+div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info#et-boc .section-contact-course.et_pb_module {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info#et-boc .section-contact-course.et_pb_module h3 {
+  font-family: 'FreightSansProMedium-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  /* Black */
+  color: #1D1D1D;
+  margin-bottom: 1rem;
+}
+div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info#et-boc .section-contact-course.et_pb_module p {
+  font-family: 'FreightSansProBook-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height */
+  /* Gray/900 */
+  color: #3B3B3B;
+}
+div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-about-instructor--is-info#et-boc .section-contact-course.et_pb_module .main-btn {
+  margin: 2rem auto 0;
+  max-width: 180px;
+  min-width: 180px;
 }
 @media (max-width: 767px) {
   .bb-learndash-content-wrap {
@@ -8982,8 +9038,11 @@ div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-a
 }
 @media screen and (min-width: 800px) {
   .bb-grid .bb-learndash-content-wrap {
-    padding-right: 4%;
+    padding-right: 0;
   }
+}
+.lms-topic-sidebar-wrapper .lms-lessions-list > ol li a.bb-lesson-head {
+  color: #1D1D1D !important;
 }
 .bb-single-course-sidebar .bb-course-volume-list li, .bb-single-course-sidebar .bb-button-wrap .learndash_join_button + .bb-course-type, div > div.bb-grid > div.bb-single-course-sidebar.bb-preview-wrap > div.bb-ld-sticky-sidebar.is_stuck > div > div.bb-course-preview-content > div.bb-course-member-wrap.flex.align-items-center > span.members {
   font-size: 16px;
@@ -9035,31 +9094,40 @@ div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-a
 .bb-learndash-content-wrap #et-boc .et-l .section-faq-text .et_pb_text_inner a {
   border: 2px solid #870557 !important;
 }
-.add-button-start .btn-advance-start a.btn-advance {
+.lms-topic-sidebar-course-navigation a.course-entry-link {
+  color: #1D1D1D;
+}
+.course-starting {
+  display: none;
+}
+.learndash-wrapper .add-button-start a.btn-advance, .learndash-wrapper .btn-advance-start a.btn-advance {
   box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.1) !important;
   border-radius: 100px;
   background-color: #870557;
   color: #fff;
   -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
-  font-size: 14px;
-  display: inline-block;
-  padding: 11px 19px;
-  line-height: 1.471;
+  font-family: 'FreightSansProSemibold-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 250px;
+  max-width: 160px;
+  height: 53px;
+  background: #870557;
+  border-radius: 4px !important;
   margin-bottom: 20px;
-  border: 2px solid #870557 !important;
+  border: none !important;
 }
-.add-button-start .btn-advance-start a.btn-advance:hover {
+.learndash-wrapper .add-button-start a.btn-advance:hover, .learndash-wrapper .btn-advance-start a.btn-advance:hover {
   text-decoration: none;
-  background-color: #fff;
-  color: #870557;
+  background-color: #7D225C;
 }
-.add-button-start .btn-advance-completed a.btn-advance {
+.learndash-wrapper .btn-advance-completed a.btn-advance {
   box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.1) !important;
   border-radius: 100px;
   background-color: #1CD991;
@@ -9078,12 +9146,12 @@ div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-a
   margin-bottom: 20px;
   border: 2px solid #1CD991 !important;
 }
-.add-button-start .btn-advance-completed a.btn-advance:hover {
+.learndash-wrapper .btn-advance-completed a.btn-advance:hover {
   text-decoration: none;
   background-color: #fff;
   color: #1CD991;
 }
-.add-button-start .bb-course-type.bb-course-type-open {
+.learndash-wrapper .bb-course-type.bb-course-type-open {
   font-size: 16px;
   line-height: 1.3;
   color: #DEDEDE;
@@ -9217,36 +9285,45 @@ div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-a
 .testimonial-row .owl-dots .owl-dot.active {
   background-color: #870557 !important;
 }
-#content .bb-learndash-content-wrap {
+.sfwd-courses-template-default.single-sfwd-courses {
+  background-color: #f8f8f8;
+}
+.sfwd-courses-template-default.single-sfwd-courses #content .bb-grid {
   max-width: 1280px;
-  width: 100%;
-  padding-right: 10px;
+  width: 97%;
+  padding-right: 0;
+  padding-left: 0;
   margin: auto;
 }
-#content .bb-learndash-content-wrap #et-boc .et-l .section-toggle.et_section_regular {
+@media (max-width: 767px) {
+  .sfwd-courses-template-default.single-sfwd-courses #content .bb-grid {
+    width: 100%;
+  }
+}
+.sfwd-courses-template-default.single-sfwd-courses #content .bb-grid #et-boc .et-l .section-toggle.et_section_regular {
   max-width: 100% !important;
 }
-#content .bb-learndash-content-wrap #et-boc .et-l .section-toggle.et_section_regular > div {
+.sfwd-courses-template-default.single-sfwd-courses #content .bb-grid #et-boc .et-l .section-toggle.et_section_regular > div {
   padding: 0;
 }
-#content .bb-learndash-content-wrap #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content {
+.sfwd-courses-template-default.single-sfwd-courses #content .bb-grid #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content {
   max-width: 1000px;
 }
-#content .bb-learndash-content-wrap #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content p {
+.sfwd-courses-template-default.single-sfwd-courses #content .bb-grid #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content p {
   font-size: 18px;
   line-height: 1.3;
   color: #1D1D1D;
   padding-bottom: 20px;
 }
-#content .bb-learndash-content-wrap #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content h6 {
+.sfwd-courses-template-default.single-sfwd-courses #content .bb-grid #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content h6 {
   font-size: 20px;
   line-height: 1.3;
   color: #1D1D1D;
 }
-#content .bb-learndash-content-wrap #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content h6:first-child {
+.sfwd-courses-template-default.single-sfwd-courses #content .bb-grid #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content h6:first-child {
   margin-top: 20px;
 }
-#content .bb-learndash-content-wrap #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content ul li {
+.sfwd-courses-template-default.single-sfwd-courses #content .bb-grid #et-boc .et-l .section-toggle.et_section_regular > div .et_pb_toggle_content ul li {
   padding-bottom: 15px;
   font-size: 18px;
   line-height: 1.3;
@@ -9255,8 +9332,28 @@ div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-a
 .lms-topic-sidebar-course-navigation .ld-course-navigation .course-entry-title, div.bb-lms-header h1 {
   color: #1D1D1D !important;
 }
-.bb-lesson-title, .bb-lesson-head {
-  color: #870557 !important;
+@media (max-width: 1199px) {
+  .lms-topic-sidebar-course-navigation .ld-course-navigation .course-entry-title, div.bb-lms-header h1 {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 767px) {
+  .lms-topic-sidebar-course-navigation .ld-course-navigation .course-entry-title, div.bb-lms-header h1 {
+    font-size: 24px !important;
+  }
+}
+@media (max-width: 991px) {
+  .lms-topic-sidebar-wrapper.lms-topic-sidebar-close {
+    margin-left: -600px;
+  }
+}
+.lms-topic-sidebar-wrapper .bb-lesson-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* Gray/900 */
+  color: #3B3B3B;
 }
 .bb-lesson-head:hover, .bb-lesson-title:hover, .single-sfwd-lessons h1, .single-sfwd-lessons h2, .single-sfwd-lessons h3, .single-sfwd-lessons h4, .single-sfwd-lessons h5, .single-sfwd-lessons h6, .single-sfwd-lessons .entry-title, .single-sfwd-lessons .widget-title, .single-sfwd-lessons .show-support h6, .single-sfwd-lessons label, .single-sfwd-lessons h4 .bp-reported-type, .single-sfwd-lessons .ld-lesson-section-heading, .single-sfwd-courses .ld-lesson-section-heading {
   color: #1D1D1D !important;
@@ -9278,6 +9375,12 @@ div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-a
 .single-sfwd-lessons #learndash-page-content {
   padding-top: 100px;
 }
+@media (max-width: 991px) {
+  .single-sfwd-lessons #learndash-page-content {
+    max-width: 100vw;
+    margin-left: auto;
+  }
+}
 .single-sfwd-lessons #masthead {
   background: #870557 !important;
 }
@@ -9286,6 +9389,24 @@ div > div.bb-grid > div.bb-learndash-content-wrap > div.bb-about-instructor.bb-a
 }
 .single-sfwd-lessons .bb-content-wrap h5 a {
   color: #A3A5A9 !important;
+}
+.sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme div.bb-lms-header h1 {
+  color: #fff !important;
+}
+.sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme span.bb-pages, .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme .bb-lesson-title, .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme ul li, .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme table, .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme p {
+  color: #FBF5F3 !important;
+}
+.sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme h2 {
+  font-size: 24px !important;
+}
+.sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme h2, .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme #learndash-course-header .ld-breadcrumbs-segments a, .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme a {
+  color: #870557 !important;
+}
+.sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme #primary-menu > li .sub-menu li a, .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme #primary-menu > li > a {
+  color: #FBF5F3 !important;
+}
+.sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme #primary-menu > li .sub-menu li a:hover, .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme #primary-menu > li > a:hover {
+  color: #870557 !important;
 }
 .et-db.single-minister .site-header {
   background: #870557 !important;

@@ -15,10 +15,10 @@ if (empty(get_field('disable_slider'))) { ?>
 		<?php } ?>
 	</div>
 <?php } ?>
-<div class="internal-wrap">
+<!-- <div class="internal-wrap"> -->
 	<?php 
 		$page_menu = get_post_meta(get_the_ID(), 'page_menu', true);
-		if (!empty($page_menu)) {
+		if (!empty($page_menu) && $page_menu != 'novalue') {
 		?>
 			<div class="internal-sitebar">
 				<div class="internal-sitebar__mob">
@@ -60,7 +60,7 @@ if (empty(get_field('disable_slider'))) { ?>
 				</div>
 			</div>
 	<?php } ?>
-	<div class="internal-main-content">
+	<div class="internal-main-content entry-content">
 		<?php the_content(); ?>
 	</div>
-</div>
+<!-- </div> -->

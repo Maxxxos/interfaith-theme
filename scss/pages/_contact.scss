@@ -1,11 +1,11 @@
-#content  .internal-main-content {
-    width: 100% !important;
+
 	
 	.section-after-form.et_pb_section {
+		padding-top: 0 !important;
 		
 		.et_pb_row {
 			width: 100% !important;
-			max-width: 100% !important;
+			max-width: 850px !important;
 			
 			&:last-of-type {
 				padding: 0 !important;
@@ -31,24 +31,9 @@
 			}
 		}
 	} 
-}
 
-#content .internal-wrap.page-contact .internal-main-content .section-contact-form,
-#content .internal-wrap .internal-main-content .section-contact-form {
-	padding: 0 !important;
-	
-	.et_pb_row {
-		width: 100% !important;
-		max-width: 100% !important;
-	
-		&:last-of-type {
-			padding: 0 !important;
-		}
-	}
-	.row-contact-form {
-		max-width: 740px !important;
-		margin-left: 0!important;
-	}
+
+.contact-form-module {
 	
 	form {
 		padding: 40px 7%;

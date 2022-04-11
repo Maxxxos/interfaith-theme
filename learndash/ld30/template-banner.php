@@ -64,17 +64,19 @@ $lessons = learndash_get_lesson_list($course_id);
 		<div class="flex flex-wrap">
 			<div class="bb-course-banner-inner">
 				<?php
-				if (taxonomy_exists('ld_course_category')) {
+				//if (taxonomy_exists('ld_course_category')) {
 					//category
-					$course_cats = get_the_terms($course->ID, 'ld_course_category');
-					if (!empty($course_cats)) { ?>
+					//$course_cats = get_the_terms($course->ID, 'ld_course_category');
+					//if (!empty($course_cats)) { ?>
 						<div class="bb-course-category">
-							<?php foreach ($course_cats as $course_cat) { ?>
-								<span class="course-category-item"><a title="<?php echo $course_cat->name; ?>" href="<?php echo home_url() ?>/courses/?search=&filter-categories=<?php echo $course_cat->slug; ?>"><?php echo $course_cat->name; ?></a><span>,</span></span>
-							<?php } ?>
+							<?php // foreach ($course_cats as $course_cat) { ?>
+								<span class="course-category-item">
+									<?php the_field('course_starting'); ?>
+									<!-- <a title="<?php // echo $course_cat->name; ?>" href="<?php //echo home_url() ?>/courses/?search=&filter-categories=<?php //echo $course_cat->slug; ?>"><?php //echo $course_cat->name; ?></a><span>,</span></span> -->
+							<?php // } ?>
 						</div>
-				<?php }
-				}
+				<?php // }
+				//}
 				?>
 				<h1 class="entry-title"><?php echo get_the_title($course_id); ?></h1>
 				<div class="course-starting">Begins <?php echo get_field('course_starting'); ?></div>

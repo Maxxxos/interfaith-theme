@@ -14,12 +14,13 @@
 	}
 }
 
-#content .container .bb-grid .internal-wrap .internal-main-content .et_pb_section.section-page-sidebar {
+
+body #et-boc .section-page-sidebar {
 	padding: 100px 0 !important;
 	overflow: auto;
 	
 	@include tablet {
-		padding: 50px 0 !important;
+		padding: 70px 0 !important;
 	}
 	
 	.et_pb_row {
@@ -79,20 +80,19 @@
 			
 			li {
 				padding: 0 !important;
-				margin: 0 0 10px !important;
+				margin: 0 0 15px !important;
 				
 				&:last-of-type {
 					margin-bottom: 0 !important;
 				}
 				
 				a {
-					position: relative;
 					display: block;
-					color: #7E7E7E;
+					color: #7E7E7E !important;
 					font-size: 20px;
-					font-weight: 500;
-					line-height: 120%;
-					text-transform: uppercase;
+					font-weight: 500 !important;
+					line-height: 110% !important;
+					text-transform: uppercase !important;
 					padding: 0 !important;
 					
 					@include tablet {
@@ -118,4 +118,5 @@
 			}
 		}
 	}
+
 }

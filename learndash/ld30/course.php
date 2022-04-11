@@ -79,7 +79,7 @@ $has_lesson_quizzes = learndash_30_has_lesson_quizzes($course_id, $lessons); ?>
     ), true);
     ?>
 
-    <div class="bb-grid">
+    <div class="bb-grid et-db">
 
         <div class="bb-learndash-content-wrap">
 
@@ -277,33 +277,35 @@ $has_lesson_quizzes = learndash_30_has_lesson_quizzes($course_id, $lessons); ?>
             // ), true);
 
             ?>
-            <div class="bb-about-instructor bb-about-instructor--is-info">
-                <div class="bb-grid">
-                    <div class="bb-instructor-wrap flex">
+            <div class="bb-about-instructor bb-about-instructor--is-info" id="et-boc">
+                <div class="bb-grid et-l">
+                    <div class="container-wrap section-contact-course et_pb_module">
+                        <h3><?php the_field('section_contact_title'); ?></h3>
+                        <p><?php the_field('section_contact_subtitle'); ?></p>
+                        <a class="main-btn" href="<?php the_field('link'); ?>"><?php the_field('title_btn'); ?></a>
+                    </div>
+                    <!--   <div class="bb-instructor-wrap flex">
                         <div class="bb-avatar-wrap">
                             <div>
-                                <!-- <a href=""> -->
-                                <?php
-                                if (!empty(get_field('author_foto'))) {
-                                    $img = get_field('author_foto');
-                                } else {
-                                    $img = 'https://interfaith.sitepreview.app/wp-content/plugins/buddyboss-platform/bp-core/images/mystery-man.jpg';
-                                }
-                                ?>
-                                <img class="round avatar" src="<?php echo $img; ?>">
-                                <!-- </a> -->
+                               
+                                <img class="round avatar" src="<?php //echo $img; 
+                                                                ?>">
+                              
                             </div>
                         </div>
                         <div class="bb-content-wrap">
                             <h5>
-                                <?php the_field('author_name'); ?>
+                                <?php //the_field('author_name'); 
+                                ?>
                             </h5>
-                            <p class="author-position"><?php the_field('author_position'); ?></p>
-                            <p class="bb-author-info"><?php the_field('author_text'); ?></p>
+                            <p class="author-position"><?php //the_field('author_position'); 
+                                                        ?></p>
+                            <p class="bb-author-info"><?php //the_field('author_text'); 
+                                                        ?></p>
                         </div>
                     </div>
                     <div class="bb-instructor-message">
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <?php //the_field('contacus_course'); 
