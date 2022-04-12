@@ -76,9 +76,12 @@ $share_box = buddyboss_theme_get_option('blog_share_box');
 						<div class="entry-content">
 							<?php the_content(); ?>
 						</div><!-- .entry-content -->
+						<?php //if (get_field('text_quote_post')) { ?>
+						<?php if (false) { ?>
 						<div class="row-quote-single" id="quote-single">
-							<div class="text-quote"><?php the_field('text_quote'); ?> </div>
+							<div class="text-quote"><?php the_field('text_quote_post'); ?> </div>
 						</div>
+						<?php } ?>
 					</div>
 
 

@@ -61,7 +61,7 @@
 			
             h1, h3 {
 				color: #FBF5F3 !important;
-				font-size: 72px;
+				font-size: 72px !important;
 				font-weight: 500;
 				line-height: 110%;
 				text-transform: none !important;
@@ -69,15 +69,15 @@
 				text-align: center !important;
 				
 				@include laptop {
-					font-size: 60px;
+					font-size: 60px !important;
 				}
 				
 				@include phone{
-					font-size: 44px;
+					font-size: 44px !important;
 				}
 				
 				@include phoneS {
-					font-size: 35px;
+					font-size: 35px !important;
 				}
 			}
 
@@ -252,15 +252,16 @@
 		}
 	}
 	&.section-banner-right {
-		&:last-child {
+		&.section-banner-right-last {
 			margin-bottom: 100px;
+			
 			@include tablet {
 				margin-bottom: 80px;
 			}
-
 		}
 	}
 }
+
 .section-home-cta {
 	position: relative;
 	padding: 220px 0 !important;
@@ -635,10 +636,12 @@
         background: $violet;
         z-index: -1;
 		max-width: 1800px;
+		
 		@include laptop {
 			top: 0;
 			height: 100%;
 		}
+		
         @include phone {
             display: none;
         }
@@ -654,7 +657,6 @@
 			width: 100% !important;
 		}
 		@include phone {
-			
             flex-direction: column-reverse;
             background: $violet;
             padding-bottom: 45px !important;
@@ -724,7 +726,14 @@
 		}
 		
 		.et_pb_button {
+			background: #EF5C0A !important;
+			border: 2px solid #EF5C0A !important;
 			margin: 0 auto !important;
+			
+			&:hover {
+				background: #C65F26 !important;
+				border: 2px solid #C65F26 !important;
+			}
 		}
     }
 	

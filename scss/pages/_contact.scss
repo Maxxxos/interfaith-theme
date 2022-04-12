@@ -1,51 +1,50 @@
 
 	
-	.section-after-form.et_pb_section {
-		padding-top: 0 !important;
+.section-after-form.et_pb_section {
+	padding-top: 0 !important;
+	
+	.et_pb_row {
+		width: 100% !important;
+		max-width: 850px !important;
 		
-		.et_pb_row {
-			width: 100% !important;
-			max-width: 850px !important;
-			
-			&:last-of-type {
-				padding: 0 !important;
-			}
+		&:last-of-type {
+			padding: 0 !important;
 		}
+	}
+	
+	h2 {
 		
-		h2 {
-			
-			@include phone {
-				max-width: 400px;
-				margin: 0 auto;
-				padding: 0;
-			}
+		@include phone {
+			max-width: 400px;
+			margin: 0 auto;
+			padding: 0;
 		}
+	}
+	
+	.row-btn {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		
-		.row-btn {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			
-			@include phone {
-				flex-direction: column;
-			}
+		@include phone {
+			flex-direction: column;
 		}
-	} 
+	}
+} 
 
 
-.contact-form-module {
+.et-db #et-boc .et-l .contact-form-module {
+	padding: 40px !important;
+	background: #FDFDFD !important;
+	box-shadow: 0px 16px 30px rgba(136, 136, 136, 0.15) !important;
+	border-radius: 4px !important;
 	
 	form {
-		padding: 40px 7%;
-		background: #FDFDFD;
-		border-radius: 4px;
-		box-shadow: 0px 8px 24px rgba(136, 136, 136, 0.15);
-		
 
 		label {
 			display: block;
-			color: #565656;
-			font-size: 18px;
+			color: #565656 !important;
+			font-size: 16px;
 			font-weight: 400;
 			line-height: 100%;
 			
@@ -55,7 +54,7 @@
 			}
 			
 			.form-text-smoll {
-				color: #565656;
+				color: inherit;
 				font-size: 16px;
 				line-height: 100%;
 				padding-left: 5px;
@@ -104,7 +103,7 @@
 		
 		.label-1 {
 			max-width: 670px;
-			color: #C0C0C0;
+			color: #565656 !important;
 			font-size: 18px;
 			line-height: 140%;
 			font-weight: 500;
@@ -113,7 +112,7 @@
 		
 		.label-2 {
 			max-width: 650px;
-			color: #565656;
+			color: #565656 !important;
 			font-size: 16px;
 			font-weight: 300;
 			line-height: 130%;
@@ -232,4 +231,3 @@
 		}
 	}
 }
-

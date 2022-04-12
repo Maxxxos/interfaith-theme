@@ -23,6 +23,7 @@ h1 {
 	font-size: 48px !important;
 	line-height: 120%;
 	text-transform: uppercase !important;
+	padding-bottom: 15px !important;
 	
 	@include tablet {
 		font-size: 40px !important;
@@ -48,6 +49,23 @@ h2 {
 	}
 }
 
+h3 {
+	font-size: 28px !important;
+	line-height: 120%;
+	padding-bottom: 15px !important;
+	
+	@include tablet {
+		font-size: 24px !important;
+	}
+}
+
+.et_pb_bg_layout_light h1,
+.et_pb_bg_layout_light h2,
+.et_pb_bg_layout_light h3 {
+	color: #222222 !important;
+}
+
+
 ul li {
 	margin-bottom: 5px !important;
 	
@@ -56,22 +74,29 @@ ul li {
 	}
 }
 
-a {
+.et-l p a,
+.et-l li a,
+.et-db #et-boc .et-l p a,
+.et-db #et-boc .et-l li a {
+	color: $violet !important;
+
 	&:hover {
-		text-decoration: none !important;
+		text-decoration: underline !important;
 	}
 }
-
+/*
+p a,
 .et_pb_text_inner a,
-p a {
+.et_pb_blurb a {
     position: relative;
 	color: $violet !important;
+	padding: 0 0 2px;
     
 	&:after {
         content: '';
         position: absolute;
         right: 0;
-        bottom: 33%;
+        bottom: 0;
         width: 0;
         height: 1px;
         background-color: #870557;
@@ -79,13 +104,16 @@ p a {
     }
 	
     &:hover {
+		text-decoration: none !important;
+		
         &:after {
             width: 100%;
             left: 0;
         }
     }
-}
+}*/
 
+.et-db #et-boc .et-l .et_pb_module a.et_pb_button,
 a.et_pb_button {
 	display: flex;
     justify-content: center;
@@ -98,14 +126,17 @@ a.et_pb_button {
 	font-size: 18px !important;
     line-height: 100% !important;
 	font-weight: 600 !important;
+	text-transform: capitalize;
     background: $violet !important;
 	border: none !important;
     border-radius: 4px !important;
-    padding: 0 30px !important;
+    padding: 19px 30px !important;
 	transition: 0.5s all !important;
+	
 	@include laptop {
 		min-width: 190px;
 	}
+	
 	@include phone {
         height: 50px;
 		line-height: 50px !important;
@@ -119,6 +150,7 @@ a.et_pb_button {
 	
 	&:hover {
 		background: #7D225C !important;
+		text-decoration: none !important;
 	}
 }
 
@@ -136,6 +168,7 @@ a.et_pb_button.width-300 {
 	max-width: 300px !important;
 }
 
+a.main-btn,
 .et-db #et-boc .et-l .et_pb_module a.main-btn {
     display: flex;
     justify-content: center;
@@ -148,6 +181,7 @@ a.et_pb_button.width-300 {
 	font-size: 18px !important;
     line-height: 100% !important;
 	font-weight: 600 !important;
+	text-transform: capitalize;
 	text-decoration: none;
     background: $violet !important;
 	border: none !important;
@@ -170,6 +204,7 @@ a.et_pb_button.width-300 {
 	
 	&:hover {
 		background: #7D225C !important;
+		text-decoration: none !important;
 	}
 }
 

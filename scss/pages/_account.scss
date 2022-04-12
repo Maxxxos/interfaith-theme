@@ -27,9 +27,9 @@
         display: none;
     }
     label {
-        font-family: 'FreightSansProSemibold-Regular';
+        font-family: freight-sans-pro, sans-serif !important;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 600;
         font-size: 16px;
         line-height: 140%;
         color: #1F1F1F;
@@ -491,9 +491,9 @@
                 padding-top: 0;
                 margin-top: 0;
                 color: #1D1D1D;
-                font-family: 'FreightSansProMedium-Regular';
+                font-family: freight-sans-pro, sans-serif !important;
                 font-style: normal;
-                font-weight: normal;
+                font-weight: 500;
                 text-transform: capitalize!important;
                 margin-bottom: 15px;
             }
@@ -1063,9 +1063,9 @@ body #buddypress #header-cover-image {
     }
 }
 .user-wrap.menu-item-has-children .user-name {
-   font-family: 'FreightSansProMedium-Regular';
+   font-family: freight-sans-pro, sans-serif !important;
    font-style: normal;
-   font-weight: normal;
+   font-weight: 500;
    font-size: 20px;
    line-height: 23px;
    color: #1D1D1D;
@@ -1233,9 +1233,9 @@ body #buddypress #header-cover-image {
     .bp-navs {
         background: #E1E1E1!important;
         a {
-            font-family: 'FreightSansProBook-Regular';
+            font-family: freight-sans-pro, sans-serif !important;
             font-style: normal;
-            font-weight: normal;
+            font-weight: 400;
             font-size: 18px;
             line-height: 23px;
             color: #3B3B3B!important;

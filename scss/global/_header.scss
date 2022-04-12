@@ -31,13 +31,14 @@
     width: 100%;
     &>li {
         &> a {
+			position: relative;
+			color: #FBF5F3;
+			font-size: 16px;
             font-style: normal;
             font-weight: 500;
-            font-size: 16px;
-            color: #FBF5F3;
-            position: relative;
+            text-transform: capitalize;
             transition-duration: 1s;
-            position: relative;
+            
             &:after {
                 content: '';
                 position: absolute;

@@ -6,10 +6,8 @@ function my_scripts_method()
 	wp_enqueue_style('style-owl', get_theme_file_uri()  . '/css/owl.carousel.min.css');
 	wp_enqueue_style('style-owl-theme', get_theme_file_uri()  . '/css/owl.theme.default.min.css');
 	wp_enqueue_script('script-owl', get_theme_file_uri()  . '/js/owl.carousel.min.js', array('jquery', 'jquery-core'), null, true);
-	wp_enqueue_script('matchHeight', get_theme_file_uri()  . '/js/jquery.matchHeight-min.js', array('jquery'), null, true);
 	wp_enqueue_script('child-script', get_theme_file_uri()  . '/js/script.js', array('jquery'), null, true);
 
-	wp_enqueue_script('equalize', get_stylesheet_directory_uri() . '/js/equalize.js', array('jquery'));
 
 	wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css');
 
@@ -2257,7 +2255,7 @@ function my_custom_init()
 
 		),
 		'public'             => true,
-		'publicly_queryable' => false,
+		'publicly_queryable' => true,
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
@@ -2872,7 +2870,7 @@ function update_ministers()
 
 // metabox menu
 
-add_action('add_meta_boxes', 'add_custom_box');
+//add_action('add_meta_boxes', 'add_custom_box');
 
 function add_custom_box($post)
 {
@@ -2928,9 +2926,10 @@ function page_menu_meta_box($post)
 		}
 	}
 
-	add_action('get_footer', 'action_function_name_7220', 10, 2);
+	//add_action('get_footer', 'action_function_name_7220', 10, 2);
 	function action_function_name_7220($name, $args)
 	{
+		echo get_field('text_quote');
 		if (!empty(get_field('text_quote'))) : ?>
 			<div class="section-quote <?php if (empty(get_field('image_quote'))) echo 'section-quote__new'; ?>">
 				<div class="section-quote__item1">

@@ -31,12 +31,10 @@
 }
 #et-boc .et-l .section-description {
     padding: 0 !important;
-    margin-top: 100px;
 	/*margin-bottom: 200px !important;*/
 	
     @include tablet {
         margin-bottom: 80px!important;
-        margin-top: 80px;
     }
 	
     .et_pb_row {
@@ -67,7 +65,8 @@
     }
 }
 #et-boc .et-l .section-main-courses {
-    padding-bottom: 0!important;
+    padding-top: 0 !important;
+	
     @media (max-width: 650px) {
         margin-bottom: 0;
         margin-top: 0;

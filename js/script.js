@@ -108,9 +108,9 @@ jQuery(document).ready(function($) {
         $('.bb-course-title').matchHeight();
         $('.row-steps .et_pb_blurb_description').matchHeight();
         
-        $('.row-ministers h4').matchHeight();
+        /*$('.row-ministers h4').matchHeight();
         $('.row-ministers .position').matchHeight();
-        $('.row-ministers .description').matchHeight();
+        $('.row-ministers .description').matchHeight();*/
         $('.module-courses h5').matchHeight();
         $('.module-courses p').matchHeight();
     });
@@ -834,11 +834,24 @@ jQuery(document).ready(function($) {
 	$('.section-blog .blog-single article .entry-title').prependTo('.section-blog  .blog-single article');
 	
 	$('.section-blog .blog-list article').each(function(){
-		$(this).find('.entry-title, .post-content').wrapAll('<div class="post-content-wrapper"></div>')
+		$(this).find('.entry-title, .post-content, .post-meta').wrapAll('<div class="post-content-wrapper"></div>')
 	});	
 	
 	$('.section-featured-post .featured-post article').each(function(){
 		$(this).find('.entry-title, .post-content, .post-meta').wrapAll('<div class="post-content-wrapper"></div>')
+		$(this).find('.post-meta').prependTo($(this).find('.post-content-wrapper'));
+		
+	});
+	
+	$('.section-last-story .last-story article').each(function(){
+		$(this).find('.entry-title, .post-content, .post-meta').wrapAll('<div class="story-content-wrapper"></div>')
+		$(this).find('.post-meta').appendTo($(this).find('.story-content-wrapper'));
+		
+	});
+	
+	$('.section-student-stories .et_pb_posts article').each(function(){
+		$(this).find('.post-meta').appendTo($(this).find('.post-content'));
+		
 	});
 	
 	 
@@ -852,16 +865,13 @@ jQuery(document).ready(function($) {
             0:{
                 items:1
             },
-            600:{
+            767:{
                 items:2,
                 margin: 25,
             },
-            991:{
+            1000:{
                 items:3
-            },
-            2000:{
-                items:4
-            },
+            }
         }
     });
 	

@@ -69,7 +69,8 @@ if (!is_user_logged_in()) {
 				<div class="main-slide" style="background-image: url(<?php the_field('main_slider', 727); ?>);">
 					<h1><?php echo get_the_title(727); ?></h1>
 				</div>
-			<?php elseif (is_archive() || is_home()) : ?>
+			<?php //elseif (is_archive() || is_home()) : ?>
+			<?php elseif (false) : ?>
 				<div class="main-slide" style="background-image: url(/wp-content/uploads/2021/09/Rectangle-18-1-3.jpg);">
 					<h1>News & Blog</h1>
 				</div>
@@ -84,4 +85,9 @@ if (!is_user_logged_in()) {
 			<?php do_action(THEME_HOOK_PREFIX . 'begin_content'); ?>
 
 			<div class="container">
-				<div class="<?php echo apply_filters('buddyboss_site_content_grid_class', 'bb-grid site-content-grid'); ?>">
+			<?php
+			$bbclass = '';
+			if (!is_page_template('template-divi.php')){ 
+				$bbclass = 'bb-grid site-content-grid';
+				} ?>
+			<div class="<?php echo apply_filters('buddyboss_site_content_grid_class', $bbclass); ?>">
