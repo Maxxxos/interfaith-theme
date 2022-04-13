@@ -29,7 +29,7 @@ get_header();
                             <?php $last_stories_id = get_the_id(); ?>
                             <div class="featured-row">
                                 <div class="featured-item__text">
-                                    <h4><?php the_field('main_title');    ?></h4>
+                                   <!-- <h4><?php the_field('main_title');    ?></h4> -->
                                     <div class="content">
                                         <?php
                                         echo strip_shortcodes(truncate_post(440, false, '', true));

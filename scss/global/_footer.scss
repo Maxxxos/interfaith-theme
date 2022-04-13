@@ -8,6 +8,7 @@
 		padding: 50px 0 20px !important;
 	}
 	
+	
 	.container {
 		width: 90% !important;
 		max-width: 920px !important;
@@ -17,6 +18,7 @@
 	
     .footer-widget {
 		@include tablet {
+			flex: 100%;
 			width: 100% !important;
 			max-width: 100% !important;
 			margin: 0 auto !important;

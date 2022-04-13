@@ -324,7 +324,41 @@ html {
 	}
 }
 
-
+.owl-nav {
+	position: absolute;
+	top: calc(50% - 20px);
+	left: -30px;
+	right: -30px;
+	display: flex;
+	justify-content: space-between;
+	
+	@media (min-width: 1440px) {
+		left: -40px;
+		right: -40px;
+	}
+	
+	@include phone {
+		left: -20px;
+		right: -20px;
+	}
+	
+	button {
+		
+		span {
+			
+			font-size: 50px !important;
+			
+		}
+		
+		&:hover {
+			box-shadow: none !important;
+			
+			span {
+				color: #870557 !important;
+			}
+		}
+	}
+}
 
 
 

@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500 !important;
 }
 
-h1 {
+body:not(.learndash-cpt) h1 {
 	color: #222222;
 	font-size: 48px !important;
 	line-height: 120%;
@@ -34,7 +34,7 @@ h1 {
 	}
 }
 
-h2 {
+body:not(.learndash-cpt) h2 {
 	color: #222222;
 	font-size: 36px !important;
 	line-height: 120%;
@@ -49,7 +49,7 @@ h2 {
 	}
 }
 
-h3 {
+body:not(.learndash-cpt) h3 {
 	font-size: 28px !important;
 	line-height: 120%;
 	padding-bottom: 15px !important;

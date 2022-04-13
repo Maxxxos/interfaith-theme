@@ -462,9 +462,9 @@ div>div.bb-grid>div.bb-learndash-content-wrap>div.bb-about-instructor.bb-about-i
         padding-right: 0;
     }
 }
- .lms-topic-sidebar-wrapper .lms-lessions-list>ol li a.bb-lesson-head {
-     color: #1D1D1D!important;
- }
+.lms-topic-sidebar-wrapper .lms-lessions-list>ol li a.bb-lesson-head {
+    color: #1D1D1D!important;
+}
 .bb-single-course-sidebar .bb-course-volume-list li,
 .bb-single-course-sidebar .bb-button-wrap .learndash_join_button+.bb-course-type,
 div>div.bb-grid>div.bb-single-course-sidebar.bb-preview-wrap>div.bb-ld-sticky-sidebar.is_stuck>div>div.bb-course-preview-content>div.bb-course-member-wrap.flex.align-items-center>span.members {
@@ -766,14 +766,12 @@ div.bb-lms-header h1 {
         margin-left: -600px;
     }
 }
+
 .lms-topic-sidebar-wrapper .bb-lesson-title  {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
-
-    /* Gray/900 */
-
     color: #3B3B3B;
 }
 .bb-lesson-head:hover,
@@ -823,6 +821,7 @@ div.bb-lms-header h1 {
 .single-sfwd-lessons .bb-content-wrap h5 a{
     color: #A3A5A9 !important;
 }
+
 .sfwd-lessons-template-default.single.single-sfwd-lessons.bb-dark-theme {
     div.bb-lms-header h1 {
         color: #fff!important;
@@ -849,4 +848,13 @@ div.bb-lms-header h1 {
            color: #870557 !important;
         }
     }
+
+
+}
+
+
+.lms-topic-sidebar-wrapper {
+	@include phone {
+		display: none;
+	}
 }

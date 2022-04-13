@@ -45,54 +45,61 @@ $share_box = buddyboss_theme_get_option('blog_share_box');
 				<article id="post-<?php the_ID(); ?>" class="post-<?php the_ID(); ?> post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized full-fi-invert">
 
 					<div class="entry-content-wrap" id="et-boc">
-						<div class="section-main et-l">
-							<div class="item-text">
-								<img src="<?php echo $foto; ?>" alt="<?php the_title(); ?>">
-								<h1><?php the_title(); ?></h1>
-								<?php $short_bio = $userdata->short_bio; ?>
-								<div class="content"><?php echo $short_bio  ?? ''; ?></div>
+						<div class="section-minister-header">
+							<div class="row-minister-header">
+								<div class="column">
+									<h1><?php the_title(); ?></h1>
+									<?php $short_bio = $userdata->short_bio; ?>
+									<div class="content"><?php echo $short_bio  ?? ''; ?></div>
+								</div>
+								<div class="column">
+									<img src="<?php echo $foto; ?>" alt="<?php the_title(); ?>">
+								</div>
 							</div>
-							<div class="item-btn et_pb_module">
-								<a class="main-btn" href="mailto:<?php echo $userdata->user_email ?? ''; ?>">Contact me</a>
+							<div class="row-minister-contact">	
+								<a class="main-btn" href="mailto:annieh@osif.org.uk">Contact me</a>
 							</div>
 						</div>
-						<div class="section-table">
-							<table>
-								<tr>
-									<td>Location:</td>
-									<?php if (!empty($userdata->data->address)) {
-										$address = $userdata->data->address;
-									} else {
-										$address = 'N/A';
-									} ?>
-									<td><?php echo $address; ?></td>
-								</tr>
-								<tr>
-									<?php $serving = $userdata->serving; ?>
-									<td>Also serving:</td>
-									<td><?php echo $serving ?? 'N/A'; ?></td>
-								</tr>
-								<tr>
-									<?php $qualifications = $userdata->qualifications; ?>
-									<td>Qualifications:</td>
-									<td><?php echo $qualifications ?? 'N/A'; ?></td>
-								</tr>
-								<tr>
-									<?php $available = $userdata->available; ?>
-									<td>Available for:</td>
-									<td><?php echo $available  ?? 'N/A'; ?></td>
-								</tr>
-								<tr>
-									<?php $online_services = $userdata->online_services; ?>
-									<td>Online Services:</td>
-									<td><?php echo $online_services ?? 'N/A'; ?></td>
-								</tr>
-								<tr>
-									<?php $online_services = $userdata->online_services; ?>
-									<td>Ordained in:</td>
-									<td><?php echo $online_services ?? 'N/A'; ?></td>
-								</tr>
-							</table>
+						
+						<div class="section-minister-table">
+							<div class="row-minister-table">
+								<table>
+									<tr>
+										<td>Location:</td>
+										<?php if (!empty($userdata->data->address)) {
+											$address = $userdata->data->address;
+										} else {
+											$address = 'N/A';
+										} ?>
+										<td><?php echo $address; ?></td>
+									</tr>
+									<tr>
+										<?php $serving = $userdata->serving; ?>
+										<td>Also serving:</td>
+										<td><?php echo $serving ?? 'N/A'; ?></td>
+									</tr>
+									<tr>
+										<?php $qualifications = $userdata->qualifications; ?>
+										<td>Qualifications:</td>
+										<td><?php echo $qualifications ?? 'N/A'; ?></td>
+									</tr>
+									<tr>
+										<?php $available = $userdata->available; ?>
+										<td>Available for:</td>
+										<td><?php echo $available  ?? 'N/A'; ?></td>
+									</tr>
+									<tr>
+										<?php $online_services = $userdata->online_services; ?>
+										<td>Online Services:</td>
+										<td><?php echo $online_services ?? 'N/A'; ?></td>
+									</tr>
+									<tr>
+										<?php $online_services = $userdata->online_services; ?>
+										<td>Ordained in:</td>
+										<td><?php echo $online_services ?? 'N/A'; ?></td>
+									</tr>
+								</table>
+							</div>
 						</div>
 						<?php comments_template(); ?>
 						<?php

@@ -855,8 +855,8 @@ jQuery(document).ready(function($) {
 	});
 	
 	 
-	 $('.blog-carousel .et_pb_ajax_pagination_container').addClass('owl-carousel');
-	 $('.blog-carousel .et_pb_ajax_pagination_container').owlCarousel({
+	$('.blog-carousel .et_pb_ajax_pagination_container').addClass('owl-carousel');
+	$('.blog-carousel .et_pb_ajax_pagination_container').owlCarousel({
         // loop: true,
         margin: 40,
         nav: true,
@@ -875,5 +875,77 @@ jQuery(document).ready(function($) {
         }
     });
 	
+	$('.section-student-stories .et_pb_ajax_pagination_container').addClass('owl-carousel');
+	$('.section-student-stories .et_pb_ajax_pagination_container').owlCarousel({
+        // loop: true,
+        margin: 40,
+        nav: true,
+        // autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:2,
+                margin: 25,
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+	
+	//$('.seсtion-location-ministers .row-list .et_pb_column').addClass('owl-carousel');
+	//$('.seсtion-location-ministers .row-list .et_pb_column').owlCarousel({
+        // loop: true,
+        margin: 40,
+        nav: true,
+        // autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:2,
+                margin: 25,
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+	
+	//$('.section-location-additional .row-list .et_pb_column').addClass('owl-carousel');
+	//$('.section-location-additional .row-list .et_pb_column').owlCarousel({
+        // loop: true,
+        margin: 40,
+        nav: true,
+        // autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:2,
+                margin: 25,
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+	
+	$('.section-home-banner .et_pb_row .et_pb_column').addClass('owl-carousel');
+	$('.section-home-banner .et_pb_row .et_pb_column').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            }
+        }
+    });
 
 });

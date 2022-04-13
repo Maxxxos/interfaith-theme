@@ -3055,3 +3055,63 @@ function page_menu_meta_box($post)
 // echo '<pre>';
 // var_dump($post_id[0]);
 // echo '</pre>';
+
+add_shortcode ('related_stories', 'related_stories' );
+
+function related_stories (){
+	    $args = [
+            'post_type' => 'stories',
+            'post_status' => 'publish',
+            'order' => 'DESC',
+            'offset' => 1,
+            'posts_per_page' => 3,
+        ];
+        $query = new WP_Query($args); ?>
+
+        <?php if ($query->have_posts()) : 
+			ob_start();
+		?>
+            <div class="ministery-section page-story">
+                <div class="ministery-wrap">
+                    <h2><?php the_field('title_last_section'); ?></h2>
+                    <div class="student-stories__wrap" id="add-stories-row">
+                        <?php while ($query->have_posts()) : $query->the_post(); ?>
+
+                            <div class="student-stories__item">
+                                <?php
+                                if (has_post_thumbnail()) {
+                                    $img_url = get_the_post_thumbnail_url();
+                                } else {
+                                    $img_url = '/wp-content/uploads/2021/09/images.png';
+                                }
+                                $date = new DateTime(get_the_date());
+                                ?>
+                                <img src="<?php echo $img_url; ?>" alt="<?php the_title(); ?>">
+                                <div class="student-stories__content">
+                                    <div class="student-stories">
+                                        <?php echo strip_tags(get_the_excerpt()); ?>
+                                    </div>
+                                    <div class="student-name"><?php the_title(); ?></div>
+                                    <div class="student-stories-date"><?php echo $date->format('F Y'); ?></div>
+                                </div>
+                            </div>
+                        <?php endwhile; ?>
+                    </div>
+                </div>
+            </div>
+            <?php wp_reset_postdata(); ?>
+
+        <?php else : ?>
+            <p><?php esc_html_e('No posts.'); ?></p>
+        <?php endif; ?>
+        <?php
+        $max_num_pages = $query->max_num_pages;
+        if ($max_num_pages > 1) {  ?>
+            <div class="stories-more-row">
+                <div class="stories-more" id="stories-more" data-lastId="<?php echo $last_stories_id; ?>" data-all="<?php echo $max_num_pages; ?>" data-pn="2">Load more</div>
+            </div>
+        <?php } 
+		
+		
+		return ob_get_clean();
+}

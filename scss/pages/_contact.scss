@@ -1,15 +1,10 @@
 
 	
-.section-after-form.et_pb_section {
+.et-db #et-boc .et-l .section-after-form.et_pb_section {
 	padding-top: 0 !important;
 	
 	.et_pb_row {
-		width: 100% !important;
 		max-width: 850px !important;
-		
-		&:last-of-type {
-			padding: 0 !important;
-		}
 	}
 	
 	h2 {
@@ -28,6 +23,32 @@
 		
 		@include phone {
 			flex-direction: column;
+			align-items: center;
+		}
+		
+		.et_pb_column {
+			@include tablet {
+				width: 30%;
+				margin-bottom: 0;
+			}
+			
+			@include phone {
+				width: 100%;
+				max-width: 200px;
+				margin-bottom: 20px;
+				
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+		}
+		
+		.et_pb_button {
+			@include tablet {
+				width: 100%;
+				min-width: 100%;
+				margin-top: 0 !important;
+			}
 		}
 	}
 } 

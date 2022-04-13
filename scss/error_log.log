@@ -132,3 +132,49 @@ Call Stack:
 #0 import pages/_home.scss index.scss on line 141
 04/11/22 3:21:37: index.scss - parse error: failed at `margin: 0 30px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_find-minister.scss on line 14, at column 4
 04/11/22 3:21:41: index.scss - parse error: failed at `margin: 0 30px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_find-minister.scss on line 14, at column 4
+04/12/22 12:10:49: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 12:11:21: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 12:11:39: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 12:11:49: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 12:12:40: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 12:12:43: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 12:12:44: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 12:12:49: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 12:12:55: index.scss - Undefined variable $violet: global/_global.scss on line 333, at column 4
+Call Stack:
+#0 import global/_global.scss index.scss on line 134
+04/12/22 3:34:33: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 3:34:35: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 3:34:38: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 3:34:49: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 3:34:50: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 3:34:51: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 3:34:53: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 3:35:00: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 3:35:14: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_map&locations.scss on line 349, at column 0
+04/12/22 5:46:05: index.scss - unclosed block: failed at `` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 604, at column 0
+04/12/22 6:42:11: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 6:42:11: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 6:42:14: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 6:42:18: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 6:42:20: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 6:42:21: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 6:42:23: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 6:42:24: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 6:42:26: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1

@@ -10,7 +10,8 @@
 
 if (empty(get_field('disable_slider'))) { ?>
 	<div class="main-slide" style="background-image: url(<?php the_field('main_slider'); ?>);">
-		<?php if (!empty(get_field('main_title'))) { ?>
+		<?php// if (!empty(get_field('main_title'))) { ?>
+		<?php if (false) { ?>
 			<h1><?php the_field('main_title'); ?></h1>
 		<?php } ?>
 	</div>

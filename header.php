@@ -76,7 +76,8 @@ if (!is_user_logged_in()) {
 				</div>
 			<?php endif; ?>
 
-			<?php if (is_page('student-stories')) : ?>
+			<?php //if (is_page('student-stories')) : ?>
+			<?php if (false) : ?>
 				<div class="main-slide" style="background-image: url(<?php the_field('main_image'); ?>);">
 					<h1><?php echo get_the_title(); ?></h1>
 				</div>
