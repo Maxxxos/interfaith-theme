@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
                     console.log(user_data);
                     if (user_data.hasOwnProperty('login')) {
                         
-                        window.location = '/members/' + user_data.login + '/dashbord/';
+                        window.location = '/members/' + user_data.login + '/dashboard/';
                      } else {
                         jQuery('.rh_form__response .rh_form__msg').empty();
                         jQuery('#login-message-user').append(user_data.error);
@@ -250,7 +250,7 @@ jQuery(document).ready(function($) {
                     let user_data = jQuery.parseJSON(data);
                     console.log(user_data);
                     if (user_data.hasOwnProperty('login')) {
-                        window.location = '/members/' + user_data.login + '/dashbord/';
+                        window.location = '/members/' + user_data.login + '/dashboard/';
                     } else {                        
                         jQuery('.rh_form__response .rh_form__msg').empty();
                         jQuery('#singup-message-user').append(user_data.error);
@@ -294,7 +294,7 @@ jQuery(document).ready(function($) {
         }
     });
 
-    $('#dashbord-slider').owlCarousel({
+    $('#dashboard-slider').owlCarousel({
         // loop: true,
         margin: 0,
         nav: true,

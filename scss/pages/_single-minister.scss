@@ -1,9 +1,254 @@
-.et-db.single-minister {
+
+
+.single.single-minister {
     .site-header {
         background: #870557 !important;
         opacity: 1 !important;
     }
 	
+	#main.site-main {
+		margin-top: 76px !important;
+	}
+	
+	.section-minister-header {
+		padding: 30px 0 50px !important;
+		
+		
+		.row-minister-header {
+			display: flex;
+			align-items: center;
+			padding: 30px 30px;
+			margin-top: 140px !important;
+			background-color: #870557;
+			border-radius: 4px;
+			
+			@media (max-width: 849px) {
+				flex-direction: column-reverse;
+			}
+			
+			.column {
+				@media (min-width: 850px) {
+					&:first-of-type {
+						width: calc(100% - 320px);
+					}
+					
+					&:last-of-type {
+						width: 290px;
+						margin-left: 30px;
+					}
+				}
+				
+				@media (max-width: 849px) {
+					width: 100%;
+					
+					&:first-of-type {
+						
+					}
+					
+					&:last-of-type {
+						margin-bottom: 30px !important;
+					}
+				}
+			}
+			
+			h1 {
+				max-width: 630px;
+				color: #FBF5F3;
+				font-size: 24px !important;
+				line-height: 100%;
+				font-weight: 500 !important;
+				text-transform: capitalize !important;
+				
+				@media (max-width: 849px) {
+					text-align: center;
+				}
+				
+			}
+			
+			.content {
+				max-width: 630px;
+				color: #FBF5F3;
+				@include main-font;
+				
+				@include phone {
+					width: 100%;
+					text-align: center;
+				}
+				
+			}
+			
+			img {
+				display: block;
+				width: 290px;
+				height: 320px;
+				object-fit: cover;
+				border-radius: 4px;
+				margin: -60px 0 !important;
+				
+				@media (min-width: 850px) {
+					margin: -60px 0 !important;
+				}
+				
+				@media (max-width: 849px) {
+					margin: -100px auto 0 !important;
+				}
+				
+			}
+		}
+				
+		.row-minister-contact {
+			padding: 30px 30px 0px;
+			
+			@media (max-width: 849px) {
+				padding: 30px 10px 0px;
+			}
+		}
+		
+		
+	}
+			
+	.section-blockquote {
+		background: #EF5C0A;
+		padding: 30px;
+		margin: 25px auto;
+		
+		blockquote {
+			font-family: "Cormorant", sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 36px;
+			line-height: 106%;
+			text-align: center;
+			letter-spacing: 0.01em;
+			color: #F7F7F7;
+			max-width: 730px;
+			margin: auto;
+			
+			@include tablet {
+				font-size: 30px;                    
+			}
+		}
+	}
+			
+	.section-minister-table-description {
+		padding: 50px 0 10px;
+		
+		.row-minister-table {
+			padding: 0 40px;
+			
+			@media (max-width: 849px) {
+				padding: 0px 10px 0;
+			}
+			
+			table {
+				width: 100%;
+				margin: 0;
+				
+				td {
+					padding: 0 0 25px 0 !important;
+					border: none;
+					
+					&:first-of-type {
+						width: 200px;
+						color: #626262 !important;
+						font-size: 20px;
+						line-height: 110%;
+						font-weight: 500;
+						
+						
+						@include phone {
+							padding: 0;
+						}
+					}
+					&:last-child {
+						color: #1D1D1D !important;
+						font-size: 20px;
+						line-height: 110%;
+						font-weight: 500;
+						
+						@include phone {
+							padding: 0 0 15px 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.section-testimonials {
+		padding: 0px 0 40px;
+		
+		.row-testimonials {
+			padding: 50px 20px 0;
+			border-top: 1px solid #D6D6D6;
+			
+			@media (max-width: 849px) {
+				padding: 50px 0px 0;
+			}
+			
+			.column {
+				padding: 0 20px;
+				
+				@media (max-width: 849px) {
+					padding: 0 10px;
+				}
+			}
+		}
+		
+		h2 {
+			color: #1D1D1D;
+			font-size: 30px !important;
+			line-height: 100% !important;
+			font-weight: 500;
+			text-transform: capitalize !important;
+			margin-bottom: 25px !important;
+			
+			@include phone {
+				margin-bottom: 20px;
+			}
+		}
+		
+		.comments-area {
+			overflow: auto;
+		}
+		
+		.comment-list {
+			max-width: 800px;
+			
+			li {
+				display: flex!important;
+				flex-direction: column-reverse !important;
+				margin-bottom: 40px;
+				
+				&:last-child {
+					margin-bottom: 0;
+					
+					.comment-text {
+						margin-bottom: 0;
+					}
+				}
+				
+				.name {
+					color: $text-color !important;
+					font-size: 22px !important;
+					font-weight: 500;
+					margin-bottom: 10px !important;
+					
+				}
+				
+				.comment-text {
+					margin: 0 !important;
+					
+					p {
+						color: $text-color !important;
+						@include main-font;
+					}
+				}
+				
+			}
+		}
+	}
+	/*
 	#main.site-main {
 		margin-top: 76px !important;
 		
@@ -16,246 +261,9 @@
 				padding: 0px 0 100px !important;
 			}
 			
-			.section-minister-header {
-				padding: 30px 0 50px !important;
-				
-				
-				.row-minister-header {
-					display: flex;
-					align-items: center;
-					padding: 30px 30px;
-					margin-top: 140px !important;
-					background-color: #870557;
-					border-radius: 4px;
-					
-					@media (max-width: 849px) {
-						flex-direction: column-reverse;
-					}
-					
-					.column {
-						@media (min-width: 850px) {
-							&:first-of-type {
-								width: calc(100% - 320px);
-							}
-							
-							&:last-of-type {
-								width: 290px;
-								margin-left: 30px;
-							}
-						}
-						
-						@media (max-width: 849px) {
-							width: 100%;
-							
-							&:first-of-type {
-								
-							}
-							
-							&:last-of-type {
-								margin-bottom: 30px !important;
-							}
-						}
-					}
-					
-					h1 {
-						max-width: 630px;
-						color: #FBF5F3;
-						font-size: 24px !important;
-						line-height: 100%;
-						font-weight: 500 !important;
-						text-transform: capitalize !important;
-						
-						@media (max-width: 849px) {
-							text-align: center;
-						}
-						
-					}
-					
-					.content {
-						max-width: 630px;
-						color: #FBF5F3;
-						@include main-font;
-						
-						@include phone {
-							width: 100%;
-							text-align: center;
-						}
-						
-					}
-					
-					img {
-						display: block;
-						width: 290px;
-						height: 320px;
-						object-fit: cover;
-						border-radius: 4px;
-						margin: -60px 0 !important;
-						
-						@media (min-width: 850px) {
-							margin: -60px 0 !important;
-						}
-						
-						@media (max-width: 849px) {
-							margin: -100px auto 0 !important;
-						}
-						
-					}
-				}
-				
-				.row-minister-contact {
-					padding: 30px 30px 0px;
-					
-					@media (max-width: 849px) {
-						padding: 30px 10px 0px;
-					}
-				}
-				
-				
-			}
 			
-			.section-blockquote {
-				background: #EF5C0A;
-				padding: 30px;
-				margin: 25px auto;
-				
-				blockquote {
-					font-family: "Cormorant", sans-serif;
-					font-style: normal;
-					font-weight: 500;
-					font-size: 36px;
-					line-height: 106%;
-					text-align: center;
-					letter-spacing: 0.01em;
-					color: #F7F7F7;
-					max-width: 730px;
-					margin: auto;
-					
-					@include tablet {
-						font-size: 30px;                    
-					}
-				}
-			}
-			
-			.section-minister-table {
-				padding: 50px 0 10px;
-				
-				.row-minister-table {
-					padding: 0 40px;
-					
-					@media (max-width: 849px) {
-						padding: 0px 10px 0;
-					}
-					
-					table {
-						width: 100%;
-						margin: 0;
-						
-						td {
-							padding: 0 0 25px 0 !important;
-							border: none;
-							
-							&:first-of-type {
-								width: 200px;
-								color: #626262 !important;
-								font-size: 20px;
-								line-height: 110%;
-								font-weight: 500;
-								
-								
-								@include phone {
-									padding: 0;
-								}
-							}
-							&:last-child {
-								color: #1D1D1D !important;
-								font-size: 20px;
-								line-height: 110%;
-								font-weight: 500;
-								
-								@include phone {
-									padding: 0 0 15px 20px;
-								}
-							}
-						}
-					}
-				}
-			}
-			
-			.section-testimonials {
-				padding: 0px 0 40px;
-				
-				.row-testimonials {
-					padding: 50px 20px 0;
-					border-top: 1px solid #D6D6D6;
-					
-					@media (max-width: 849px) {
-						padding: 50px 0px 0;
-					}
-					
-					.column {
-						padding: 0 20px;
-						
-						@media (max-width: 849px) {
-							padding: 0 10px;
-						}
-					}
-				}
-				
-				h2 {
-					color: #1D1D1D;
-					font-size: 30px !important;
-					line-height: 100% !important;
-					font-weight: 500;
-					text-transform: capitalize !important;
-					margin-bottom: 25px !important;
-					
-					@include phone {
-						margin-bottom: 20px;
-					}
-				}
-				
-				.comments-area {
-					overflow: auto;
-				}
-				
-				.comment-list {
-					max-width: 800px;
-					
-					li {
-						display: flex!important;
-						flex-direction: column-reverse !important;
-						margin-bottom: 40px;
-						
-						&:last-child {
-							margin-bottom: 0;
-							
-							.comment-text {
-								margin-bottom: 0;
-							}
-						}
-						
-						.name {
-							color: $text-color !important;
-							font-size: 22px !important;
-							font-weight: 500;
-							margin-bottom: 10px !important;
-							
-						}
-						
-						.comment-text {
-							margin: 0 !important;
-							
-							p {
-								color: $text-color !important;
-								@include main-font;
-							}
-						}
-						
-					}
-				}
-			}
         }
-	}
+	}*/
 	
     .ministery-section {
         margin-top: 20px;

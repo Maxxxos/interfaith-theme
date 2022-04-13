@@ -1170,7 +1170,7 @@ function dynamic_page()
 	ob_start();
 
 	$user_info = wp_get_current_user();
-	$page_slug = 'members/' . $user_info->user_login . '/dashbord/';
+	$page_slug = 'members/' . $user_info->user_login . '/dashboard/';
 	$uri       = $_SERVER['REQUEST_URI'];
 	$path      = wp_parse_url($uri, PHP_URL_PATH);
 	if ('/' . trailingslashit($page_slug) === trailingslashit($path)) {
@@ -1179,7 +1179,7 @@ function dynamic_page()
 	?>
 		<div class="account__sitebar-menu">
 			<ul class="account__sitebar-list">
-				<li class="selected"><a href="/members/<?php echo $user_info->user_login; ?>/dashbord/"><span class="img-dashbord"></span>Dashboard</a></li>
+				<li class="selected"><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
 				<?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
 					<li><a href="/members/<?php echo $user_info->user_login; ?>/my-classmates/"><span class="classmates"></span>My Classmates</a></li>
@@ -1354,7 +1354,7 @@ function dynamic_page()
 											$query = new WP_Query($args);
 											// Цикл
 											if ($query->have_posts()) {
-												echo '<div class="owl-carousel owl-theme" id="dashbord-slider">';
+												echo '<div class="owl-carousel owl-theme" id="dashboard-slider">';
 												$query->the_post();
 										?>
 												<?php
@@ -1505,7 +1505,7 @@ function dynamic_page3()
 		<div id="account-menu__toggle">My Student Dashboard</div>
 		<div class="account__sitebar-menu">
 			<ul class="account__sitebar-list">
-				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashbord/"><span class="img-dashbord"></span>Dashboard</a></li>
+				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
 				<li class="selected"><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
 				<?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
 					<li><a href="/members/<?php echo $user_info->user_login; ?>/my-classmates/"><span class="classmates"></span>My Classmates</a></li>
@@ -1524,11 +1524,11 @@ function dynamic_page3()
 
 		<div id="primary" class="content-area bs-bp-container">
 			<main id="main" class="site-main">
-				<div class="dashbord-my-course-row">
-					<div class="dashbord-my-course__item">
-						<h1 class="new-page-dashbord__title">My Courses</h1>
+				<div class="dashboard-my-course-row">
+					<div class="dashboard-my-course__item">
+						<h1 class="new-page-dashboard__title">My Courses</h1>
 					</div>
-					<div class="dashbord-my-course__item item-last">
+					<div class="dashboard-my-course__item item-last">
 						<select name="course-progress" class="course-progress" id="select-sortby">
 							<option value="all">All</option>
 							<option value="in-progress" <?php selected($_GET['ld-status'], 'in-progress'); ?>>In progress</option>
@@ -1785,7 +1785,7 @@ function dynamic_page4()
 		<div id="account-menu__toggle">My Student Dashboard</div>
 		<div class="account__sitebar-menu">
 			<ul class="account__sitebar-list">
-				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashbord/"><span class="img-dashbord"></span>Dashboard</a></li>
+				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
 				<?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
 					<li><a href="/members/<?php echo $user_info->user_login; ?>/my-classmates/"><span class="classmates"></span>My Classmates</a></li>
@@ -1801,9 +1801,9 @@ function dynamic_page4()
 				<li class="logout"><a href="<?php echo esc_url(wp_logout_url(home_url())); ?>"><span class="img-logout"></span>Log Out</a></li>
 			</ul>
 		</div>
-		<div id="primary" class="content-area bs-bp-container dashbord-forums-page">
+		<div id="primary" class="content-area bs-bp-container dashboard-forums-page">
 			<main id="main" class="site-main">
-				<div class="dashbord-forums-slide" style="background-image: url(/wp-content/themes/interfaith-theme/images/forums-bg.jpg); ">
+				<div class="dashboard-forums-slide" style="background-image: url(/wp-content/themes/interfaith-theme/images/forums-bg.jpg); ">
 					<h1 class="forums-slide__title">Here you can find answers and ask questions </h1>
 					<?php get_search_form(); ?>
 				</div>
@@ -1875,11 +1875,11 @@ function dynamic_page4()
 					</aticle>
 					<?php do_action('bbp_template_before_user_topics_created'); ?>
 
-					<div class="section-second-dashbord page-my-forums">
+					<div class="section-second-dashboard page-my-forums">
 						<div class="item-forum">
 							<?php do_action('bbp_template_before_topics_loop'); ?>
 
-							<ul id="bbp-forum-<?php bbp_forum_id(); ?>" class="bbp-topics1 bs-item-list bs-forums-items list-view page-dashbord">
+							<ul id="bbp-forum-<?php bbp_forum_id(); ?>" class="bbp-topics1 bs-item-list bs-forums-items list-view page-dashboard">
 
 								<li class="bs-item-wrap bs-header-item align-items-center no-hover-effect">
 									<div class="flex-1 item-forum-bock">
@@ -1999,7 +1999,7 @@ function dynamic_page5()
 		<div id="account-menu__toggle">My Student Dashboard</div>
 		<div class="account__sitebar-menu">
 			<ul class="account__sitebar-list">
-				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashbord/"><span class="img-dashbord"></span>Dashboard</a></li>
+				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
 				<?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
 					<li class="selected"><a href="/members/<?php echo $user_info->user_login; ?>/my-classmates/"><span class="classmates"></span>My Classmates</a></li>
@@ -2015,11 +2015,11 @@ function dynamic_page5()
 				<li class="logout"><a href="<?php echo esc_url(wp_logout_url(home_url())); ?>"><span class="img-logout"></span>Log Out</a></li>
 			</ul>
 		</div>
-		<div id="primary" class="content-area bs-bp-container dashbord-forums-page">
+		<div id="primary" class="content-area bs-bp-container dashboard-forums-page">
 			<main id="main" class="site-main page-class-users">
-				<div class="dashbord-my-course-row">
-					<div class="dashbord-my-course__item">
-						<h1 class="new-page-dashbord__title">My Classmates</h1>
+				<div class="dashboard-my-course-row">
+					<div class="dashboard-my-course__item">
+						<h1 class="new-page-dashboard__title">My Classmates</h1>
 					</div>
 				</div>
 				<article class="bp_members type-bp_members post-24 page type-page status-publish hentry">

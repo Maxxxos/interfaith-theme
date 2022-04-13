@@ -61,7 +61,7 @@ $default_cover_image = buddyboss_theme_get_option('buddyboss_profile_cover_defau
 <div id="account-menu__toggle">My Student Dashboard</div>
 <div class="account__sitebar-menu">
     <ul class="account__sitebar-list">
-        <li><a href="/members/<?php echo $user_info->data->user_login; ?>/dashbord/"><span class="img-dashbord"></span>Dashboard</a></li>
+        <li><a href="/members/<?php echo $user_info->data->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
         <li><a href="/members/<?php echo $user_info->data->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
         <?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
             <li><a href="/members/<?php echo $user_info->user_login; ?>/my-classmates/"><span class="classmates"></span>My Classmates</a></li>

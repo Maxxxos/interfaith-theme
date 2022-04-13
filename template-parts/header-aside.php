@@ -24,7 +24,7 @@ $user_info = wp_get_current_user();
 				<div class="sub-menu">
 					<div class="wrapper">
 						<ul class="sub-menu-inner">
-							<li class="menupop"><a href="/members/<?php echo $user_info->user_login; ?>/dashbord/">Dashboard</a></li>
+							<li class="menupop"><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/">Dashboard</a></li>
 							<li class="menupop"><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/">My Courses</a></li>
 							<?php if ($user_info->roles[0] == 'student') : ?>
 								<li class="menupop"><a href="/members/<?php echo $user_info->user_login; ?>/my-classmates/">My Classmates</a></li>

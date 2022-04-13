@@ -258,7 +258,7 @@
     justify-content: space-between;
 }
 
-.section-second-dashbord {
+.section-second-dashboard {
     display: flex;
     justify-content: space-between;
     @media (max-width: 1350px) {
@@ -453,7 +453,7 @@
         display: none;
     }
 }
-.new-page-dashbord__title {
+.new-page-dashboard__title {
     font-weight: 500;
     font-size: 38px;
     line-height: 140%;
@@ -465,7 +465,7 @@
     height: 55px;
     border-radius: 50%;
 }
-#buddypress .page-dashbord {
+#buddypress .page-dashboard {
     .bs-item-wrap {
         padding: 13px 20px;
     }
@@ -591,7 +591,7 @@
         }
     }
 }
-.dashbord-my-course-row {
+.dashboard-my-course-row {
     display: flex;    
     margin: 0 5%;
     @media (max-width: 1250px) {
@@ -612,7 +612,7 @@
             width: 100%;
             text-align: center!important;
         }
-        &.dashbord-my-course__item.item-last {
+        &.dashboard-my-course__item.item-last {
             text-align: right;
             form,
             .form-item {
@@ -692,7 +692,7 @@
         }
     }
 }
-.header-dashbord-title{
+.header-dashboard-title{
     width: 100%;
     padding-left: 4%;
     font-weight: 500;
@@ -733,8 +733,8 @@
         text-align: left;
     }
 }
-body.buddypress #page #primary.dashbord-forums-page {
-    .dashbord-forums-slide {
+body.buddypress #page #primary.dashboard-forums-page {
+    .dashboard-forums-slide {
         height: 347px;
         display: flex;
         flex-direction: column;
@@ -918,7 +918,7 @@ body.buddypress #page #primary.dashbord-forums-page {
         }
     }
 }
-.section-second-dashbord {
+.section-second-dashboard {
     .item-forum {
         width: 100%;
         @media (max-width: 1350px) {
@@ -1040,7 +1040,7 @@ body.buddypress #page #primary.dashbord-forums-page {
     }
 
     .account__sitebar-menu {
-        max-width: $width-dashbord;
+        max-width: $width-dashboard;
         background: #870557;
     }
 

@@ -24,8 +24,8 @@ $profile_link = trailingslashit( bp_displayed_user_domain() . bp_get_profile_slu
 			case 'notifications':
 				bp_get_template_part( 'members/single/settings/notifications' );
 				break;
-			case 'dashbord':
-				bp_get_template_part('members/single/settings/dashbord');
+			case 'dashboard':
+				bp_get_template_part('members/single/settings/dashboard');
 				break;
 			case 'capabilities':
 				bp_get_template_part( 'members/single/settings/capabilities' );

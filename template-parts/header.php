@@ -26,7 +26,7 @@ $logo_dark    = ( $show && $show_dark && $logo_dark_id ) ? wp_get_attachment_ima
        // if (!is_user_logged_in()) {
         $url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
         if (strpos($url, 'members') != false) {
-            //echo '<div class="header-dashbord-title">My Student Dashboard</div>';
+            //echo '<div class="header-dashboard-title">My Student Dashboard</div>';
             //get_template_part('template-parts/site-navigation');
             echo '<div class="site-navigation__members">';
             get_search_form(); 

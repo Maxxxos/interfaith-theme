@@ -36,8 +36,8 @@ $profile_link = trailingslashit( bp_displayed_user_domain() . bp_get_profile_slu
 				case 'edit':
 					bp_get_template_part( 'members/single/profile/edit' );
 					break;
-				case 'dashbord':
-					bp_get_template_part('members/single/profile/dashbord');
+				case 'dashboard':
+					bp_get_template_part('members/single/profile/dashboard');
 					break;
 
 				// Change Avatar
