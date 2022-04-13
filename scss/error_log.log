@@ -178,3 +178,5 @@ Call Stack:
 04/12/22 6:42:23: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
 04/12/22 6:42:24: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
 04/12/22 6:42:26: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
+04/12/22 8:39:43: index.scss - parse error: failed at `input[type=text],` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/global/_global.scss on line 665, at column 13
+04/13/22 11:51:55: index.scss - `pages/_dashbord` file not found for @import: index.scss on line 140, at column 1

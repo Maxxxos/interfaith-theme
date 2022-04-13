@@ -257,12 +257,16 @@
 			text-transform: none !important;
 		}
 	}
+	
+	.owl-stage-outer {
+		margin: 2px -3px !important;
+	}
 }
 
 .et-db #et-boc .et-l .et_pb_blurb.location-single-minister {
 	max-width: 550px;
-	padding: 10px 10px 40px !important;
-	margin: 0 auto 50px !important;
+	padding: 10px 10px 20px !important;
+	margin: 2px auto 5px !important;
 	background: #FDFDFD;
 	border-radius: 4px !important;
 	box-shadow: 0px 8px 24px rgba(136, 136, 136, 0.15) !important;
@@ -313,7 +317,7 @@
 	
 	h4 {
 		color: #3B3B3B !important;
-		font-size: 18px !important;
+		font-size: 20px !important;
 		font-weight: 500;
 		line-height: 110%;
 		text-transform: uppercase;
@@ -322,7 +326,7 @@
 	
 	.et_pb_blurb_description {
 		.specialization {
-			color: violet !important;
+			color: $violet !important;
 			font-size: 16px;
 			font-weight: 400;
 			line-height: 120%;
@@ -331,7 +335,7 @@
 		
 		.description {
 			color: #626262 !important;
-			font-size: 18px;
+			font-size: 16px;
 			font-weight: 500;
 			line-height: 140%;
 			padding: 0 10px !important;
@@ -344,6 +348,7 @@
 			font-size: 18px;
 			font-weight: 500;
 			line-height: 100%;
+			text-transform: capitalize;
 			padding: 0 0 2px !important;
 			margin: 15px 0 0px 10px !important;
     

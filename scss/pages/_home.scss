@@ -31,10 +31,24 @@
 		
 		
 		.et_pb_text {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 80vh;
+			min-height: 500px;
+			max-height: 800px;
 			padding: 200px 0 140px 0 !important;
 			margin: 0 !important;
+			
+			@include tablet {
+				
+			}
 		
-		
+			.et_pb_text_inner {
+				width: 90%;
+				margin: 0 auto;
+			}
+			
 			h1, h3 {
 				color: #FBF5F3 !important;
 				font-size: 72px !important;
@@ -73,6 +87,8 @@
     .owl-nav {
         position: absolute;
         top: 45%;
+		left: 0;
+		right: 0;
         width: 100%;
 		
 		button {

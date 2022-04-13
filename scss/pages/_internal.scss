@@ -377,104 +377,7 @@
                             }
                         }
                     }
-					
-					.row-text-right,
-					.row-text-left {	
-						.et_pb_image {
-							
-							@include phone {
-								text-align: center;
-								margin-bottom: 30px;
-							}
-						}
-						
-                        h4 {
-							color: $violet !important;
-							font-size: 20px;
-                            line-height: 120%;
-                            text-align: left;
-                            
-							@include phone {
-								text-align: center;
-							}
-                        }
-						
-						a.main-btn {
-							width: 180px !important;
-							height: 50px !important;
-							
-							@include phone {
-								margin: 20px auto !important;
-							}
-						}
-                    }
-					
-					.row-text-right.et_pb_row {
-						display: flex;
-						justify-content: space-between;
-						align-items: center;
-						padding: 0 !important;
-						
-						@include phone {
-							flex-direction: column;
-							padding-bottom: 50px !important;
-						}
-						
-						.et_pb_column {
-							&:first-child {
-								width: 55%;
-								margin-right: 3%;
-							}
-							
-							&:last-child {
-								width: 42%;
-							}
-							
-							@include phone {
-								width: 100% !important;
-							}
-							
-							& > div {
-								@include phone {
-									text-align: center;
-								}
-							}
-						}
-					}
-					
-					.row-text-left {
-						display: flex;
-						justify-content: space-between;
-						align-items: center;
-						padding: 0 !important;
-						
-						@include phone {
-							flex-direction: column-reverse;
-						}
-						
-						.et_pb_column {
-							&:first-child {
-								width: 42%;
-								margin-right: 3%;
-							}
 
-							&:last-child {
-								width: 50%;
-								img {
-									margin-top: -20px;
-									@include phone {
-									   margin-top: 10px;
-									}
-								}
-							}
-							
-							@include phone {
-								width: 100% !important;
-							}
-							
-						}
-						
-					}
 					
 					.row-steps {
 						
@@ -618,12 +521,7 @@
     }
     
 }
-.et-db #et-boc .et-l .et_pb_section .et_pb_row.row-ministers {
-    
-    img {
-        margin-top: 0;
-    }
-}
+
 
 .stuck {
     position: relative !important;
@@ -631,6 +529,8 @@
         position: static!important;
     }
 }
+
+/*
 .page-template-default {
     & #et-boc {
         .et_pb_text_inner {
@@ -684,7 +584,7 @@
             min-width: 180px!important;
         }
     }
-}
+}*/
 
 // select start
 .select {
@@ -761,6 +661,8 @@
         }
     }
 }
+
+
 #content .container .bb-grid .internal-wrap .internal-main-content .section-internal-text.section-internal-text2 img {
     margin-top: 0;
     margin-right: 0;

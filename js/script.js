@@ -878,7 +878,7 @@ jQuery(document).ready(function($) {
 	$('.section-student-stories .et_pb_ajax_pagination_container').addClass('owl-carousel');
 	$('.section-student-stories .et_pb_ajax_pagination_container').owlCarousel({
         // loop: true,
-        margin: 40,
+        margin: 30,
         nav: true,
         // autoplayHoverPause:true,
         responsive:{
@@ -895,10 +895,10 @@ jQuery(document).ready(function($) {
         }
     });
 	
-	//$('.seсtion-location-ministers .row-list .et_pb_column').addClass('owl-carousel');
-	//$('.seсtion-location-ministers .row-list .et_pb_column').owlCarousel({
+	$('.seсtion-location-ministers .row-list .et_pb_column').addClass('owl-carousel');
+	$('.seсtion-location-ministers .row-list .et_pb_column').owlCarousel({
         // loop: true,
-        margin: 40,
+        margin: 20,
         nav: true,
         // autoplayHoverPause:true,
         responsive:{
@@ -915,10 +915,10 @@ jQuery(document).ready(function($) {
         }
     });
 	
-	//$('.section-location-additional .row-list .et_pb_column').addClass('owl-carousel');
-	//$('.section-location-additional .row-list .et_pb_column').owlCarousel({
+	$('.section-location-additional .row-list .et_pb_column').addClass('owl-carousel');
+	$('.section-location-additional .row-list .et_pb_column').owlCarousel({
         // loop: true,
-        margin: 40,
+        margin: 20,
         nav: true,
         // autoplayHoverPause:true,
         responsive:{
@@ -937,10 +937,10 @@ jQuery(document).ready(function($) {
 	
 	$('.section-home-banner .et_pb_row .et_pb_column').addClass('owl-carousel');
 	$('.section-home-banner .et_pb_row .et_pb_column').owlCarousel({
-        loop: true,
+        //loop: true,
         margin: 0,
         nav: true,
-        autoplayHoverPause:true,
+        //autoplayHoverPause:true,
         responsive:{
             0:{
                 items:1

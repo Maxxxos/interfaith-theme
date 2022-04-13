@@ -12,6 +12,10 @@
             max-width: 1060px;
             margin: 0 auto;
 			
+			.entry-content-wrap {
+				padding: 0px 0 100px !important;
+			}
+			
 			.section-minister-header {
 				padding: 30px 0 50px !important;
 				
@@ -24,8 +28,12 @@
 					background-color: #870557;
 					border-radius: 4px;
 					
+					@media (max-width: 849px) {
+						flex-direction: column-reverse;
+					}
+					
 					.column {
-						@include desktop {
+						@media (min-width: 850px) {
 							&:first-of-type {
 								width: calc(100% - 320px);
 							}
@@ -33,6 +41,18 @@
 							&:last-of-type {
 								width: 290px;
 								margin-left: 30px;
+							}
+						}
+						
+						@media (max-width: 849px) {
+							width: 100%;
+							
+							&:first-of-type {
+								
+							}
+							
+							&:last-of-type {
+								margin-bottom: 30px !important;
 							}
 						}
 					}
@@ -45,15 +65,10 @@
 						font-weight: 500 !important;
 						text-transform: capitalize !important;
 						
-						/*
-						@include phone {
-							width: 100%;
+						@media (max-width: 849px) {
+							text-align: center;
 						}
 						
-						@media (max-width: 550px) {
-							max-width: 350px;
-							margin: auto;
-						}*/
 					}
 					
 					.content {
@@ -63,15 +78,9 @@
 						
 						@include phone {
 							width: 100%;
+							text-align: center;
 						}
 						
-						@media (max-width: 550px) {
-							max-width: 350px;
-							margin: auto;
-						}
-						/*p {
-							margin-bottom: 0;
-						}*/
 					}
 					
 					img {
@@ -81,33 +90,26 @@
 						object-fit: cover;
 						border-radius: 4px;
 						margin: -60px 0 !important;
-						/*
-						@include phone {
-							position: static;
-							margin-bottom: 20px;
-							margin-right: 25px;
-							margin-top: -14%;
-							float: left;
+						
+						@media (min-width: 850px) {
+							margin: -60px 0 !important;
 						}
 						
-						@media (max-width: 550px) {
-							float: none;
-							width: 100%;
-							margin-right: auto;
-							margin-left: auto;
-							max-width: 350px;
+						@media (max-width: 849px) {
+							margin: -100px auto 0 !important;
 						}
-						@media (max-width: 550px) {
-							margin-top: -65px;
-						}*/
+						
 					}
 				}
 				
 				.row-minister-contact {
 					padding: 30px 30px 0px;
+					
+					@media (max-width: 849px) {
+						padding: 30px 10px 0px;
+					}
 				}
 				
-				  
 				
 			}
 			
@@ -139,6 +141,10 @@
 				
 				.row-minister-table {
 					padding: 0 40px;
+					
+					@media (max-width: 849px) {
+						padding: 0px 10px 0;
+					}
 					
 					table {
 						width: 100%;
@@ -176,14 +182,22 @@
 			}
 			
 			.section-testimonials {
-				padding: 0px 0 140px;
+				padding: 0px 0 40px;
 				
 				.row-testimonials {
 					padding: 50px 20px 0;
 					border-top: 1px solid #D6D6D6;
 					
+					@media (max-width: 849px) {
+						padding: 50px 0px 0;
+					}
+					
 					.column {
 						padding: 0 20px;
+						
+						@media (max-width: 849px) {
+							padding: 0 10px;
+						}
 					}
 				}
 				

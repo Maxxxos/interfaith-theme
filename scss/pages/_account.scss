@@ -100,6 +100,7 @@
         @media (max-width: 799px) {
         margin-top: 20px;
         }
+		
         li {
             padding-bottom: 30px;
             padding-left: 31%;
@@ -108,14 +109,17 @@
             @media (max-width: 1300px) {
                 padding-left: 25%;
             }
+			
             a {
+				color: #FBF5F3;
+				font-size: 18px;
+                line-height: 23px;
+				font-weight: 400;
+				text-transform: capitalize;
                 z-index: 10;
                 transition-duration: .4s;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 23px;
-                color: #FBF5F3;
             }
+			
             img {
                 margin-right: 10px;
             }

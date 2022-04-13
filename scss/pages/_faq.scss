@@ -88,10 +88,12 @@
         border-radius: 4px;
         padding: 45px;
         margin-bottom: 20px;
+		
         @include phone {
             padding: 35px;
             margin-bottom: 20px!important;
         }
+		
         h5 {
 			position: relative;
 			color: #565656;
@@ -109,30 +111,34 @@
 			
             &:before {
                 position: absolute;
+				top: 14px !important;
+                right: 10px !important;
                 content: '';
                 width: 15px;
                 height: 2px;
                 background-color: #565656;
-                transition-duration: .4s;
-                top: 14px;
-                right: 10px;
+				margin: 0 !important;
+                /*transition-duration: .4s;*/
+                
                 @include phone {
-                    right: -5px;
+                    right: -5px !important;
                 }
             }
             &::after {
                 position: absolute;
+				top: 13.5px !important;
+                right: 10px !important;
                 content: '';
                 width: 15px;
                 height: 2px;
                 background-color: #565656;
-                top: 13.5px;
-                right: 10px;
+                
                 transform: rotate(90deg);
-                transition-duration: .4s;
+                /*transition-duration: .4s;*/
                 opacity: 1;
+				
                 @include phone {
-                    right: -5px;
+                    right: -5px !important;
                 }
             }
         }
