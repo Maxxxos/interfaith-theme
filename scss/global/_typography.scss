@@ -6,10 +6,13 @@ $orange: #EF5C0A;
 
 body, p, li {
 	font-family: freight-sans-pro, sans-serif !important;
-	color: #515151 !important;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 140%;
+	
+	@media (max-width: 500px) {
+        font-size: 18px;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,8 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500 !important;
 }
 
+.et_pb_bg_layout_light h1,
+.et_pb_bg_layout_light h2,
+.et_pb_bg_layout_light h3 {
+	color: #222222 !important;
+}
+
 body:not(.learndash-cpt) h1 {
-	color: #222222;
 	font-size: 48px !important;
 	line-height: 120%;
 	text-transform: uppercase !important;
@@ -35,7 +43,6 @@ body:not(.learndash-cpt) h1 {
 }
 
 body:not(.learndash-cpt) h2 {
-	color: #222222;
 	font-size: 36px !important;
 	line-height: 120%;
 	text-transform: uppercase !important;
@@ -59,74 +66,56 @@ body:not(.learndash-cpt) h3 {
 	}
 }
 
-.et_pb_bg_layout_light h1,
-.et_pb_bg_layout_light h2,
-.et_pb_bg_layout_light h3 {
-	color: #222222 !important;
-}
-
-
-ul li {
-	margin-bottom: 5px !important;
+p {
+	padding-bottom: 0px !important;
+	margin-bottom: 20px !important;
 	
 	&:last-of-type {
 		margin-bottom: 0 !important;
 	}
 }
 
-.et-l p a,
-.et-l li a,
-.et-db #et-boc .et-l p a,
-.et-db #et-boc .et-l li a {
-	color: $violet !important;
+.site-content p,
+.site-content li,
+.site-content p,
+.site-content li,
+#et-boc .et-l .et_pb_module p {
+	a {
+		color: $violet !important;
 
-	&:hover {
-		text-decoration: underline !important;
+		&:hover {
+			text-decoration: underline !important;
+		}
 	}
 }
-/*
-p a,
-.et_pb_text_inner a,
-.et_pb_blurb a {
-    position: relative;
-	color: $violet !important;
-	padding: 0 0 2px;
-    
-	&:after {
-        content: '';
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 0;
-        height: 1px;
-        background-color: #870557;
-        transition: all 0.35s ease-in-out;
-    }
-	
-    &:hover {
-		text-decoration: none !important;
-		
-        &:after {
-            width: 100%;
-            left: 0;
-        }
-    }
-}*/
 
-.et-db #et-boc .et-l .et_pb_module a.et_pb_button,
+
+ul {
+	padding-bottom: 0 !important;
+	
+	li {
+		margin-bottom: 5px !important;
+		
+		&:last-of-type {
+			margin-bottom: 0 !important;
+		}
+	}
+}
+
+
+
+
+.et-db #et-boc .et-l a.et_pb_button,
 a.et_pb_button {
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	min-width: 230px;
-	width: 100%;
+	display: inline-block;
+	min-width: 180px;
 	max-width: 230px;
-    height: 56px;
 	color: #FBF5F3 !important;
 	font-size: 18px !important;
     line-height: 100% !important;
 	font-weight: 600 !important;
 	text-transform: capitalize;
+	text-align: center;
     background: $violet !important;
 	border: none !important;
     border-radius: 4px !important;
@@ -138,10 +127,7 @@ a.et_pb_button {
 	}
 	
 	@include phone {
-        height: 50px;
-		line-height: 50px !important;
-        margin-top: 20px !important;
-		min-width: 230px;
+		padding: 16px 30px !important;
     }
 	
 	&:after {
@@ -163,7 +149,7 @@ a.et_pb_button.orange {
 }
 
 a.main-btn.width-300,
-a.et_pb_button.width-300 {
+a.et_pb_button.btn-width-300 {
     width: 300px !important;
 	max-width: 300px !important;
 }
@@ -173,7 +159,7 @@ a.main-btn,
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 230px;
+    min-width: 180px;
     width: 100%;
 	max-width: 230px;
     height: 56px;

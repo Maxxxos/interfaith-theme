@@ -32,6 +32,7 @@
 
 .et-db #et-boc .et-l  .section-page-sidebar {
 	padding: 100px 0 !important;
+	
 	@include desktop {
 		
 	}
@@ -58,7 +59,6 @@
 				
 				&:last-of-type {
 					width: 70%;
-					/*padding-top: 100px !important;*/
 				}
 			}
 			
@@ -82,7 +82,7 @@
 			
 			@include desktop {
 				position: sticky;
-				top: calc(0vh + 200px);
+				top: calc(0vh + 100px);
 			}
 			
 			@include tablet {
@@ -157,7 +157,7 @@
 						bottom: 0;
 						width: 0;
 						height: 1px;
-						background-color: #870557;
+						background-color: $violet;
 						transition: all 0.35s ease-in-out;
 					}
 					
@@ -186,6 +186,8 @@
 }
 
 .et-db #et-boc .et-l .et_pb_text.options-table {
+	margin-bottom: 50px !important;
+
 	.custom-table {
 		display: flex;
 		justify-content: center;
@@ -272,7 +274,7 @@
 		&.table-purple {
 			.table-header {
 				color: #fff !important;
-				background-color: #870557 !important;
+				background-color: $violet !important;
 			}
 		}
 	}	
@@ -322,7 +324,6 @@
 	
 	.et_pb_main_blurb_image {
 		display: block;
-		margin-bottom: 20px !important;
 		
 		img {
 			display: block;
@@ -343,30 +344,30 @@
 	}
 	
 	h4 {
-		color: #3B3B3B !important;
+		color: #222 !important;
 		font-size: 20px !important;
 		font-weight: 500;
 		line-height: 110%;
 		text-transform: uppercase;
-		padding: 0px 10px 0 !important;
+		padding: 0px 30px !important;
 	}
 	
 	.et_pb_blurb_description {
+		padding: 15px 30px !important;
+	
 		.position {
 			max-width: 280px;
-			color: #515151 !important;
+			color: #7e7e7e !important;
 			font-size: 16px;
 			font-weight: 500;
 			line-height: 120%;
-			padding: 10px !important;
+			padding: 0 0 10px !important;
 		}
 		
 		.description {
-			color: #626262 !important;
 			font-size: 16px;
 			font-weight: 500;
 			line-height: 140%;
-			padding: 0 10px !important;
 		}
 		
 		a {
@@ -376,8 +377,9 @@
 			font-size: 18px;
 			font-weight: 500;
 			line-height: 100%;
+			text-transform: capitalize;
 			padding: 0 0 2px !important;
-			margin: 15px 0 0px 10px !important;
+			margin: 15px 0 0 !important;
     
 			&:after {
 				content: '';
@@ -386,7 +388,7 @@
 				bottom: 0;
 				width: 0;
 				height: 1px;
-				background-color: #870557;
+				background-color: $violet;
 				transition: all 0.35s ease-in-out;
 			}
 			
@@ -433,7 +435,7 @@
 					text-align: center;
 				}
 				
-				.main-btn {
+				.et_pb_button {
 					margin: 20px auto 0 !important;
 				}
 			}

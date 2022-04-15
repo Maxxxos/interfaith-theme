@@ -180,3 +180,534 @@ Call Stack:
 04/12/22 6:42:26: index.scss - parse error: failed at `*/` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_single-course.scss on line 851, at column 1
 04/12/22 8:39:43: index.scss - parse error: failed at `input[type=text],` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/global/_global.scss on line 665, at column 13
 04/13/22 11:51:55: index.scss - `pages/_dashboard` file not found for @import: index.scss on line 140, at column 1
+04/13/22 6:05:28: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:05:46: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:05:48: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:05:49: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:05:49: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:06:28: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:06:37: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:06:41: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:06:43: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:06:44: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:06:52: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:02: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:10: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:11: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:11: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:17: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:29: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:35: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:48: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:49: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 6:07:50: index.scss - Undefined mixin btn-font: pages/_archive-course.scss on line 173, at column 17
+Call Stack:
+#0 import pages/_archive-course.scss index.scss on line 145
+04/13/22 8:33:01: index.scss - `pages/single` file not found for @import: index.scss on line 147, at column 1
+04/13/22 8:33:05: index.scss - `pages/single` file not found for @import: index.scss on line 147, at column 1
+04/14/22 12:41:13: index.scss - Undefined variable $violet: global/_header.scss on line 86, at column 7
+Call Stack:
+#0 import global/_header.scss index.scss on line 136
+04/14/22 4:22:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:22:45: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:22:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:22:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:22:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:22:54: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:22:57: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:09: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:09: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:12: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:12: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:14: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:14: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:16: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:17: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:24: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:24: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:26: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:29: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:31: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:32: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:37: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:37: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:39: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:44: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:45: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:51: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:54: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:55: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:23:59: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:01: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:01: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:03: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:06: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:10: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:10: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:12: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:15: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:16: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:25: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:25: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:32: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:37: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:39: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:41: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:41: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:44: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:44: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:45: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:45: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:45: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:56: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:57: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:24:59: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:00: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:01: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:03: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:10: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:15: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:18: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:20: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:26: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:45: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:57: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:25:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:07: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:11: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:12: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:16: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:17: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:17: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:18: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:21: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:32: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:39: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:41: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:42: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:44: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:52: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:56: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:57: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:26:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:00: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:01: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:06: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:07: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:11: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:11: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:14: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:14: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:16: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:18: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:29: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:33: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:38: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:42: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:45: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:50: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:50: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:27:59: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:03: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:05: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:12: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:15: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:15: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:17: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:17: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:29: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:30: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:42: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:42: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:55: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:57: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:28:57: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:01: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:07: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:12: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:15: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:18: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:30: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:50: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:51: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:52: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:54: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:29:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:05: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:06: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:48: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:50: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:54: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:30:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:16: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:51: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:52: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:31:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:05: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:06: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:07: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:20: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:50: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:51: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:55: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:32:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:03: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:14: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:17: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:20: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:50: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:52: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:53: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:33:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:06: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:07: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:21: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:50: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:51: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:52: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:55: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:34:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:15: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:18: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:21: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:51: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:53: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:54: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:35:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:07: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:09: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:11: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:22: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:51: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:52: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:53: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:55: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:36:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:05: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:16: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:22: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:52: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:54: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:55: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:37:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:08: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:09: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:10: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:23: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:41: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:43: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:55: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:38:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:39:06: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:39:13: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:39:17: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:39:20: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:39:23: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:40:03: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:40:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:40:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:40:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:41:15: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:41:18: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:41:21: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:42:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:42:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:43:15: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:43:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:43:22: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:44:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:44:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:45:16: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:45:20: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:45:23: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:46:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:46:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:46:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:46:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:46:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:46:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:46:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:47:03: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:47:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:47:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:47:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:47:21: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:47:24: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:47:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:47:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:48:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:48:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:48:30: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:48:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:48:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:48:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:48:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:49:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:49:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:49:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:49:22: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:49:25: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:49:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:49:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:50:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:50:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:50:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:50:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:50:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:50:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:51:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:51:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:51:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:51:23: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:51:26: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:51:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:51:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:52:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:52:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:52:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:52:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:52:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:52:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:53:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:53:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:53:16: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:53:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:53:24: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:53:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:53:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:53:50: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:54:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:54:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:54:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:54:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:54:41: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:54:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:55:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:55:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:55:19: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:55:25: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:55:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:55:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:55:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:56:05: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:56:20: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:56:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:56:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:57:26: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:57:29: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:58:21: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:58:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:58:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:59:27: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:59:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 4:59:30: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:00:22: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:00:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:00:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:00:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:00:58: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:01:28: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:01:31: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:02:23: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:02:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:02:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:02:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:03:29: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:03:32: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:04:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:04:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:04:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:04:57: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:05:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:05:09: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:05:30: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:05:33: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:05:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:05:47: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:06:04: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:06:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:06:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:06:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:06:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:07:31: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:07:34: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:07:49: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:07:55: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:08:07: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:08:21: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:08:23: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:08:35: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:08:40: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:08:46: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:09:36: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:09:42: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6
+04/14/22 5:10:02: index.scss - parse error: failed at `max-width: 500px` /var/www/vhosts/sitepreview.app/interfaith.sitepreview.app/wp-content/themes/interfaith-theme/scss/pages/_login.scss on line 131, at column 6

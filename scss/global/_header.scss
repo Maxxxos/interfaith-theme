@@ -3,7 +3,7 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 21px;
-        color: #FBF5F3;
+        color: #FBF5F3 !important;
         width: 180px;
         height: 57px;
         background: #870557;
@@ -32,7 +32,7 @@
     &>li {
         &> a {
 			position: relative;
-			color: #FBF5F3;
+			color: #FBF5F3 !important;
 			font-size: 16px;
             font-style: normal;
             font-weight: 500;
@@ -51,6 +51,8 @@
             }
 
             &:hover {
+				text-decoration: none !important;
+				
                 &:after {
                     width: 100%;
                     left: 0;
@@ -59,7 +61,7 @@
         }
         &.current-menu-ancestor {
             &>a {
-                color: #fff;
+                color: #FBF5F3 !important;
                 position: relative;
                 &:after {
                     position: absolute;
@@ -78,11 +80,15 @@
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 20px;
-                    color: #FBF5F3;
+                    color: #FBF5F3 !important;
+					
+					&:hover {
+						color: $violet !important;
+					}
                 }
                 &.current-menu-item {
                     a {
-                      color: #870557;
+                      color: $violet !important;
                     }
                 }
             }
@@ -96,17 +102,17 @@
     }
 }
 .site-header .sub-menu {
-    background-color: #870557;
+    background-color: $violet;
     border-radius: 0!important;
     &::before {
-            border-color: #870557 !important;
+            border-color: $violet !important;
             right: calc(50% - 7px) !important;
     }
     a {
         font-weight: 300;
         font-size: 16px;
         line-height: 20px;
-        color: #FBF5F3;
+        color: #FBF5F3 !important;
         padding: 0.3rem 0.9375rem;
         &:hover {
             text-decoration: none !important;
@@ -117,7 +123,7 @@
     li {
         a {
             @include main-font;
-            color: #FBF5F3;
+            color: #FBF5F3 !important;
             transition-duration: .4s;            
             position: relative;
             &:after {
@@ -158,7 +164,7 @@
     opacity: 1 !important;
 }
 .site-header .sub-menu a:hover {
-    color: #870557 !important;
+    color: $violet !important;
 }
 .site-header-container #site-logo .bb-logo img,
 .site-header-container #site-logo .site-title img.bb-logo,
@@ -170,59 +176,16 @@
 .my-account .site-title img.bb-mobile-logo {
     max-height: 60px !important;
 }
-.signup {
-    text-align: right;
-    color: #870557;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-#btn-login,
-#signup-form {
-    display: none;
-}
-.rh_form__row-two {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    @include phone {
-        flex-direction: column;
-    }
-    & > div {
-        max-width: 48%;
-        margin-top: 12px;
-        @include phone {
-            min-width: 100%;
-            justify-content: flex-start;
-        }
-        &:first-child {
-            @include phone {
-                margin-top: 0;
-            }
-        }
-    }
-}
-.row-column {
-    display: flex;
-    flex-direction: column;
-    padding: 22px 0 0;
-}
-.popup-wrap .popup-overview .popup-block.active {
-    @include phone {
-        overflow-y: scroll;
-    }
-}
-.popup-wrap .popup-overview .popup-block .popup-block__item2 .popup-form__row .login-button {
-    @include phone {
-        min-width: 100%;
-    }
-}
-.popup-wrap .popup-overview .popup-block .popup-block__item2 {
-    overflow-y: auto;
-    @include phone {
-        overflow-y: visible;
-    }
-}
+
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
     width: 5px;
 }

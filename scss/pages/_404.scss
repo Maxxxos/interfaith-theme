@@ -1,65 +1,38 @@
-#content.page-404 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .error-404 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        p {
-            padding-top: 20px;
-            font-weight: 500;
-            font-size: 36px;
-            line-height: 42px;
-            color: #FFFFFF;
-            @include tablet {
-                padding-top: 100px;
-            }
-            @include phone {
-               font-size: 24px;
-               margin-bottom: 0;
-               padding-top: 70px;
-            }
-        }
-        h1 {
-            font-weight: 600;
-            font-size: 288px;
-            line-height: .6;
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-            @include tablet {
-                font-size: 200px;
-            }
-            @include phone {
-                font-size: 120px;
-            }
-        }
-        a.button {
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 21px;
-            color: #870557;
-            width: 180px;
-            height: 57px;
-            background: #FFFFFF;
-            border-radius: 4px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0;
-            margin-top: 15%;
-        }
-        .page-content{
-            margin-top: 20%;
-        }
-    }
+
+.error404 .section-page-banner {
+	height: 360px !important;
+	
+	h1 {
+		font-size: 100px !important;
+		line-height: 100%;
+		font-weight: 600;
+		
+		@include phone {
+			font-size: 120px;
+		}
+	}
+}
+
+.section-404 {
+	.et_pb_text {
+		margin-bottom: 50px !important;
+		
+		p {
+			font-size: 36px;
+			line-height: 120%;
+			font-weight: 500;
+			margin-bottom: 40px;
+			
+			@include tablet {
+				padding-top: 100px;
+			}
+			
+			@include phone {
+			   font-size: 24px;
+			   margin-bottom: 20px;
+			}
+		}
+		
+		
+	}
 }

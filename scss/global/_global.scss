@@ -2,6 +2,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 140%;
+	
     @media (max-width: 500px) {
         font-size: 22px;
         line-height: 120%;
@@ -17,15 +18,12 @@
         line-height: 120%;
     }
 }
-@mixin btn-font {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.5;
-}
+
 @mixin main-font {
+	font-size: 20px;
     font-weight: 400;
-    font-size: 20px;
     line-height: 140%;
+    
     @media (max-width: 500px) {
         font-size: 18px;
     }
@@ -65,12 +63,11 @@ body {
 	.et_pb_row {
 		width: 90% !important;
 		max-width: 1280px !important;
-		padding: 0 !important;
-		margin: 0 auto 50px !important;
-		overflow: visible;
+		padding: 0 0 50px !important;
+		margin: 0 auto !important;
 
 		&:last-of-type {
-			margin-bottom: 0 !important;
+			padding-bottom: 0 !important;
 		}
 	}
 	
@@ -87,22 +84,23 @@ body {
         }
     }
 }
-
+/*
 .et_pb_module {
 	margin-bottom: 30px !important;
 	
 	&:last-of-type {
 		margin-bottom: 0 !important;
 	}
-}
+}*/
 
 .et_pb_text {
+
 	p {
 		
 	}
-	
 	ol,
     ul {
+		padding-bottom: 0 !important;
         margin-top: 15px !important;
         margin-bottom: 20px !important;
     }
@@ -126,15 +124,6 @@ body {
 .et_pb_blurb {
 	.et_pb_main_blurb_image img {
 		opacity: 1 !important;	
-	}
-}
-
-#et-boc .et-l p {
-    padding-bottom: 0px;
-	margin-bottom: 20px !important;
-	
-	&:last-of-type {
-		margin-bottom: 0 !important;
 	}
 }
 
@@ -434,10 +423,10 @@ ul.items-underline {
 }
 
 
-
+/*
 .row-h2header-no-padding h2 {
 	padding-bottom: 0 !important;
-}
+}*/
 
 
 $width-dashboard: 375px;
@@ -447,6 +436,7 @@ body,
 p {
     @include main-font;
 }
+
 .wpcf7-spinner {
     position: absolute;
     z-index: -99999999;
@@ -459,260 +449,9 @@ p {
         font-size: 20px;
     }
 }
-.popup-wrap {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .6);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-    z-index: 99999;
-    .popup-overview {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .popup-block {
-            width: 90%;
-            height: 75%;
-            display: none;
-            max-height: 900px;
-            max-width: 1040px;
-            background-color: #fff;
-            position: relative;
-            @include tablet {
-                height: 90%;
-            }
-            @include phone {
-                flex-direction: column;
-            }
-            &.active {
-                display: flex;
-            }
-            .popup-block-close {
-                position: absolute;
-                top: 15px;
-                right: 20px;
-                font-size: 40px;
-                transform: rotate(45deg);
-                cursor: pointer;
-                @include phone {
-                    color: #fff;
-                }
-                
-            }
-            .popup-block__item1 {
-                width: 42%;
-                max-width: 480px;
-                padding: 4%;
-                @include phone {
-                    width: 100%;
-                    max-width: 100%;
-                }
-                &.color-bg {
-                    background-color: #870557;
-                    background-image: url(/wp-content/themes/interfaith-theme/images/login-bg.svg);
-                    background-size: cover;
-                    background-position: center;
-                }
-                .popup-block__title {
-                    font-weight: 500;
-                    font-size: 46px;
-                    line-height: 74px;
-                    letter-spacing: 0.01em;
-                    text-transform: uppercase;
-                    color: #FBF5F3;
-                    text-align: center;
-                    padding-top: 30%;
-                    @include tablet {
-                        line-height: 1.4;
-                    }
-                    @include phone {
-                        padding-top: 10%;
-                        font-size: 30px;
-                        line-height: 1.4;
-                        
-                    }
-                }
-            }
-            .popup-block__item2 {
-                padding: 5%;
-                width: 58%;
-                display: flex;
-                justify-content: center;
-                &.form-sing-up {
-                    align-items: flex-start;
-                }
-                @include phone {
-                    width: 100%;
-                    
-                }
-                .popup-form__row {
-                    width: 100%;
-                    margin-top: auto;
-                    margin-bottom: auto;
-                    form {
-                        @include phone {
-                            margin-bottom: 0;
-                        }
-                    }
-                    input[type=text],
-                    input[type=email],
-                    input[type=password] {
-                        width: 100%;
-                        height: 48px;
-                        background: #FBF5F3;
-                        border-radius: 4px;
-                        padding-left: 15px;
-                        padding-right: 10px;
-                        border: 2px solid #FBF5F3;
-                        transition-duration: .4s;
-                        color: #1F1F1F;
-                        &:focus {                           
-                            border: 2px solid #870557;
-                        }
-                    }
-                    input[type=checkbox] {
-                        width: 18px;
-                        height: 18px;
-                        background: #FBF5F3;
-                        border-radius: 4px;
-                        margin-right: 5px;
-                        &:focus {
-                            border: 2px solid #870557;
-                        }
-                    }
-                    .view-pass {
-                        position: absolute;
-                        top: 59px;
-                        right: 15px;
-                        z-index: 99999;
-                        content: url(/wp-content/themes/interfaith-theme/images/pass-no.svg);
-                        cursor: pointer;
-                        transition-duration: .4s;
-                        &.active {
-                            content: url(/wp-content/themes/interfaith-theme/images/pass.svg);
-                            padding-top: 2px;
-                        }
-                    }
-                    .rh_form__row {
-                        position: relative;
-                    }
-                    #uniform-login-remember {
-                        display: flex;
-                        align-items: center;
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 140%;
-                        color: #1D1D1D;
-                        flex-wrap: nowrap;                        
-                    }
-                    .login-agent__password-row {
-                        padding-top: 18px;
-                        text-align: right;                        
-                        a {
-                            font-weight: 400;
-                            font-size: 14px;
-                            line-height: 140%;
-                            color: #870557;
-                        }
-                    }
-                    .login-button {
-                        width: 160px;
-                        height: 50px;
-                        background: #870557;
-                        border-radius: 4px;
-                        font-weight: 600;
-                        font-size: 16px;
-                        line-height: 21px;
-                        color: #FBF5F3;
-                        cursor: pointer;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        margin-top: 30px;
-                        @media (max-width: 450px) {
-                            width: 100%;
-                        }
-                    }
-                    .rh_form__item label,
-                    .rh_form__row label {
-                        font-weight: 600;
-                        font-size: 16px;
-                        line-height: 140%;
-                         color: #1F1F1F;
-                         padding-bottom: 5px;
-                         margin-bottom: 0;
-                    }
-                    .label-remembe {
-                        display: flex;
-                        align-items: center;
-                        margin-top: 20px;
-                    }
-                    .login-agent__password-row {
-                        display: flex;
-                        justify-content: space-between;
-                    }
-                }
-            }
-        }
-    }
-}
-#custom-passreset {
-    .popup-block__title {
-        font-size: 36px;
-    }
-    #lostpasswordform {
-        .rh_form__item {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
 
-            input[type=text],
-            input[type=email],
-            input[type=password] {
-                width: 100%;
-                height: 48px;
-                background: #FBF5F3;
-                border-radius: 4px;
-                padding-left: 15px;
-                padding-right: 10px;
-                border: 2px solid #FBF5F3;
-                transition-duration: .4s;
-                color: #1F1F1F;
 
-                &:focus {
-                    border: 2px solid #870557;
-                }
-            }
-            label {
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 140%;
-                color: #1F1F1F;
-                padding-bottom: 5px;
-                margin-bottom: 0;
-            }
-            .lostpassword-button {
-                width: 180px;
-                height: 57px;
-                background: #870557;
-                border-radius: 4px;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 21px;
-                color: #FBF5F3;
-                cursor: pointer;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-top: 30px;
-            }
-        }
-    }
-}
+
 #login-message-user {
     color: red;
 }
@@ -730,10 +469,10 @@ p {
         left: 0px;
     }
 }
-
+/*
 .container {
     max-width: 1280px;
-}
+}*/
 
 .lostpassword-description {
     font-weight: 400;
@@ -1085,9 +824,6 @@ nav#object-nav a:hover,
                     @media (max-width: 1024px) {
                         width: calc(100% - 65px);
                     }
-                    // @media (max-width: 1350px) {
-                    //     font-size: 16px;
-                    // }
                 }
             }
 }
@@ -1198,7 +934,7 @@ nav#object-nav a:hover,
 }
 */
 
-
+/*
 #et-boc .et-l .section-main-quote {
     background: #EF5C0A;
     background-size: 50% 100% !important;
@@ -1307,4 +1043,4 @@ nav#object-nav a:hover,
 }
 #block__register-now {
     margin-top: 50px !important;
-}
+}*/

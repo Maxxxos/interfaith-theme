@@ -89,86 +89,83 @@ function add_form_login()
 							} ?>>
 		<div class="popup-overview">
 			<div class="popup-block" id="login-form">
-				<span id="popup-clouse" class="popup-block-close">+</span>
-				<div class="popup-block__item1 color-bg">
-					<div class="popup-logo__row">
-						<img src="/wp-content/uploads/2021/09/image-11-1.png" alt="logo">
-						<div class="popup-block__title">Welcome back!</div>
-					</div>
+				<span id="popup-close" class="popup-block-close">+</span>
+				
+				<div class="popup-column popup-column-header popup-block__item1 color-bg">
+					<img class="logo" src="/wp-content/uploads/2022/04/OneSpirit_Interfaith_Foundation_logo.png" alt="logo">
+					<div class="popup-block__title">Welcome back!</div>
 				</div>
-				<div class="popup-block__item2 form-sing-up">
-					<div class="popup-form__row">
-						<div id="btn-signup" class="signup">Sign up</div>
-						<div class="rh_form__register" id="popup__form-1">
+				
+				<div class="popup-column popup-column-form popup-block__item2 form-sing-up">
+					<div id="popup-form-login" class="popup-form__row popup-form__row-login">
+						
+						<div class="signup">Not a member yet? <span id="btn-signup">Sign up</span></div>
+						
+						<form method="post" id="login-form">
 
-							<form method="post" id="login-form-popup">
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+									<label for="register_email"><?php esc_html_e('Email', 'framework'); ?><span></span></label>
+									<input id="register_email" name="register_email" type="email" class="email required" title="<?php esc_html_e('* Provide valid email address!', 'framework'); ?>" required />
+								</div>
 
-								<div class="rh_form__row">
-									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
-										<label for="register_email"><?php esc_html_e('Email', 'framework'); ?><span></span></label>
-										<input id="register_email" name="register_email" type="email" class="email required" title="<?php esc_html_e('* Provide valid email address!', 'framework'); ?>" required />
+							</div>
+
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+									<div class="login-agent__password-row">
+										<label for="password"><?php esc_html_e('Password', 'framework'); ?><span></span></label>
+										<a id="forgot-password" href=""><?php esc_html_e('Forgot password', 'framework') ?></a>
 									</div>
+									<span class="view-pass"></span>
+									<input autocomplete="current-password" id="password-login-user" name="pwd" type="password" class="required" required />
 
 								</div>
 
-								<div class="rh_form__row">
-									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
-										<div class="login-agent__password-row">
-											<label for="password"><?php esc_html_e('Password', 'framework'); ?><span></span></label>
-											<a id="forgot-password" href=""><?php esc_html_e('Forgot password', 'framework') ?></a>
-										</div>
-										<span class="view-pass"></span>
-										<input autocomplete="current-password" id="password-login-user" name="pwd" type="password" class="required" required />
-
-									</div>
-
+							</div>
+							<div class="rh_form__row">
+								<div class="checker" id="uniform-login-remember">
+									<input type="checkbox" value="1" id="login-remember">
+									<label class="label-remember">Remember me</label>
 								</div>
-								<div class="rh_form__row">
-									<label class="label-remembe">
-										<span class="checker" id="uniform-login-remember"><span><input type="checkbox" value="1" id="login-remember"></span>
-								</div> Remember me
-								</label>
-						</div>
-						<div class="rh_form__row">
-							<div class="rh_form__item rh_input_btn_wrapper rh_form--3-column rh_form--columnAlign">
+							</div> 
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_input_btn_wrapper rh_form--3-column rh_form--columnAlign">
 
-								<button type="submit" id="login-button-user" class="login-button"><?php esc_html_e('Log In', 'framework'); ?></button>
+									<button type="submit" id="login-button-user" class="et_pb_button login-button"><?php esc_html_e('Log In', 'framework'); ?></button>
+								</div>
 							</div>
+							
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_form--1-column rh_form--columnAlign rh_form__response">
+									<p id="login-message-user" class="rh_form__msg"></p>
+								</div>
 
-						</div>
-						<!-- /.rh_form__row -->
-
-						<div class="rh_form__row">
-							<div class="rh_form__item rh_form--1-column rh_form--columnAlign rh_form__response">
-								<p id="login-message-user" class="rh_form__msg"></p>
 							</div>
-
-						</div>
-						<!-- /.rh_form__row -->
-
 						</form>
-						<!-- /.rh_form__row -->
-
 					</div>
-					<div class="rh_form__register" id="popup__form-2">
-						<div id="btn-login" class="signup">Log in</div>
-						<form method="post" id="signup-form">
+					
+					<div id="popup-form-register" class="popup-form__row rh_form__register">
+						
+						<div class="signup">Have an account? <span id="btn-login">Log in</span></div>
+						
+						<form method="post" id="register-form">
 							<div class="rh_form__row-two">
 								<div class="rh_form__row">
 									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
 										<label for="register_first-name"><?php esc_html_e('First name', 'framework'); ?><span></span></label>
 										<input id="register_first-name" name="register_first-name" type="text" class="name-user required" title="<?php esc_html_e('* Provide valid name!', 'framework'); ?>" required />
 									</div>
-
 								</div>
+								
 								<div class="rh_form__row">
 									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
 										<label for="register_last-name"><?php esc_html_e('Last name', 'framework'); ?><span></span></label>
 										<input id="register_last-name" name="register_last-name" type="text" class="name-user required" title="<?php esc_html_e('* Provide valid name!', 'framework'); ?>" required />
 									</div>
-
 								</div>
 							</div>
+							
 							<div class="rh_form__row-two">
 								<div class="rh_form__row">
 									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
@@ -176,6 +173,7 @@ function add_form_login()
 										<input id="register_mobile-phone" name="register_mobile-phone" type="text" class="name-user required" title="<?php esc_html_e('* Provide valid phone!', 'framework'); ?>" required />
 									</div>
 								</div>
+								
 								<div class="rh_form__row">
 									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
 										<label for="register_email2"><?php esc_html_e('Email', 'framework'); ?><span></span></label>
@@ -183,14 +181,16 @@ function add_form_login()
 									</div>
 								</div>
 							</div>
-							<div class="row-column">
-								<div class="rh_form__row ">
-									<input type="radio" id="contactChoice2" name="gender" value="male">
-									<label for="contactChoice2">Male</label>
-								</div>
-								<div class="rh_form__row ">
-									<input type="radio" id="contactChoice3" name="gender" value="female">
-									<label for="contactChoice3">Femail</label>
+							<div class="rh_form__row ">
+								<div class="radio-fields">
+									<div class="radio-item">
+										<input type="radio" id="contactChoice2" name="gender" value="male">
+										<label for="contactChoice2">Male</label>
+									</div>
+									<div class="radio-item">
+										<input type="radio" id="contactChoice3" name="gender" value="female">
+										<label for="contactChoice3">Female</label>
+									</div>
 								</div>
 							</div>
 							<div class="rh_form__row-two">
@@ -200,6 +200,7 @@ function add_form_login()
 										<input id="register_country" name="register_country" type="text" class="country-user required" title="<?php esc_html_e('* Provide valid country!', 'framework'); ?>" required />
 									</div>
 								</div>
+								
 								<div class="rh_form__row">
 									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
 										<label for="register_zip"><?php esc_html_e('Zip code', 'framework'); ?><span></span></label>
@@ -207,6 +208,7 @@ function add_form_login()
 									</div>
 								</div>
 							</div>
+							
 							<div class="rh_form__row-two">
 								<div class="rh_form__row">
 									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
@@ -214,6 +216,7 @@ function add_form_login()
 										<input id="register_city" name="register_city" type="text" class="city-user required" title="<?php esc_html_e('* Provide valid city!', 'framework'); ?>" required />
 									</div>
 								</div>
+								
 								<div class="rh_form__row">
 									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
 										<label for="register_street"><?php esc_html_e('Street', 'framework'); ?><span></span></label>
@@ -221,6 +224,7 @@ function add_form_login()
 									</div>
 								</div>
 							</div>
+							
 							<div class="rh_form__row">
 								<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
 									<div class="login-agent__password-row">
@@ -229,28 +233,22 @@ function add_form_login()
 									</div>
 									<span class="view-pass"></span>
 									<input autocomplete="current-password" id="password-signup-user" name="password" type="password" class="required" required />
-
 								</div>
 							</div>
+							
 							<div class="rh_form__row">
 								<div class="rh_form__item rh_input_btn_wrapper rh_form--3-column rh_form--columnAlign">
-
 									<button type="submit" id="signup-button-user" class="login-button"><?php esc_html_e('Sign up', 'framework'); ?></button>
 								</div>
-
 							</div>
-							<!-- /.rh_form__row -->
 
 							<div class="rh_form__row">
 								<div class="rh_form__item rh_form--1-column rh_form--columnAlign rh_form__response">
 									<p id="singup-message-user" class="rh_form__msg"></p>
 								</div>
-
 							</div>
-							<!-- /.rh_form__row -->
-
 						</form>
-						<!-- /.rh_form__row -->
+						
 					</div>
 				</div>
 			</div>
@@ -258,7 +256,7 @@ function add_form_login()
 		<div class="popup-block  <?php if (isset($_GET['popup']) && $_GET['popup'] == 'forgot-pass') {
 										echo 'active';
 									} ?>" id="custom-passreset">
-			<span id="popup-clouse2" class="popup-block-close">+</span>
+			<span id="popup-close2" class="popup-block-close">+</span>
 			<div class="popup-block__item1 color-bg">
 				<div class="popup-logo__row">
 					<img src="/wp-content/uploads/2021/09/image-11-1.png" alt="logo">

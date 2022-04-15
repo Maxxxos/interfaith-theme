@@ -24,8 +24,8 @@ get_header();
 
 				while ( have_posts() ) :
 					the_post();
-
-					do_action( THEME_HOOK_PREFIX . '_single_template_part_content', 'page' );
+					the_content();
+					//do_action( THEME_HOOK_PREFIX . '_single_template_part_content', 'page' );
 
 				endwhile; // End of the loop.
 			else :
@@ -38,11 +38,11 @@ get_header();
     </div><!-- #primary -->
 
 <?php
-// if ( is_search() ) {
-// 	get_sidebar( 'search' );
-// } else {
-// 	get_sidebar( 'page' );
-// }
+if ( is_search() ) {
+	get_sidebar( 'search' );
+} else {
+	get_sidebar( 'page' );
+}
 ?>
 
 <?php

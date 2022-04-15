@@ -1,6 +1,279 @@
 
 /* Common footer */
 
+#et-boc .et-l .section-main-footer {
+	padding: 80px 0 !important;
+	
+	.et_pb_row {
+		width: 90%;
+		max-width: 920px !important;
+	}
+	
+	.et_pb_menu {
+		background-color: transparent !important;
+		
+		.et_mobile_nav_menu {
+			display: none !important;
+		}
+		
+		.et_pb_menu__menu {
+			display: block !important;
+			width: 100% !important;
+			
+			.et-menu-nav {
+				width: 100% !important;
+				padding: 0 !important;
+			}
+		}
+		
+		ul.et-menu {
+			width: 100% !important;
+			display: flex;
+			align-items: center;
+			justify-content: space-between !important;
+			margin: 0 !important;
+			
+			@include tablet { 
+				flex-direction: column;
+				align-items: center !important;
+			}
+			
+			li {
+				padding: 0 !important;
+				margin: 0 !important;
+				
+				@include tablet {
+					margin-bottom: 10px !important;
+				
+					&:last-child {
+						margin-bottom: 0 !important;
+					}
+				}
+			
+				a {
+					position: relative;
+					color: $light !important;
+					font-size: 16px;
+					font-weight: 300;
+					line-height: 120%;
+					text-transform: uppercase;
+					padding-bottom: 1px !important;
+					transition-duration: .4s;
+					
+					&:after {
+						content: '';
+						position: absolute;
+						right: 0;
+						bottom: 0;
+						width: 0;
+						height: 1px;
+						background-color: #FBF5F3;
+						transition: all 0.35s ease-in-out;
+					}
+
+					&:hover {
+						color: $light !important;
+						text-decoration: none !important;
+						opacity: 1 !important;
+					
+						&:after {
+							width: 100%;
+							left: 0;
+						}
+					}
+				}
+			}
+
+		}
+	}
+	
+	.address.et_pb_text {
+		max-width: 400px;
+		margin: 0 auto 20px;
+	
+		@include tablet {
+			
+			
+		}
+		
+        p {
+			color: #FBF5F3 !important;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 150%;
+			text-transform: uppercase;
+            margin-bottom: 10px !important;
+			text-align: center;
+			
+			&:last-of-type {
+				margin-bottom: 0 !important;
+			}
+			
+			a {
+				position: relative;
+				color: $light !important;
+				font-weight: 400 !important;
+				white-space: nowrap;
+				padding-bottom: 0px !important;
+				
+				&:after {
+					content: '';
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					width: 0;
+					height: 1px;
+					background-color: $light;
+					transition: all 0.35s ease-in-out;
+				}
+				
+				&:hover {
+					color: $light !important;
+					text-decoration: none !important;
+					
+					&:after {
+						width: 100%;
+						left: 0;
+					}
+				}
+				
+			}
+        }
+	}
+	
+	.socials.et_pb_code {
+		ul.footer-socials {
+			width: 400px;
+			display: flex;
+			justify-content: space-between; 
+			flex-wrap: nowrap;
+			margin: 0 auto;
+			
+			@include phone {
+				width: 270px;
+			}
+			
+			li {
+				display: flex;
+				align-items: center;
+				margin: 0 !important;
+				
+				@include phone {
+					transform: scale(.5);
+				}
+				
+				a {
+					padding: 0 !important;
+					margin: 0 !important;
+					
+					i {
+						transition-duration: .4s;
+						
+						&:hover {
+							transform: scale(1.1);
+							
+							@include phone {
+								transform: scale(.6);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.bb-icon-rounded-instagram {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/instagram.svg);
+    }
+}
+
+.bb-icon-rounded-facebook {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/facebook.svg);
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-pinterest {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/pinterest.svg);       
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-twitter {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/twitter.svg);
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-rss {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/other.svg);
+    }
+	
+    &:hover {
+        transform: scale(1.1);
+		
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+.bb-icon-rounded-youtube {
+    transition-duration: .4s;
+	
+    &:before {
+        content: url(/wp-content/themes/interfaith-theme/images/youtube.svg);
+    }
+    &:hover {
+        transform: scale(1.1);
+        @include phone {
+            transform: scale(.6);
+        }
+    }
+}
+
+
+
+
+
+
 .footer-widget-area {
     padding: 80px 0 20px !important;
 	
@@ -67,7 +340,7 @@
         
 			a {
 				position: relative;
-				color: #FBF5F3;
+				color: #FBF5F3 !important;
 				font-size: 16px;
 				font-weight: 300;
 				line-height: 120%;
@@ -86,6 +359,8 @@
 				}
 
 				&:hover {
+					text-decoration: none !important;
+				
 					&:after {
 						width: 100%;
 						left: 0;
@@ -178,6 +453,7 @@ footer.footer-bottom {
         justify-content: space-between; 
         flex-wrap: nowrap;
 		margin: auto;
+		
         @include phone {
             width: 100%;
             max-width: 400px;
@@ -194,102 +470,11 @@ footer.footer-bottom {
 			a {
 				margin: 0 !important;
 			}
-        }       
+        }    
     }
 }
 
-.bb-icon-rounded-instagram {
-    transition-duration: .4s;
-	
-    &:before {
-        content: url(/wp-content/themes/interfaith-theme/images/instagram.svg);
-    }
-	
-    &:hover {
-        transform: scale(1.1);
-		
-        @include phone {
-            transform: scale(.6);
-        }
-    }
-}
 
-.bb-icon-rounded-facebook {
-    transition-duration: .4s;
-	
-    &:before {
-        content: url(/wp-content/themes/interfaith-theme/images/facebook.svg);
-    }
-	
-    &:hover {
-        transform: scale(1.1);
-		
-        @include phone {
-            transform: scale(.6);
-        }
-    }
-}
-
-.bb-icon-rounded-pinterest {
-    transition-duration: .4s;
-	
-    &:before {
-        content: url(/wp-content/themes/interfaith-theme/images/pinterest.svg);       
-    }
-	
-    &:hover {
-        transform: scale(1.1);
-		
-        @include phone {
-            transform: scale(.6);
-        }
-    }
-}
-
-.bb-icon-rounded-twitter {
-    transition-duration: .4s;
-	
-    &:before {
-        content: url(/wp-content/themes/interfaith-theme/images/twitter.svg);
-    }
-	
-    &:hover {
-        transform: scale(1.1);
-		
-        @include phone {
-            transform: scale(.6);
-        }
-    }
-}
-
-.bb-icon-rounded-rss {
-    transition-duration: .4s;
-	
-    &:before {
-        content: url(/wp-content/themes/interfaith-theme/images/other.svg);
-    }
-	
-    &:hover {
-        transform: scale(1.1);
-		
-        @include phone {
-            transform: scale(.6);
-        }
-    }
-}
-
-.bb-icon-rounded-youtube {
-    transition-duration: .4s;
-    &:before {
-        content: url(/wp-content/themes/interfaith-theme/images/youtube.svg);
-    }
-    &:hover {
-        transform: scale(1.1);
-        @include phone {
-            transform: scale(.6);
-        }
-    }
-}
 
 /* */
 

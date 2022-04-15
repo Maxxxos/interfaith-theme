@@ -17,19 +17,23 @@
 	}
 	
 	.row-btn {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		max-width: 750px !important;
 		
 		@include phone {
+			display: flex;
 			flex-direction: column;
 			align-items: center;
 		}
 		
 		.et_pb_column {
-			@include tablet {
+			@media (min-width: 768px) {
+				float: left;
 				width: 30%;
-				margin-bottom: 0;
+				margin: 0 5% 0 0 !important;
+				
+				&:nth-of-type(3n) {
+					margin-right: 0 !important;
+				}
 			}
 			
 			@include phone {
@@ -45,9 +49,9 @@
 		
 		.et_pb_button {
 			@include tablet {
-				width: 100%;
+				/*width: 100%;
 				min-width: 100%;
-				margin-top: 0 !important;
+				margin-top: 0 !important;*/
 			}
 		}
 	}
@@ -139,7 +143,7 @@
 			line-height: 130%;
 			
 			a {
-				color: #870557 !important;
+				color: $violet !important;
 
 			}
 		}
@@ -211,8 +215,8 @@
 		}
 
 		input[type=radio]:checked+span::before {
-			border-color: #870557;
-			background-color: #870557;
+			border-color: $violet;
+			background-color: $violet;
 		}
 		
 		.custom-checkbox input[type=radio]+span {

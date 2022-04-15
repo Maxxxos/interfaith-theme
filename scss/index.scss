@@ -137,14 +137,16 @@ body:not(.page-template-page-fullscreen) .site {
 @import "global/footer";
 @import "pages/blog";
 @import "pages/account";
-@import "pages/_dashboard";
+@import "pages/login";
+@import "pages/single-post";
+
+@import "pages/dashboard";
 @import "pages/home";
 @import "pages/page";
 @import "pages/internal";
 @import "pages/faq";
 @import "pages/archive-course";
 @import "pages/contact";
-@import "pages/single";
 @import "pages/search";
 @import "pages/single-course";
 @import "pages/single-minister";

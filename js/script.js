@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
             jQuery(this).next().attr('type', 'password');
         }
     });
-    $('#popup-clouse, #popup-clouse2').click(function(e) {
+    $('#popup-close, #popup-close2').click(function(e) {
         e.preventDefault();
         $('.popup-wrap').fadeOut();
         $('.popup-block').removeClass('active');
@@ -461,20 +461,20 @@ jQuery(document).ready(function($) {
 
 	});
     $('#btn-signup').click(function(e) {
-        $(this).hide();
-        $('#popup__form-1').hide();
-        $('#popup__form-2').fadeIn();
-        $('#btn-login').fadeIn();
-        $('#login-form-popup').hide();
-        $('#signup-form').fadeIn();
+        //$(this).hide();
+        $('#popup-form-login').hide();
+        $('#popup-form-register').fadeIn();
+        //$('#btn-login').fadeIn();
+        //$('#login-form-popup').hide();
+        //$('#signup-form').fadeIn();
     });
     $('#btn-login').click(function(e) {
-        $(this).hide();
-        $('#popup__form-2').hide();
-        $('#popup__form-1').fadeIn();
-        $('#btn-signup').fadeIn();
-        $('#signup-form').hide();
-        $('#login-form-popup').fadeIn();
+        //$(this).hide();
+        $('#popup-form-register').hide();
+        $('#popup-form-login').fadeIn();
+        //$('#btn-signup').fadeIn();
+        //$('#signup-form').hide();
+        //$('#login-form-popup').fadeIn();
     });
     //register-now btn rosim page
     $('#register-now').click(function(e) {
@@ -482,7 +482,7 @@ jQuery(document).ready(function($) {
         $('#btn-login').show();
         $('#btn-signup').hide();
         $('#custom-passreset').hide();
-        $('#popup__form-1').hide();
+        $('#popup-form-login').hide();
         $('.popup-wrap').fadeIn();
         $('.popup-block').addClass('active');
         $('#signup-form').show();

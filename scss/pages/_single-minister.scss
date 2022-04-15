@@ -1,39 +1,54 @@
 
 
-.single.single-minister {
+body.single.single-minister {
     .site-header {
         background: #870557 !important;
         opacity: 1 !important;
+		
+		#header-aside .bb-header-buttons .btn-login {
+			color: $violet !important;
+			background-color: #FBF5F3;
+			
+			&:hover {
+				color: $violet !important;
+				opacity: .9;
+			}
+		}
     }
 	
 	#main.site-main {
 		margin-top: 76px !important;
 	}
 	
-	.section-minister-header {
-		padding: 30px 0 50px !important;
-		
+	.et_pb_section {
+		.et_pb_row {
+			max-width: 1060px !important;
+		}
+	}
+	
+	#et-boc .et-l .section-minister-header.et_pb_section {
+		padding: 170px 0 50px !important;
 		
 		.row-minister-header {
-			display: flex;
-			align-items: center;
-			padding: 30px 30px;
-			margin-top: 140px !important;
+			padding: 40px 40px !important;
+			margin-bottom: 40px !important;
 			background-color: #870557;
 			border-radius: 4px;
 			
 			@media (max-width: 849px) {
+				display: flex;
 				flex-direction: column-reverse;
 			}
 			
-			.column {
+			.et_pb_column {
 				@media (min-width: 850px) {
 					&:first-of-type {
 						width: calc(100% - 320px);
+						margin-right: 0 !important;
 					}
 					
 					&:last-of-type {
-						width: 290px;
+						width: 290px ;
 						margin-left: 30px;
 					}
 				}
@@ -51,96 +66,136 @@
 				}
 			}
 			
-			h1 {
-				max-width: 630px;
-				color: #FBF5F3;
-				font-size: 24px !important;
-				line-height: 100%;
-				font-weight: 500 !important;
-				text-transform: capitalize !important;
+			.et_pb_post_title {
+				margin-bottom: 0 !important;
 				
-				@media (max-width: 849px) {
-					text-align: center;
+				h1 {
+					max-width: 630px;
+					color: #FBF5F3;
+					font-size: 32px !important;
+					line-height: 100%;
+					font-weight: 500 !important;
+					text-transform: capitalize !important;
+					
+					@media (max-width: 849px) {
+						text-align: center;
+					}
+					
 				}
-				
 			}
 			
-			.content {
+			.minister-short-info {
 				max-width: 630px;
 				color: #FBF5F3;
-				@include main-font;
 				
 				@include phone {
 					width: 100%;
 					text-align: center;
 				}
 				
+				p {
+					@include main-font;
+					line-height: 130%;
+					
+					@media (max-width: 849px) {
+						text-align: center;
+					}
+				}
 			}
 			
-			img {
-				display: block;
-				width: 290px;
-				height: 320px;
-				object-fit: cover;
-				border-radius: 4px;
-				margin: -60px 0 !important;
-				
-				@media (min-width: 850px) {
-					margin: -60px 0 !important;
-				}
+			.minister-photo {
+				margin: -80px 0 !important;
 				
 				@media (max-width: 849px) {
-					margin: -100px auto 0 !important;
+					margin: -150px 0 0 !important;
 				}
 				
+				.et_pb_title_container {
+					display: none;
+				}
+				
+				img {
+					display: block;
+					width: 100%;
+					max-width: 300px;
+					height: 320px;
+					object-fit: cover;
+					border-radius: 4px;
+					margin: 0 auto;
+				}
 			}
 		}
-				
-		.row-minister-contact {
-			padding: 30px 30px 0px;
+		
+		.row-contact-btn {
+			padding: 0px 40px !important;
 			
 			@media (max-width: 849px) {
-				padding: 30px 10px 0px;
+				padding: 0px 10px;
+			}
+			
+			.et_pb_button_module_wrapper {
+				@media (max-width: 849px) {
+					text-align: center;
+				}
+			
+				.et_pb_button {
+					@media (max-width: 849px) {
+						margin: 0 auto !important;
+					}
+				}
 			}
 		}
 		
 		
 	}
-			
-	.section-blockquote {
+	
+	#et-boc .et-l .section-minister-quote {
+		padding: 0 !important;
 		background: #EF5C0A;
-		padding: 30px;
-		margin: 25px auto;
 		
-		blockquote {
-			font-family: "Cormorant", sans-serif;
-			font-style: normal;
-			font-weight: 500;
-			font-size: 36px;
-			line-height: 106%;
-			text-align: center;
-			letter-spacing: 0.01em;
-			color: #F7F7F7;
-			max-width: 730px;
-			margin: auto;
+		.et_pb_row {
+			padding: 50px 0 !important;
 			
-			@include tablet {
-				font-size: 30px;                    
+			.et_pb_text {
+				width: 90%;
+				max-width: 850px;
+				margin: 0 auto;
+				font-family: "Cormorant", sans-serif !important;
+				color: #F7F7F7 !important;
+				font-size: 24px;
+				line-height: 105%;
+				font-weight: 500;
+				
+				@include tablet {
+					font-size: 30px;                    
+				}
+				
+				p {
+					font-family: "Cormorant", sans-serif !important;
+					color: #F7F7F7 !important;
+					font-size: 36px;
+					line-height: 105%;
+					font-weight: 500;
+					
+					@include tablet {
+						font-size: 30px;                    
+					}
+				}
 			}
 		}
 	}
-			
-	.section-minister-table-description {
-		padding: 50px 0 10px;
+	
+	.section-minister-additional {
+		padding: 50px 0 140px !important;
 		
 		.row-minister-table {
-			padding: 0 40px;
+			padding: 0 60px 30px !important;
 			
 			@media (max-width: 849px) {
-				padding: 0px 10px 0;
+				padding: 0 30px 30px !important;
 			}
 			
-			table {
+			.et_pb_text table {
 				width: 100%;
 				margin: 0;
 				
@@ -150,7 +205,6 @@
 					
 					&:first-of-type {
 						width: 200px;
-						color: #626262 !important;
 						font-size: 20px;
 						line-height: 110%;
 						font-weight: 500;
@@ -173,119 +227,112 @@
 				}
 			}
 		}
-	}
-	
-	.section-testimonials {
-		padding: 0px 0 40px;
 		
 		.row-testimonials {
-			padding: 50px 20px 0;
-			border-top: 1px solid #D6D6D6;
+			padding: 0 40px !important;
+			
 			
 			@media (max-width: 849px) {
-				padding: 50px 0px 0;
+				padding: 0px 10px !important;
 			}
 			
-			.column {
-				padding: 0 20px;
+			.et_pb_column {
+				padding: 50px 20px 0 !important;
+				border-top: 1px solid #D6D6D6 !important;
+				
 				
 				@media (max-width: 849px) {
-					padding: 0 10px;
+					padding: 50px 20px 0 !important;
 				}
 			}
-		}
-		
-		h2 {
-			color: #1D1D1D;
-			font-size: 30px !important;
-			line-height: 100% !important;
-			font-weight: 500;
-			text-transform: capitalize !important;
-			margin-bottom: 25px !important;
 			
-			@include phone {
-				margin-bottom: 20px;
-			}
-		}
-		
-		.comments-area {
-			overflow: auto;
-		}
-		
-		.comment-list {
-			max-width: 800px;
-			
-			li {
-				display: flex!important;
-				flex-direction: column-reverse !important;
-				margin-bottom: 40px;
+			.header-module {
+				margin-bottom: 25px !important;
 				
-				&:last-child {
-					margin-bottom: 0;
-					
-					.comment-text {
-						margin-bottom: 0;
-					}
-				}
-				
-				.name {
-					color: $text-color !important;
-					font-size: 22px !important;
+				h2 {
+					color: #1D1D1D;
+					font-size: 30px !important;
+					line-height: 100% !important;
 					font-weight: 500;
-					margin-bottom: 10px !important;
+					text-transform: capitalize !important;
+					padding: 0 !important;
 					
-				}
-				
-				.comment-text {
-					margin: 0 !important;
-					
-					p {
-						color: $text-color !important;
-						@include main-font;
+					@include phone {
+						margin-bottom: 20px;
 					}
 				}
-				
 			}
+			
+			.et_pb_comments_module {
+				overflow: auto;
+				
+				.comment-respond {
+					display: none !important;
+				}
+			
+			
+				.commentlist {
+					max-width: 800px;
+					
+					li {
+						margin-bottom: 40px !important;
+						
+						&:last-child {
+							margin-bottom: 0 !important;
+						}
+						
+						article {
+							background: transparent;
+						}
+						
+						.comment-body {
+							margin: 0;
+						}
+						
+						.comment_postinfo {
+							margin-bottom: 10px;
+							
+							span.fn {
+								color: #3b3b3b !important;
+								font-size: 20px !important;
+								line-height: 100% !important;
+								font-weight: 500 !important;
+								
+								a {
+									color: #3b3b3b !important;
+									font-size: 20px !important;
+									line-height: 100% !important;
+									font-weight: 500 !important;
+									cursor: initial;
+									
+									&:hover {
+										text-decoration: none !important;
+									}
+								}
+							}
+							
+							.comment_date {
+								color: #3b3b3b !important;
+								font-size: 20px !important;
+								line-height: 100% !important;
+								font-weight: 500 !important;
+								padding-left: 5px;
+								margin-left: 5px;
+								
+								&:before {
+									content: '|';
+									display: inline;
+								}
+							}
+							.comment-edit-link {
+								display: none;
+							}
+						}
+						
+					}
+				}
+			}
+			
 		}
 	}
-	/*
-	#main.site-main {
-		margin-top: 76px !important;
-		
-		article  {
-			width: 90%;
-            max-width: 1060px;
-            margin: 0 auto;
-			
-			.entry-content-wrap {
-				padding: 0px 0 100px !important;
-			}
-			
-			
-        }
-	}*/
-	
-    .ministery-section {
-        margin-top: 20px;
-        margin-bottom: 65px;
-    }
-    
-    .bb-header-buttons .btn-login {
-        background-color: #FBF5F3;
-        color: #870557;
-        &:hover {
-            opacity: .9;
-            color: #870557!important;
-        }
-    }
-    #header-aside>div>div>a {
-        &:hover {
-            opacity: .9;
-            color: #870557 !important;
-        }
-    }
-    .site-header.site-header--bb.has-scrolled .btn-login {
-        background: #EF5C0A;
-        color: #FBF5F3;
-    }
 }
