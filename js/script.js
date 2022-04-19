@@ -947,5 +947,5 @@ jQuery(document).ready(function($) {
             }
         }
     });
-
+	
 });

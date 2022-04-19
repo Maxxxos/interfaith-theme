@@ -16,6 +16,18 @@ function my_scripts_method()
 		'ajaxurl' => admin_url('admin-ajax.php'), // WordPress AJAX
 	));
 }
+
+function my_login_stylesheet() {
+//if ( $GLOBALS[‘pagenow’] === ‘wp-login.php’ ) {
+// We’re on the login page!
+wp_enqueue_script( 'login-js', get_theme_file_uri() . '/login/custom.js',  array('jquery'));
+wp_enqueue_style( 'login-css', get_theme_file_uri() . '/login/custom.css' );
+//}
+
+}
+add_action( 'login_enqueue_scripts', 'my_login_stylesheet' );
+
+
 function trim_characters($count, $after = '')
 {
 	$excerpt = get_the_content();
@@ -495,7 +507,7 @@ function misha_render_pass_reset_form()
 /*
  * перенаправляем стандартную форму
  */
-add_action('login_form_lostpassword', 'misha_pass_reset_redir');
+//add_action('login_form_lostpassword', 'misha_pass_reset_redir');
 
 function misha_pass_reset_redir()
 {
@@ -533,8 +545,8 @@ function misha_pass_reset_redir()
 /*
  * Манипуляции уже после перехода по ссылке из письма
  */
-add_action('login_form_rp', 'misha_to_custom_password_reset');
-add_action('login_form_resetpass', 'misha_to_custom_password_reset');
+//add_action('login_form_rp', 'misha_to_custom_password_reset');
+//add_action('login_form_resetpass', 'misha_to_custom_password_reset');
 
 function misha_to_custom_password_reset()
 {
@@ -1162,6 +1174,18 @@ function get_posts_row($attr)
 	return $content;
 }
 
+//if user role = student redirect to dashboard
+add_action('template_redirect', 'redirect_to_dashboard');
+function redirect_to_dashboard()
+{
+    if (is_user_logged_in()) {
+        $user = wp_get_current_user();
+        if (in_array('student', (array) $user->roles)) {
+            wp_redirect('/members/' . $user->user_login . '/dashboard/');
+            exit;
+        }
+    }
+}
 
 function dynamic_page()
 {
@@ -3113,3 +3137,15 @@ function related_stories (){
 		
 		return ob_get_clean();
 }
+
+//add_shortcode('lost_password_short', 'lost_password_short');
+//function lost_password_short(){
+//
+//}
+//
+//add_filter( 'lostpassword_redirect', 'my_redirect_lostpass', 1, 999 );
+// 
+//function my_redirect_lostpass( $lostpassword_redirect ) {
+//    return get_home_url() . '/log-in/forgot-password/'; 
+//}
+

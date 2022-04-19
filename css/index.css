@@ -3544,15 +3544,18 @@ tr#friends-notification-settings-accepted .bs-styled-radio:checked + label:after
   }
   .et-db #et-boc .et-l .section-login .et_pb_row .et_pb_column:first-of-type {
     width: 49% !important;
+    background-position: center !important;
   }
   .et-db #et-boc .et-l .section-login .et_pb_row .et_pb_column:last-of-type {
+    display: flex;
+    align-items: center;
     width: 51% !important;
   }
 }
 @media (max-width: 899px) {
   .et-db #et-boc .et-l .section-login .et_pb_row .et_pb_column {
     width: 100% !important;
-    padding: 40px 30px;
+    padding: 50px 0px;
   }
 }
 .et-db #et-boc .et-l .section-login .et_pb_column:first-of-type {
@@ -3574,10 +3577,10 @@ tr#friends-notification-settings-accepted .bs-styled-radio:checked + label:after
 @media (max-width: 899px) {
   .et-db #et-boc .et-l .section-login .et_pb_column:first-of-type .logo {
     max-width: 220px;
-    margin: 0 auto 30px;
+    margin: 0 auto 60px;
   }
 }
-.et-db #et-boc .et-l .section-login .et_pb_column:first-of-type .header-module {
+.et-db #et-boc .et-l .section-login .et_pb_column:first-of-type .header-module h1 {
   color: #FBF5F3;
   font-weight: 500;
   line-height: 110%;
@@ -3586,14 +3589,14 @@ tr#friends-notification-settings-accepted .bs-styled-radio:checked + label:after
   margin: 0 7%;
 }
 @media (min-width: 900px) {
-  .et-db #et-boc .et-l .section-login .et_pb_column:first-of-type .header-module {
-    font-size: clamp(30px, 4.5vw, 64px);
-    margin-top: 25%;
+  .et-db #et-boc .et-l .section-login .et_pb_column:first-of-type .header-module h1 {
+    font-size: clamp(30px, 4.5vw, 64px) !important;
+    margin-top: 25vh;
   }
 }
 @media (max-width: 899px) {
-  .et-db #et-boc .et-l .section-login .et_pb_column:first-of-type .header-module {
-    font-size: clamp(30px, 10vw, 60px);
+  .et-db #et-boc .et-l .section-login .et_pb_column:first-of-type .header-module h1 {
+    font-size: clamp(30px, 10vw, 60px) !important;
     margin: 0 auto;
   }
 }
@@ -3601,6 +3604,102 @@ tr#friends-notification-settings-accepted .bs-styled-radio:checked + label:after
   width: 90%;
   max-width: 550px;
   margin: 0 auto;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p {
+  margin-bottom: 25px !important;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p label {
+  display: block;
+  color: #1d1d1d;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p input:not(input[type=checkbox]) {
+  display: block;
+  width: 100%;
+  height: 48px;
+  color: #3b3b3b;
+  background: #FBF5F3;
+  border-radius: 4px;
+  padding: 0 15px;
+  border: 2px solid #FBF5F3;
+  transition-duration: 0.4s;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p input:not(input[type=checkbox]):focus {
+  border: 2px solid #870557;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  background: #FBF5F3;
+  border-radius: 4px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p input[type=checkbox]:focus {
+  border: 2px solid #870557;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form div.lost-pass-wrapper {
+  float: right;
+  line-height: 100%;
+  border-bottom: 5px solid transparent;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form div.lost-pass-wrapper a {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 100%;
+  color: #870557;
+  padding: 0 0 2px !important;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form div.lost-pass-wrapper a:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: #870557;
+  transition: all 0.35s ease-in-out;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form div.lost-pass-wrapper a:hover:after {
+  width: 100%;
+  left: 0;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p.login-remember label {
+  line-height: 18px !important;
+  font-weight: 400;
+  margin: 0;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p.login-submit {
+  margin-top: 35px;
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p.login-submit .button {
+  width: 180px;
+  height: auto !important;
+  color: #FBF5F3 !important;
+  font-size: 18px !important;
+  line-height: 100% !important;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  text-align: center;
+  background: #870557 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 19px 30px !important;
+  transition: 0.5s all !important;
+}
+@media (max-width: 767px) {
+  .et-db #et-boc .et-l .section-login .login-form-code form p.login-submit .button {
+    width: 100%;
+    padding: 16px 30px !important;
+  }
+}
+.et-db #et-boc .et-l .section-login .login-form-code form p.login-submit .button:hover {
+  background: #7D225C !important;
+  text-decoration: none !important;
 }
 .popup-wrap {
   display: none;

@@ -22,16 +22,19 @@
 				
 				&:first-of-type {
 					width: 49% !important;
+					background-position: center !important;
 				}
 				
 				&:last-of-type {
+					display: flex;
+					align-items: center;
 					width: 51% !important;
 				}
 			}
 			
 			@media (max-width: 899px) {
 				width: 100% !important;
-				padding: 40px 30px;
+				padding: 50px 0px;
 			}
 		}
 	}
@@ -53,12 +56,12 @@
 			
 			@media (max-width: 899px) {
 				max-width: 220px;
-				margin: 0 auto 30px;
+				margin: 0 auto 60px;
 			}
 			
 		}
 		
-		.header-module {
+		.header-module h1 {
 			color: $light;
 			font-weight: 500;
 			line-height: 110%;
@@ -67,17 +70,141 @@
 			margin: 0 7%;
 			
 			@media (min-width: 900px) {
-				font-size: clamp(30px, 4.5vw, 64px);
-				margin-top: 25%;
+				font-size: clamp(30px, 4.5vw, 64px) !important;
+				margin-top: 25vh;
 			}
 			
 			@media (max-width: 899px) {
-				font-size: clamp(30px, 10vw, 60px);
+				font-size: clamp(30px, 10vw, 60px) !important;
 				margin: 0 auto;
 			}
 			
 			@include phone {
 				
+			}
+		}
+	}
+	
+	
+	.login-form-code {
+		width: 90%;
+		max-width: 550px;
+		margin: 0 auto;
+		
+		form {
+			p {
+				margin-bottom: 25px !important;
+				
+				label {
+					display: block;
+					color: #1d1d1d;
+					font-size: 16px;
+					line-height: 100%;
+					font-weight: 600;
+					margin-bottom: 5px;
+				}
+				
+				input:not(input[type=checkbox]) {
+					display: block;
+					width: 100%;
+					height: 48px;
+					color: #3b3b3b;
+					background: #FBF5F3;
+					border-radius: 4px;
+					padding: 0 15px;
+					border: 2px solid #FBF5F3;
+					transition-duration: .4s;
+					
+					&:focus {                           
+						border: 2px solid $violet;
+					}
+				}
+				
+				input[type=checkbox] {
+					width: 18px;
+					height: 18px;
+					background: #FBF5F3;
+					border-radius: 4px;
+					margin-right: 5px;
+					vertical-align: bottom;
+					
+					&:focus {
+						border: 2px solid $violet;
+					}
+				}
+			}
+			
+			div.lost-pass-wrapper {
+				float: right;
+				line-height: 100%;
+				border-bottom: 5px solid transparent;
+				
+				a {
+					position: relative;
+					display: inline-block;
+					font-size: 16px;
+					line-height: 100%;
+					color: $violet;
+					padding: 0 0 2px !important;
+					
+					&:after {
+						content: '';
+						position: absolute;
+						right: 0;
+						bottom: 0;
+						width: 0;
+						height: 1px;
+						background-color: $violet;
+						transition: all 0.35s ease-in-out;
+					}
+					
+					&:hover {
+						&:after {
+							width: 100%;
+							left: 0;
+						}
+					}
+					
+				}
+			}
+			
+			p.login-remember {
+				
+				label {
+					line-height: 18px !important;
+					font-weight: 400;
+					margin: 0;
+				}
+			}
+			
+			p.login-submit {
+				margin-top: 35px;
+				
+				.button {
+					width: 180px;
+					height: auto !important;
+					color: #FBF5F3 !important;
+					font-size: 18px !important;
+					line-height: 100% !important;
+					font-weight: 600 !important;
+					text-transform: capitalize;
+					text-align: center;
+					background: $violet !important;
+					border: none !important;
+					border-radius: 4px !important;
+					padding: 19px 30px !important;
+					transition: 0.5s all !important;
+					
+					@include phone {
+						width: 100%;
+						padding: 16px 30px !important;
+					}
+					
+					&:hover {
+						background: #7D225C !important;
+						text-decoration: none !important;
+					}
+				}
 			}
 		}
 	}

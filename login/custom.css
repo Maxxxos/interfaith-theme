@@ -1,0 +1,160 @@
+
+.ml-container {
+	width: 100% !important;
+}
+
+.ml-container .ml-extra-div {
+	width: 49% !important;
+}
+
+.ml-container .ml-form-container {
+	width: 51% !important;
+}
+
+
+
+
+#backtoblog,
+.privacy-policy-page-link,
+.language-switcher {
+	display: none !important
+}
+
+#login {
+	width: 90% !important;
+	max-width: 550px !important;
+}
+
+.login form {
+	height: auto !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#login form .user-pass-wrap {
+	overflow: visible;
+}
+
+
+#login form p,
+#login .user-pass-wrap,
+#login form .forgetmenot {
+	display: block;
+	width: 100%;
+    float: left;
+	margin-bottom: 25px;
+}
+
+.login form label {
+	color: #1d1d1d;
+	font-size: 16px;
+	line-height: 100%;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.login form input[type=text],
+.login form input[type=password] {
+	display: block;
+	width: 100%;
+	height: 48px !important;
+	color: #3b3b3b;
+	background: #FBF5F3;
+	border-radius: 4px;
+	padding: 0 15px;
+	border: 2px solid #FBF5F3;
+	transition-duration: .4s;
+	margin-bottom: 0 !important;
+	
+	&:focus {                           
+		border: 2px solid $violet;
+	}
+}
+
+.login form input[type=text]:focus {                           
+	border: 2px solid #870557;
+}
+
+
+#login form p.forgetmenot label {
+	color: #1d1d1d;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+#login form p.submit {
+	display: block;
+    clear: both;
+	margin-top: 35px;
+}
+
+#login form p.forgetmenot {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#login form p.forgetmenot input {
+	width: 18px;
+	height: 18px;
+	background: #fff;
+	border-radius: 4px;
+	margin: 0 5px 0 0;
+}
+
+#login form p.forgetmenot input:focus {                           
+	border: 2px solid #870557;
+}
+
+.login form p.forgetmenot label {
+	font-size: 16px;
+	line-height: 18px;
+	
+}
+
+#login p.message {
+	border-color: #870557;
+}
+
+.login form #wp-submit {
+	float: left;
+	width: 220px;
+	height: auto !important;
+	color: #FBF5F3 !important;
+	font-size: 18px !important;
+	line-height: 100% !important;
+	font-weight: 600 !important;
+	text-transform: capitalize;
+	text-align: center;
+	/*background: $violet !important;*/
+	border: none !important;
+	border-radius: 4px !important;
+	padding: 19px 30px !important;
+	transition: 0.5s all !important;
+	/*
+	@include phone {
+		width: 100%;
+		padding: 16px 30px !important;
+	}*/
+	/*
+	&:hover {
+		background: #7D225C !important;
+		text-decoration: none !important;
+	}*/
+}
+
+.login .button.wp-hide-pw {
+	height: 48px;
+    border: none !important;
+    box-shadow: none;
+    outline: none;
+}
+
+.login .button.wp-hide-pw:focus {
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
