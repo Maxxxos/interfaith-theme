@@ -265,7 +265,7 @@ jQuery(document).ready(function($) {
         }
     });
     jQuery('#account-menu__toggle').click(function() {
-        jQuery('.account__sitebar-menu').slideToggle();
+        jQuery('.account__sidebar-menu').slideToggle();
     });
     $('#slider-main').owlCarousel({
         loop: true,

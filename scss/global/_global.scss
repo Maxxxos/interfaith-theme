@@ -1,3 +1,5 @@
+$width-dashboard: 375px;
+
 @mixin max-main-font {
     font-weight: 500;
     font-size: 24px;
@@ -8,6 +10,7 @@
         line-height: 120%;
     }
 }
+
 @mixin description-font {
     font-weight: 400;
     font-size: 24px;
@@ -43,10 +46,26 @@ body {
 
 .site-content {
 	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.bb-grid.site-content-grid{
+	padding: 0 !important;
+	margin: 0 auto !important;
 }
 
 #primary {
     max-width: 100% !important;
+	padding: 0 !important;
+}
+
+#content {
+    > .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+	}
 }
 
 .et_pb_section {
@@ -291,6 +310,7 @@ body {
 					color: #222222;
 					@include main-font;
 					text-align: left !important;
+					padding-left: 15px !important;
 					background: #FBF5F3 !important;
 					border: 2px solid #FBF5F3 !important;
 					border-radius: 4px;
@@ -338,29 +358,39 @@ body {
 	}
 	
 	@include phone {
-		left: -20px;
-		right: -20px;
+		left: -15px;
+		right: -15px;
 	}
 	
 	button {
+		color: transparent !important;
+		font-size: 40px !important;
+		background-size: contain !important;
+		background-position: center !important;
+		background-repeat: no-repeat !important;
 		box-shadow: none !important;
 		
-		span {
-			
-			font-size: 50px !important;
-			
+		@include tablet {
+			font-size: 30px !important;
 		}
 		
-		&:hover {
-			box-shadow: none !important;
-			
-			span {
-				color: #870557 !important;
-			}
-		}
-		
+		&:hover,
 		&:active {
 			box-shadow: none !important;
+		}
+		
+		&.owl-prev {
+			background: url(/wp-content/uploads/2022/04/arrow-left-grey.svg) !important;
+			background-size: contain !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+		}
+		
+		&.owl-next {
+			background: url(/wp-content/uploads/2022/04/arrow-right-purple.svg) !important;
+			background-size: contain !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
 		}
 	}
 }
@@ -377,6 +407,7 @@ ul.special-marks {
 		border-bottom: 1px solid #E1E1E1 !important;
 		line-height: 1.2;
 		list-style-type: none;
+		
 		&:after {
 			position: absolute;
 			top: 22px;
@@ -429,13 +460,13 @@ ul.items-underline {
 }*/
 
 
-$width-dashboard: 375px;
-$text-color: #3B3B3B;
 
+$text-color: #3B3B3B;
+/*
 body,
 p {
     @include main-font;
-}
+}*/
 
 .wpcf7-spinner {
     position: absolute;
@@ -451,7 +482,7 @@ p {
 }
 
 
-
+/*
 #login-message-user {
     color: red;
 }
@@ -468,19 +499,21 @@ p {
         bottom: -28px;
         left: 0px;
     }
-}
+}*/
 /*
 .container {
     max-width: 1280px;
 }*/
-
+/*
 .lostpassword-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: #1D1D1D;
 
-}
+}*/
+
+/*
 .signup-row {
     position: absolute;
     top: 10%;
@@ -504,8 +537,9 @@ p {
             font-weight: 700;
         }
     }
-}
-// event page
+}*/
+
+/* event page
 .ministery-section.page-events {
     margin-bottom: 5%;
 }
@@ -544,6 +578,9 @@ p {
 .bb-tribe-events-views-v2 .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
     padding-bottom: 30px !important;
 }
+
+*/
+
 .et-db #et-boc .et-l .et_main_video_container iframe,
 .et-db #et-boc .et-l .et_pb_slide_video iframe,
 .et-db #et-boc .et-l .et_pb_video_box iframe {
@@ -563,8 +600,7 @@ nav#object-nav a:hover,
 
 
 
-
-
+/*
 .section-newsletter {
 	padding: 0 0 100px;
 	
@@ -647,6 +683,7 @@ nav#object-nav a:hover,
                 height: 56px;
 				color: #222222;
 				@include main-font;
+				padding-left: 15px !important;
                 background: #FBF5F3;
                 border-radius: 4px;
                 border: 2px solid #FBF5F3;
@@ -676,28 +713,28 @@ nav#object-nav a:hover,
 	.wpcf7-response-output {
 		display: none !important;
 	}
-}
+}*/
 
-
+/*
 #singup-message-user {
     padding-top: 10px;
     color: red;
-}
-
+}*/
+/*
 .single:not(.single-post) .entry-content-wrap {
     padding-top: 0;
-}
-
+}*/
+/*
 .content-area {
 	padding-top: 0;
     padding-bottom: 3.1875rem!important;
-}
+}*/
 
 
-
+/*
 .et-db #et-boc .et-l .et_pb_module input[type=email] {
     padding-left: 15px;
-}
+}*/
 
 .resize-img-3 {
     border: 1px solid rgba(0, 0, 0, 0.1)!important;
@@ -826,8 +863,9 @@ nav#object-nav a:hover,
                     }
                 }
             }
-}
+		}
     }
+	
     h3 {
         font-weight: 500;
         font-size: 48px;

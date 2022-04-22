@@ -1,0 +1,651 @@
+
+.page-id-37062 {
+	#masthead,
+	.footer-widget-area.bb-footer,
+	.footer-bottom.bb-footer {
+		display: none !important;
+	}
+}
+
+
+.et-db #et-boc .et-l .section-login {
+	padding: 0 !important;
+	
+	.et_pb_row {
+		width: 100% !important;
+		max-width: 100% !important;
+		
+		.et_pb_column {
+			@media (min-width: 900px) {
+				min-height: 100vh;
+				padding: 150px 0 !important;
+				
+				&:first-of-type {
+					width: 49% !important;
+					background-position: center !important;
+				}
+				
+				&:last-of-type {
+					display: flex;
+					align-items: center;
+					width: 51% !important;
+				}
+			}
+			
+			@media (max-width: 899px) {
+				width: 100% !important;
+				padding: 50px 0px;
+			}
+		}
+	}
+	
+	.et_pb_column:first-of-type {
+		position: relative;
+		
+		.logo {
+			display: block;
+			width: 60% !important;
+			max-width: 290px;
+			object-fit: contain;
+			
+			@media (min-width: 900px) {
+				position: absolute;
+				top: 40px;
+				left: 7%;
+			}
+			
+			@media (max-width: 899px) {
+				max-width: 220px;
+				margin: 0 auto 60px;
+			}
+			
+		}
+		
+		.header-module h1 {
+			color: $light;
+			font-weight: 500;
+			line-height: 110%;
+			text-transform: uppercase;
+			text-align: center;
+			margin: 0 7%;
+			
+			@media (min-width: 900px) {
+				font-size: clamp(30px, 4.5vw, 64px) !important;
+				margin-top: 25vh;
+			}
+			
+			@media (max-width: 899px) {
+				font-size: clamp(30px, 10vw, 60px) !important;
+				margin: 0 auto;
+			}
+			
+			@include phone {
+				
+			}
+		}
+	}
+	
+	
+	.login-form-code {
+		width: 90%;
+		max-width: 550px;
+		margin: 0 auto;
+		
+		form {
+			p {
+				margin-bottom: 25px !important;
+				
+				label {
+					display: block;
+					color: #1d1d1d;
+					font-size: 16px;
+					line-height: 100%;
+					font-weight: 600;
+					margin-bottom: 5px;
+				}
+				
+				input:not(input[type=checkbox]) {
+					display: block;
+					width: 100%;
+					height: 48px;
+					color: #3b3b3b;
+					background: #FBF5F3;
+					border-radius: 4px;
+					padding: 0 15px;
+					border: 2px solid #FBF5F3;
+					transition-duration: .4s;
+					
+					&:focus {                           
+						border: 2px solid $violet;
+					}
+				}
+				
+				input[type=checkbox] {
+					width: 18px;
+					height: 18px;
+					background: #FBF5F3;
+					border-radius: 4px;
+					margin-right: 5px;
+					vertical-align: bottom;
+					
+					&:focus {
+						border: 2px solid $violet;
+					}
+				}
+			}
+			
+			div.lost-pass-wrapper {
+				float: right;
+				line-height: 100%;
+				border-bottom: 5px solid transparent;
+				
+				a {
+					position: relative;
+					display: inline-block;
+					font-size: 16px;
+					line-height: 100%;
+					color: $violet;
+					padding: 0 0 2px !important;
+					
+					&:after {
+						content: '';
+						position: absolute;
+						right: 0;
+						bottom: 0;
+						width: 0;
+						height: 1px;
+						background-color: $violet;
+						transition: all 0.35s ease-in-out;
+					}
+					
+					&:hover {
+						&:after {
+							width: 100%;
+							left: 0;
+						}
+					}
+					
+				}
+			}
+			
+			p.login-remember {
+				
+				label {
+					line-height: 18px !important;
+					font-weight: 400;
+					margin: 0;
+				}
+			}
+			
+			p.login-submit {
+				margin-top: 35px;
+				
+				.button {
+					width: 180px;
+					height: auto !important;
+					color: #FBF5F3 !important;
+					font-size: 18px !important;
+					line-height: 100% !important;
+					font-weight: 600 !important;
+					text-transform: capitalize;
+					text-align: center;
+					background: $violet !important;
+					border: none !important;
+					border-radius: 4px !important;
+					padding: 19px 30px !important;
+					transition: 0.5s all !important;
+					
+					@include phone {
+						width: 100%;
+						padding: 16px 30px !important;
+					}
+					
+					&:hover {
+						background: #7D225C !important;
+						text-decoration: none !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+.popup-wrap {
+	display: none;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 99999;
+	
+    .popup-overview {
+		width: 100%;
+        height: 100%;
+		overflow-y: scroll;
+		
+        .popup-block {
+			display: none;
+			position: relative;
+            width: 90%;
+			max-width: 1280px;
+            min-height: 80vh;
+            background-color: #fff;
+			margin: 10vh auto;
+			
+            @media (max-width: 899px) {
+                flex-direction: column;
+				min-height: 0 !important;
+            }
+			
+            &.active {
+                display: flex;
+            }
+			
+			.popup-block-close {
+                position: absolute;
+                top: 10px;
+                right: 5px;
+				color: $violet !important;
+                font-size: 40px;
+				line-height: 20px;
+				padding: 5px;
+                transform: rotate(45deg);
+                cursor: pointer;
+				z-index: 10;
+				
+                @media (max-width: 899px) {
+                    color: #fff !important;
+                }
+            }
+			
+			.popup-column {
+				padding: 100px 0;
+				
+				@media (max-width: 899px) {
+					flex-direction: column;
+                    width: 100% !important;
+					padding: 40px 30px;
+                }
+			}
+			
+            .popup-column-header {
+				position: relative;
+                width: 48%;
+				background-color: #870557;
+				background-image: url(/wp-content/themes/interfaith-theme/images/login-bg.svg);
+				background-size: cover;
+				background-position: center;
+				
+				
+                .popup-block__title {
+					color: $light;
+                    font-weight: 500;
+                    line-height: 110%;
+                    text-transform: uppercase;
+					text-align: center;
+					margin: 0 7%;
+					
+                    @media (min-width: 900px) {
+                        font-size: clamp(30px, 4.5vw, 60px);
+						margin-top: 25%;
+                    }
+					
+					@media (max-width: 899px) {
+						font-size: clamp(30px, 10vw, 60px);
+						margin: 0 auto;
+					}
+					
+                    @include phone {
+                        
+                    }
+                }
+				
+				.logo {
+					display: block;
+					width: 60% !important;
+					max-width: 290px;
+					object-fit: contain;
+					
+					@media (min-width: 900px) {
+						position: absolute;
+						top: 40px;
+						left: 7%;
+					}
+					
+					@media (max-width: 899px) {
+						max-width: 220px;
+						margin: 0 auto 30px;
+					}
+					
+				}
+            }
+			
+            .popup-column-form {
+                display: flex;
+                justify-content: center;
+				align-items: center;
+                width: 52%;
+                
+                &.form-sing-up {
+                    
+                }
+				
+                .popup-form__row {
+                    width: 80%;
+					max-width: 550px;
+                    margin: 0 auto;
+					
+					&#popup-form-register {
+						display: none;
+					}
+					
+					@include phone {
+						width: 90%;
+					}
+                    
+					.signup {
+						color: #3b3b3b;
+						font-size: 18px;
+						text-align: right;
+						margin-bottom: 20px;
+						
+						span {
+							position: relative;
+							display: inline-block;
+							color: $violet;
+							cursor: pointer;
+							
+							&:after {
+								content: '';
+								position: absolute;
+								right: 0;
+								bottom: 0;
+								width: 0;
+								height: 1px;
+								background-color: $violet;
+								transition: all 0.35s ease-in-out;
+							}
+							
+							&:hover {
+								&:after {
+									width: 100%;
+									left: 0;
+								}
+							}
+						}
+					}
+					
+                    form {
+						margin-bottom: 0 !important;
+						
+                        @include phone {
+                            margin-bottom: 0;
+                        }
+						
+						.rh_form__row {
+							position: relative;
+							margin: 0 0 25px;
+							
+							&:last-of-type {
+								margin-bottom: 0;
+							}
+						}
+						
+						.rh_form__row-two {
+							overflow: auto;
+							
+							& > div {
+								float: left;
+								width: 100%;
+								margin: 0 0 25px !important;
+								
+								@media (min-width: 1100px) {
+									width: 48% !important;
+									
+									
+									&:first-of-type {
+										margin-right: 4% !important;
+									}
+								}
+								
+								@media (min-width: 550px) and (max-width: 899px) {
+									width: 48% !important;
+									
+									&:first-of-type {
+										margin-right: 4% !important;
+									}
+								}
+								
+							}
+						}
+						
+						label {
+							color: #1d1d1d;
+							font-size: 16px;
+							line-height: 100%;
+							font-weight: 600;
+							margin-bottom: 5px;
+						}
+						
+						input[type=text],
+						input[type=email],
+						input[type=password] {
+							width: 100%;
+							height: 48px;
+							color: #3b3b3b;
+							background: #FBF5F3;
+							border-radius: 4px;
+							padding: 0 15px;
+							border: 2px solid #FBF5F3;
+							transition-duration: .4s;
+							
+							&:focus {                           
+								border: 2px solid $violet;
+							}
+						}
+						
+						input[type=checkbox] {
+							width: 18px;
+							height: 18px;
+							background: #FBF5F3;
+							border-radius: 4px;
+							margin-right: 5px;
+							
+							&:focus {
+								border: 2px solid $violet;
+							}
+						}
+						
+						.login-agent__password-row {
+							text-align: right;
+							
+							label {
+								float: left;
+							}
+							
+							a {
+								position: relative;
+								float: right;
+								color: $violet;
+								font-size: 14px;
+								line-height: 22px;
+								font-weight: 400;
+								margin: 0 0 5px;
+								
+								&:after {
+									content: '';
+									position: absolute;
+									right: 0;
+									bottom: 0;
+									width: 0;
+									height: 1px;
+									background-color: $violet;
+									transition: all 0.35s ease-in-out;
+								}
+								
+								&:hover {
+									&:after {
+										width: 100%;
+										left: 0;
+									}
+								}
+							}
+						}
+						
+						.view-pass {
+							position: absolute;
+							top: auto;
+							bottom: 15px;
+							right: 15px;
+							content: url(/wp-content/themes/interfaith-theme/images/pass-no.svg);
+							height: 18px;
+							cursor: pointer;
+							transition-duration: .4s;
+							z-index: 99999;
+							
+							&.active {
+								content: url(/wp-content/themes/interfaith-theme/images/pass.svg);
+								
+							}
+						}
+						
+						#uniform-login-remember {
+							display: flex;
+							align-items: center;
+
+
+							label {
+								color: #1D1D1D;
+								font-size: 16px;
+								line-height: 18px !important;
+								font-weight: 400;
+								padding: 0;
+								margin: 0;
+							}
+						}
+						
+						#login-message-user {
+							font-size: 16px;
+							
+							a {
+								position: relative;
+								color: $violet;
+								font-weight: 500;
+								white-space: nowrap;
+								
+								&:after {
+									content: '';
+									position: absolute;
+									right: 0;
+									bottom: 0;
+									width: 0;
+									height: 1px;
+									background-color: $violet;
+									transition: all 0.35s ease-in-out;
+								}
+								
+								&:hover {
+									&:after {
+										width: 100%;
+										left: 0;
+									}
+								}
+							}
+						}
+                    }
+                    
+                    .login-button {
+                        display: inline-block;
+						width: 180px;
+						color: #FBF5F3 !important;
+						font-size: 18px !important;
+						line-height: 100% !important;
+						font-weight: 600 !important;
+						text-transform: capitalize;
+						text-align: center;
+						background: $violet !important;
+						border: none !important;
+						border-radius: 4px !important;
+						padding: 19px 30px !important;
+						margin-top: 10px;
+						transition: 0.5s all !important;
+						
+						@include phone {
+							width: 100%;
+							padding: 16px 30px !important;
+						}
+						
+						&:hover {
+							background: #7D225C !important;
+							text-decoration: none !important;
+						}
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+#custom-passreset {
+    .popup-block__title {
+        font-size: 36px;
+    }
+    #lostpasswordform {
+        .rh_form__item {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            input[type=text],
+            input[type=email],
+            input[type=password] {
+                width: 100%;
+                height: 48px;
+                background: #FBF5F3;
+                border-radius: 4px;
+                padding-left: 15px;
+                padding-right: 10px;
+                border: 2px solid #FBF5F3;
+                transition-duration: .4s;
+                color: #1F1F1F;
+
+                &:focus {
+                    border: 2px solid #870557;
+                }
+            }
+            label {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                color: #1F1F1F;
+                padding-bottom: 5px;
+                margin-bottom: 0;
+            }
+            .lostpassword-button {
+                width: 180px;
+                height: 57px;
+                background: #870557;
+                border-radius: 4px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 21px;
+                color: #FBF5F3;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 30px;
+            }
+        }
+    }
+}

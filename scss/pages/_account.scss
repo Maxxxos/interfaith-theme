@@ -1,3 +1,252 @@
+
+
+body.my-account {
+	.site-header {
+		@media (max-width: 799px) {
+			background-color: $violet !important;
+		}
+		
+		&.has-scrolled {
+			display: none;
+		}
+
+		.site-header-container.flex {
+			width: 100%;
+			min-width: 100%;
+			max-width: 100%;
+			height: 100px;
+			padding: 0;
+		}
+	
+		#site-logo {
+			width: 100%;
+			max-width: 375px;
+			padding: 20px 40px !important;
+			
+			@media (max-width: 1300px) {
+				max-width: 250px;
+				padding: 20px 20px !important;
+			}
+			
+			@media (max-width: 799px) {
+				max-width: 100%!important;
+			}
+			
+			.site-title img.bb-logo {
+				display: block;
+				max-width: 260px;
+				height: 60px;
+				object-fit: contain;
+				padding: 0 !important;
+				
+				@media (max-width: 1300px) {
+					max-width: 200px;
+				}
+			}
+		}
+	}
+	
+	/* account sidebar menu */
+	.account__sidebar-menu {
+		width: 375px;
+		max-width: 375px;
+        background: $violet;
+		padding: 0!important;
+		
+		@media (max-width: 1300px) {
+			max-width: 250px;
+		}
+		
+		@media (max-width: 799px) {
+			display: none;
+			width: 100% !important;
+			max-width: 100%!important;
+		}
+		
+		ul.account__sidebar-list {
+			list-style: none;
+			margin: 125px 0 0;
+			
+			@media (max-width: 799px) {
+				margin-top: 20px;
+			}
+		
+			li {
+				position: relative;
+				display: flex;
+				padding: 0;
+				margin-bottom: 20px !important;
+				
+				a {
+					display: flex;
+					align-items: center;
+					width: 90%;
+					max-width: 300px;
+					color: $light !important;
+					font-size: 20px;
+					line-height: 100%;
+					font-weight: 500;
+					text-transform: capitalize;
+					padding: 20px 0 20px 90px;
+					border-radius: 0 20px 20px 0;
+					transition: 0.5s all !important;
+					
+					@media (max-width: 1300px) {
+						padding-left: 25px;
+					}
+					
+					span {
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						background-size: contain !important;
+						background-position: center !important;
+						background-repeat: no-repeat !important;
+						margin-right: 10px;
+						
+						&.img-dashboard {
+							background-image: url(/wp-content/themes/interfaith-theme/images/dashboard.svg);
+						}
+						
+						&.classmates {
+							background-image: url(/wp-content/themes/interfaith-theme/images/class.svg);
+						}
+						
+						&.img-courses {
+							background-image: url(/wp-content/themes/interfaith-theme/images/mortarboard.svg);
+						}
+						
+						&.img-cpd {
+							background-image: url(/wp-content/themes/interfaith-theme/images/open-book.svg);
+						}
+						
+						&.img-forum {
+							background-image: url(/wp-content/themes/interfaith-theme/images/discuss.svg);
+						}
+						
+						&.img-profile {
+							background-image: url(/wp-content/themes/interfaith-theme/images/user.svg);
+						}
+						
+						&.img-logout {
+							background-image: url(/wp-content/themes/interfaith-theme/images/logout.svg);
+						}
+						
+						&.img-settings {
+							background-image: url(/wp-content/themes/interfaith-theme/images/settings.svg);
+						}
+					}
+				}
+				
+				&.selected a,
+				a:hover {
+					color: $violet !important;
+					background-color: #fff;
+					text-decoration: none !important;
+					
+					span {
+						background-size: contain !important;
+						background-position: center !important;
+						background-repeat: no-repeat !important;
+					
+					
+						&.img-dashboard {
+							background-image: url(/wp-content/themes/interfaith-theme/images/dashboard2.svg) !important;
+						}
+
+						&.img-courses {
+							background-image: url(/wp-content/themes/interfaith-theme/images/mortarboard2.svg) !important;
+						}
+						
+						&.classmates {
+							background-image: url(/wp-content/themes/interfaith-theme/images/class2.svg) !important;
+						}
+					
+						&.img-cpd {
+							background: url(/wp-content/themes/interfaith-theme/images/open-book2.svg) !important;
+						}
+						
+						&.img-forum {
+							background-image: url(/wp-content/themes/interfaith-theme/images/discuss2.svg) !important;
+						}
+
+						&.img-profile {
+							background-image: url(/wp-content/themes/interfaith-theme/images/user2.svg) !important;
+						}
+					
+						&.img-settings {
+							background-image: url(/wp-content/themes/interfaith-theme/images/settings2.svg) !important;
+						}
+
+						&.img-logout {
+							background-image: url(/wp-content/themes/interfaith-theme/images/logout2.svg) !important;
+						}
+					}
+				}
+				
+				&.logout {
+					margin-top: 70px;
+					
+					@media (max-width: 799px) {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+	}
+	
+	/* mobile account menu */
+	#account-menu__toggle {
+		display: none;
+		
+		@media (max-width: 799px) {
+			position: relative;
+			display: block;
+			color: #fff;
+			font-size: 25px;
+			line-height: 100%;
+			font-weight: 500;
+			padding: 50px 30px 30px;
+			background: #870557;
+			margin: 76px 0 100px;
+			cursor: pointer;
+			
+			@media (max-width: 500px) {
+				font-size: 20px;
+			}
+			
+			&:before {
+				content: url(/wp-content/themes/interfaith-theme/images/dashboard.svg);
+				display: block;
+				float: left;
+				width: auto;
+				height: 20px;
+				margin-right: 15px;
+			}
+		}
+	}
+	
+	#primary {
+		width: calc(100% - 375px);
+        min-height: 100vh;
+		
+        @media (max-width: 1530px) {
+            width: calc(100% - 250px);
+        }
+		
+		@media (max-width: 799px) {
+			padding: 30px 0 0 !important;	
+		}
+	}
+}
+
+
+
+
+
+
+
+
 .bb-bp-settings-content #settings-form input.settings-input {
     height: 48px;
     background: #FBF5F3;
@@ -84,381 +333,8 @@
         text-transform: capitalize;
     }
 }
-// account sitbar menu
-.account__sitebar-menu {
-    padding-left: 0!important;
-    @media (max-width: 799px) {
-        max-width: 100%!important;
-        width: 100% !important;
-        display: none;
-    }
-    .account__sitebar-list {
-        list-style: none;
-        margin-top: 125px;
-        padding-left: 0;
-        margin-left: 0;
-        @media (max-width: 799px) {
-        margin-top: 20px;
-        }
-		
-        li {
-            padding-bottom: 30px;
-            padding-left: 31%;
-            display: flex;
-            position: relative;
-            @media (max-width: 1300px) {
-                padding-left: 25%;
-            }
-			
-            a {
-				color: #FBF5F3;
-				font-size: 18px;
-                line-height: 23px;
-				font-weight: 400;
-				text-transform: capitalize;
-                z-index: 10;
-                transition-duration: .4s;
-            }
-			
-            img {
-                margin-right: 10px;
-            }
-            .img-dashboard {
-                position: relative;
-                margin-right: 10px;
-                width: 21px;
-                height: 20px;
-                display: inline-block;
-                transition-duration: .4s;
-                &:after {
-                    position: absolute;
-                    top: 3px;
-                    left: 0;
-                    width: 21px;
-                    height: 20px;
-                    content: url(/wp-content/themes/interfaith-theme/images/dashboard.svg);
-                    transition-duration: .4s;
-                }
-            }
-            .classmates {
-                position: relative;
-                margin-right: 10px;
-                width: 21px;
-                height: 20px;
-                display: inline-block;
-                transition-duration: .4s;
 
-                &:after {
-                    position: absolute;
-                    top: 3px;
-                    left: 0;
-                    width: 21px;
-                    height: 20px;
-                    content: url(/wp-content/themes/interfaith-theme/images/class.svg);
-                    transition-duration: .4s;
-                }
-            }
-            .img-courses {
-                position: relative;
-                margin-right: 10px;
-                width: 21px;
-                height: 20px;
-                display: inline-block;
-                transition-duration: .4s;
 
-                &:after {
-                    position: absolute;
-                    top: 3px;
-                    left: 0;
-                    width: 21px;
-                    height: 20px;
-                    content: url(/wp-content/themes/interfaith-theme/images/mortarboard.svg);
-                    transition-duration: .4s;
-                }
-            }
-            .img-cpd {
-                position: relative;
-                margin-right: 10px;
-                width: 21px;
-                height: 20px;
-                display: inline-block;
-                transition-duration: .4s;
-
-                &:after {
-                    position: absolute;
-                    top: 3px;
-                    left: 0;
-                    width: 21px;
-                    height: 20px;
-                    content: url(/wp-content/themes/interfaith-theme/images/open-book.svg);
-                    transition-duration: .4s;
-                }
-            }
-            .img-forum {
-                position: relative;
-                margin-right: 10px;
-                width: 21px;
-                height: 20px;
-                display: inline-block;
-                transition-duration: .4s;
-
-                &:after {
-                    position: absolute;
-                    top: 3px;
-                    left: 0;
-                    width: 21px;
-                    height: 20px;
-                    content: url(/wp-content/themes/interfaith-theme/images/discuss.svg);
-                    transition-duration: .4s;
-                }
-            }
-            .img-profile {
-                position: relative;
-                margin-right: 10px;
-                width: 21px;
-                height: 20px;
-                display: inline-block;
-                transition-duration: .4s;
-
-                &:after {
-                    position: absolute;
-                    top: 3px;
-                    left: 0;
-                    width: 21px;
-                    height: 20px;
-                    content: url(/wp-content/themes/interfaith-theme/images/user.svg);
-                    transition-duration: .4s;
-                }
-            }
-            .img-logout {
-                position: relative;
-                margin-right: 10px;
-                width: 21px;
-                height: 20px;
-                display: inline-block;
-                transition-duration: .4s;
-
-                &:after {
-                    position: absolute;
-                    top: 3px;
-                    left: 0;
-                    width: 21px;
-                    height: 20px;
-                    content: url(/wp-content/themes/interfaith-theme/images/logout.svg);
-                    transition-duration: .4s;
-                }
-            }
-            .img-settings {
-                position: relative;
-                margin-right: 10px;
-                width: 21px;
-                height: 20px;
-                display: inline-block;
-                transition-duration: .4s;
-
-                &:after {
-                    position: absolute;
-                    top: 3px;
-                    left: 0;
-                    width: 21px;
-                    height: 20px;
-                    content: url(/wp-content/themes/interfaith-theme/images/settings.svg);
-                    transition-duration: .4s;
-                }
-            }
-            &.logout {
-                margin-top: 78%;
-                @media (max-width: 799px) {
-                    margin-top: 0;
-                }
-            }
-            &:after {
-                position: absolute;
-                content: '';
-                top: 0;
-                left: 0;
-                width: 90%;
-                height: 100%;
-                border-top-right-radius: 20px;
-                border-bottom-right-radius: 20px;
-                z-index: 1;
-                transition-duration: .4s;
-            }
-
-            &:hover {
-                text-decoration: none !important;
-
-                a {
-                    color: #870557;
-                }
-
-                &:after {
-                    background-color: #fff;
-                }
-                .img-dashboard {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/dashboard2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-courses {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/mortarboard2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .classmates {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/class2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-cpd {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/open-book2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-forum {
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/discuss2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-profile {
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/user2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-settings {
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/settings2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-logout {
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/logout2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-            }
-            &.selected {
-                position: relative;
-                &:hover {
-                    text-decoration: none !important;
-                }
-                &:after {
-                    background-color: #fff;
-                    position: absolute;
-                    content: '';
-                    top: 0;
-                    left: 0;
-                    width: 90%;
-                    height: 100%;
-                    border-top-right-radius: 20px;
-                    border-bottom-right-radius: 20px;
-                    z-index: 1;
-                    @media (max-width: 991px) {
-                         width: 95%;
-                    }
-                }
-                a {
-                    color: #870557 !important;
-                    z-index: 10;
-                    transition-duration: .4s;
-                    &:hover {
-                        text-decoration: none!important;
-                    }
-                }
-                .img-dashboard {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/dashboard2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-courses {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/mortarboard2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-                .classmates {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/class2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-                .img-cpd {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/open-book2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-                .img-forum {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/discuss2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-profile {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/user2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-                .img-settings {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/settings2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-
-                .img-logout {
-                    position: relative;
-
-                    &:after {
-                        content: url(/wp-content/themes/interfaith-theme/images/logout2.svg) !important;
-                        z-index: 10;
-                    }
-                }
-            }
-        }
-            
-    }
-}
 #buddypress .settings-header a.button.outline {
     display: none;
 }
@@ -752,32 +628,7 @@ body #buddypress #header-cover-image {
      border-bottom: 1px solid rgba(255, 255, 255, .3);
  }
 }
-#account-menu__toggle {
-    display: none;
-    @media (max-width: 799px) {
-        display: block;
-        text-align: center;
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 42px;
-        color: #fff;
-        padding: 90px 10px 15px;
-        background: #870557;
-        position: relative;
-        @media (max-width: 500px) {
-            font-size: 20px;
-        }
-        &:before {
-            font-size: 24px;
-            position: absolute;
-            top: 94px;
-            left: 20px;
-            width: 21px;
-            height: 20px;
-            content: url(/wp-content/themes/interfaith-theme/images/dashboard.svg);
-        }
-    }
-}
+
 .profile.public {
     .testimonials-wrap {
         padding: 0 55px 10px;
@@ -843,7 +694,7 @@ body #buddypress #header-cover-image {
                         font-size: 20px;
                         line-height: 23px;
 
-                        /* Black */
+                      
 
                         color: #1D1D1D;
                     }
@@ -944,6 +795,7 @@ body #buddypress #header-cover-image {
         }
     }
 }
+
 .mb-table {
     margin-bottom: 100px !important;
 }
@@ -980,28 +832,8 @@ body #buddypress #header-cover-image {
     margin-bottom: 0;
     border: none;
 }
-.account__sitebar-menu .account__sitebar-list li {
-    padding-bottom: 0;
-    padding-left: 0;
-    margin-bottom: 18px;
-}
-.account__sitebar-menu .account__sitebar-list li a {
-    padding: 15px 0 16px 31%;
-    display: flex;
-    width: 90%;
-    @media (max-width: 1300px) {
-        padding-left: 25%;
-    }
-    @media (max-width: 799px) {
-        padding-left: 42%;
-    }
-    @media (max-width: 550px) {
-        padding-left: 37%;
-    }
-    @media (max-width: 400px) {
-        padding-left: 33%;
-    }
-}
+
+
 body #buddypress #header-cover-image {
     margin: 0!important;
     height: 160px;

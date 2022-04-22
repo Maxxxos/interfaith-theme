@@ -677,8 +677,8 @@ function dynamic_page()
 		get_header();
 		// Output here any content.
 	?>
-		<div class="account__sitebar-menu">
-			<ul class="account__sitebar-list">
+		<div class="account__sidebar-menu">
+			<ul class="account__sidebar-list">
 				<li class="selected"><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
 				<?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
@@ -1003,8 +1003,8 @@ function dynamic_page3()
 		// Output here any content.
 	?>
 		<div id="account-menu__toggle">My Student Dashboard</div>
-		<div class="account__sitebar-menu">
-			<ul class="account__sitebar-list">
+		<div class="account__sidebar-menu">
+			<ul class="account__sidebar-list">
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
 				<li class="selected"><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
 				<?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
@@ -1283,8 +1283,8 @@ function dynamic_page4()
 		// Output here any content.
 	?>
 		<div id="account-menu__toggle">My Student Dashboard</div>
-		<div class="account__sitebar-menu">
-			<ul class="account__sitebar-list">
+		<div class="account__sidebar-menu">
+			<ul class="account__sidebar-list">
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
 				<?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
@@ -1497,8 +1497,8 @@ function dynamic_page5()
 		// Output here any content.
 	?>
 		<div id="account-menu__toggle">My Student Dashboard</div>
-		<div class="account__sitebar-menu">
-			<ul class="account__sitebar-list">
+		<div class="account__sidebar-menu">
+			<ul class="account__sidebar-list">
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
 				<li><a href="/members/<?php echo $user_info->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
 				<?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
@@ -2616,4 +2616,12 @@ function related_stories (){
 		return ob_get_clean();
 }
 
+//add_action( 'bp_core_before_wpsignup_redirect', 'inter_use_wp_register' );
+function inter_use_wp_register(){
+	$action = ! empty( $_GET['action'] ) ? $_GET['action'] : '';
+	if ( ! empty( $_SERVER['SCRIPT_NAME'] ) && ( 'register' == $action ) ) {	
+		return;
+	}
+}
 
+remove_action ( 'bp_init', 'bp_core_wpsignup_redirect' );

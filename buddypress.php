@@ -59,8 +59,8 @@ $cover_image_url = bp_attachments_get_attachment(
 $default_cover_image = buddyboss_theme_get_option('buddyboss_profile_cover_default');
 ?>
 <div id="account-menu__toggle">My Student Dashboard</div>
-<div class="account__sitebar-menu">
-    <ul class="account__sitebar-list">
+<div class="account__sidebar-menu">
+    <ul class="account__sidebar-list">
         <li><a href="/members/<?php echo $user_info->data->user_login; ?>/dashboard/"><span class="img-dashboard"></span>Dashboard</a></li>
         <li><a href="/members/<?php echo $user_info->data->user_login; ?>/my-courses/"><span class="img-courses"></span>My Courses</a></li>
         <?php if ($user_info->roles[0] == 'student' || $user_info->roles[0] == 'administrator') : ?>
@@ -159,20 +159,20 @@ if (!bp_is_group_create() && !bp_is_user_profile_edit() && !bp_is_user_change_av
         let url = window.location.href;
         let arr_url = url.split('/');
         if (jQuery.inArray('courses', arr_url) != -1) {
-            jQuery('.account__sitebar-list li').removeClass('selected');
-            jQuery('.account__sitebar-list li:eq(1)').addClass('selected');
+            jQuery('.account__sidebar-list li').removeClass('selected');
+            jQuery('.account__sidebar-list li:eq(1)').addClass('selected');
             jQuery('#item-header').hide();
             jQuery('#object-nav').hide();
 
         } else if (jQuery.inArray('forums', arr_url) != -1) {
-            jQuery('.account__sitebar-list li').removeClass('selected');
-            jQuery('.account__sitebar-list li:eq(3)').addClass('selected');
+            jQuery('.account__sidebar-list li').removeClass('selected');
+            jQuery('.account__sidebar-list li:eq(3)').addClass('selected');
             jQuery('#item-header').hide();
             jQuery('#object-nav').hide();
 
         } else if (jQuery.inArray('settings', arr_url) != -1) {
-            jQuery('.account__sitebar-list li').removeClass('selected');
-            jQuery('.account__sitebar-list li:eq(5)').addClass('selected');
+            jQuery('.account__sidebar-list li').removeClass('selected');
+            jQuery('.account__sidebar-list li:eq(5)').addClass('selected');
             jQuery('#buddypress h1.entry-title.settings-title').text('Login Information');
             jQuery('#buddypress h1.entry-title.settings-title').addClass('new-style');
             jQuery('.subnav').show();
@@ -182,8 +182,8 @@ if (!bp_is_group_create() && !bp_is_user_profile_edit() && !bp_is_user_change_av
 
         } else {
             jQuery('#object-nav').hide();
-            jQuery('.account__sitebar-list li').removeClass('selected');
-            jQuery('.account__sitebar-list li:eq(4)').addClass('selected');
+            jQuery('.account__sidebar-list li').removeClass('selected');
+            jQuery('.account__sidebar-list li:eq(4)').addClass('selected');
             // let res = url.split("?");
             // jQuery('#cover-image-container').css('opacity', 1);
 

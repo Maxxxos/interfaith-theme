@@ -1,4 +1,4 @@
-$light:#FBF5F3;
+$light: #FBF5F3;
 $violet: #870557;
 $orange: #EF5C0A;
 
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body:not(.learndash-cpt) h1 {
 	font-size: 48px !important;
-	line-height: 120%;
+	line-height: 120% !important;
 	text-transform: uppercase !important;
 	padding-bottom: 15px !important;
 	
@@ -44,7 +44,7 @@ body:not(.learndash-cpt) h1 {
 
 body:not(.learndash-cpt) h2 {
 	font-size: 36px !important;
-	line-height: 120%;
+	line-height: 120% !important;
 	text-transform: uppercase !important;
 	
 	@include tablet {

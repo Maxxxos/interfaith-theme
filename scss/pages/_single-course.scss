@@ -1,5 +1,493 @@
+/* ingle course */
+.learndash-theme.sfwd-courses-template-default {
+	font-family: freight-sans-pro, sans-serif !important;
+	background-color: #f8f8f8;
+	
+	.learndash-wrapper {
+		.bb-learndash-banner {
+			top: auto;
+			left: auto;
+			right: auto;
+			width: 100%;
+			padding: 176px 0 70px;
+			margin: 0 !important;
+			
+			.bb-course-banner-info {
+				width: 90%!important;
+				max-width: 1280px !important;
+				padding: 0 !important;
+				margin: 0 auto !important;
+				
+				.bb-course-banner-inner {
+					padding: 0 !important;
+				}
+				
+				.bb-course-category {
+					line-height: 100%;
+					margin-bottom: 15px;
+					
+					.course-category-item {
+						color: $light !important;
+						font-size: 16px;
+						font-weight: 500;
+						line-height: 100%;
+						text-transform: capitalize;
+						padding: 0 !important;
+					}
+				}
+				
+				h1.entry-title {
+					max-width: 700px;
+					color: $light;
+					font-size: 48px;
+					line-height: 110%;
+					font-weight: 500 !important;
+					text-transform: capitalize;
+					margin-bottom: 20px !important;
+					
+					@include tablet {
+						font-size: 40px !important;
+					}
+					
+					@include phone {
+						font-size: 36px !important;
+					}
+				}
+				
+				.bb-course-excerpt {
+					max-width: 700px;
+					color: $light;
+					font-size: 24px;
+					line-height: 130%;
+					font-weight: 400 !important;
+					text-transform: capitalize;
+					margin-bottom: 35px !important;
+					opacity: 1;
+					
+					@include tablet {
+						font-size: 20px !important;
+					}
+				}
+				
+				.add-button-start {
+					a.btn-advance {
+						
+					}
+					
+					.bb-course-type {
+						display: block;
+						color: $light !important;
+						font-size: 18px;
+						font-weight: 500;
+						line-height: 100%;
+						text-transform: capitalize;
+						margin-top: 20px;
+					}
+				}
+				/*
+				.avatar {
+					max-width: 55px;
+				}
+				
+				.author-name {
+					font-size: 18px;
+					line-height: 24px;
+					color: #FBF5F3;
+					@include tablet {
+						font-size: 19px;
+					}
+					@include phone {
+						text-align: center;
+					}
+				}
+				
+				.author-name {
+					font-size: 18px;
+					line-height: 24px;
+					color: #FBF5F3;
+					letter-spacing: 1px;
+					@include tablet {
+						font-size: 19px;
+					}
+				}*/
+			}
+		}
+		
+		> .bb-grid {
+			width: 90%;
+			max-width: 1280px;
+			margin: 0 auto;
+			
+			.bb-learndash-content-wrap {
+				padding: 70px 0 0 !important;
+				
+				@include tablet {
+					padding: 40px 0 0 !important;
+				}
+				
+				.ld-course-status {
+					.ld-progress {
+						padding: 0 !important;
+						margin: 0 !important;
+						
+						.ld-progress-bar {
+							margin: 5px auto;
+						}
+					}
+					
+					.ld-progress-stats {
+						@media (max-width: 992px) and (min-width: 820px) {
+							margin-bottom: 20px;
+						}
+						
+						@media (max-width: 640px) {
+							margin-bottom: 20px;
+						}
+						
+						.ld-progress-percentage {
+							font-size: 16px;
+							font-weight: 600;
+							line-height: 100%;
+							letter-spacing: 0.5px;
+							margin-bottom: 5px;
+						}
+						
+						.ld-progress-steps {
+							font-size: 16px;
+							line-height: 100%;
+						}
+					}
+				}
+				
+				.ld-lesson-list {
+					margin-top: 30px;
+					
+					.ld-section-heading {
+						margin-bottom: 30px;
+						
+						h2 {
+							color: #222;
+							font-size: 36px !important;
+							line-height: 100% !important;
+							font-weight: 500 !important;
+							text-transform: capitalize !important;
+							padding-left: clamp(20px, 3vw, 40px);
+							
+						}
+					}
+					
+					.ld-lesson-progression {
+						.ld-item-list-section-heading {
+							line-height: 100%;
+							padding-left: clamp(20px, 3vw, 40px);
+							margin: 40px 0 15px;
+							
+							.ld-lesson-section-heading {
+								color: #222;
+								font-size: 20px;
+								text-transform: uppercase;
+								margin: 0 !important;
+							}
+						}
+						
+						.ld-item-lesson-item {
+							background: #FDFDFD;
+							border: 1px solid #D6D6D6;
+							border-radius: 4px;
+							margin: 0 0 20px;
+							
+							.ld-item-list-item-preview {
+								padding: clamp(20px, 3vw, 40px);
+								background-color: #fff;
+								
+								.ld-item-title {
+									color: #1D1D1D;
+									font-size: 22px;
+									line-height: 120%;
+									font-weight: 400;
+									padding-left: 0;
+									
+									@include phone {
+										font-size: 20px;
+									}
+								}
+								
+								.ld-status-icon {
+									.ld-icon {
+										position: relative;
+										display: block;
+										width: 100%;
+										height: 100%;
+										margin: 0 !important;
+										
+										&:before {
+											top: 50%;
+											left: 50%;
+										}
+									}
+								}
+								
+								&:hover a .ld-item-title {
+									color: $violet !important;
+								}
+    
+    
+    
+							}
+						}
+						
+					}
+					
+					.ld-pagination-page-course_lessons {
+						
+					}
+				}
+			}
+		}
+		
+		.add-button-start,
+		.btn-advance-start {
+			a.btn-advance {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				max-width: 160px;
+				height: 53px;
+				color: #fff;
+				font-size: 16px;
+				line-height: 21px;
+				font-weight: 400;
+				background-color: $violet;
+				border: none !important;
+				border-radius: 100px;
+				border-radius: 4px!important;
+				box-shadow: none !important;
+				transition: all linear 0.2s;
+				-webkit-transition: all linear 0.2s;
+
+				&:hover {
+					background-color: #7D225C;
+					text-decoration: none;
+				}
+			}
+		}
+		
+		.bb-ld-tabs {
+			.et_pb_section {
+				padding: 50px 0 !important;
+				
+				.et_pb_row {
+					width: 100% !important;
+					max-width: 100% !important;
+					
+				}
+				
+				&.section-toggle {
+					.et_pb_toggle .et_pb_toggle_content {
+						max-width: 100% !important;
+					}
+				}
+				
+				.testimonial-row {
+					overflow: hidden;
+					padding-bottom: 20px !important;
+					background: #FDFDFD !important;
+					border-radius: 4px !important;
+					box-shadow: 0px 8px 24px rgb(136 136 136 / 15%) !important;
+						
+					.et_pb_testimonial {
+						display: flex !important;
+						align-items: center;
+						padding: 30px !important;
+						background: #FDFDFD !important;
+						margin: 0 !important;
+							
+						@media (max-width: 799px) {
+							flex-direction: column !important; 
+						}
+						
+						&:before {
+							display: none;
+						}
+						
+						.et_pb_testimonial_portrait {
+							display: block;
+							width: 300px !important;
+							height: 300px !important;
+							background-size: cover !important;
+							background-position: center !important;
+							border-radius: 4px !important;
+							margin: 0 auto !important;
+							
+							@media (max-width: 500px) {
+								width: 100% !important;
+							}
+							
+							&:before {
+								display: none;
+							}
+						}
+						
+						.et_pb_testimonial_description {
+							width: calc(100% - 340px);
+							margin-left: 40px !important;
+							
+							@media (max-width: 799px) {
+							   width: 90%;
+							   margin: 30px auto 0 !important;
+							}
+							
+							.et_pb_testimonial_author {
+								color: $violet !important;
+								font-size: 24px;
+								line-height: 105%;
+								font-weight: 500 !important;
+								margin-top: 20px !important;
+								
+							}
+							
+							.et_pb_testimonial_position {
+								font-size: 16px;
+								line-height: 130%;
+							}
+						}
+
+						
+					}
+					
+					.owl-stage {
+						display: flex !important;
+					}
+					
+					.owl-nav {
+						display: none;
+						/*position: absolute;
+						top: calc(45% - 25px);
+						width: 100%;
+						display: flex;
+						justify-content: space-between;
+						@media (max-width: 500px) {
+							top: calc(173px - 25px);
+						}
+						button {
+							background: #fff;
+							width: 50px;
+							height: 50px;
+							border-radius: 50%;
+							border: 2px solid #870557 !important;
+							color: #870557 !important;
+							font-size: 40px;
+							padding: 0;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							span {
+								line-height: .9;
+								height: 42px;
+							}
+							&:hover {
+								color: #fff !important;
+								background-color: #870557 !important;                
+							}
+						}*/
+					}
+					.owl-dots {
+						text-align: center !important;
+						
+						.owl-dot {
+							width: 15px;
+							max-width: 15px;
+							height: 15px;
+							background-color: #ccc!important;
+							border-radius: 50% !important;
+							margin: 0 5px;
+							padding: 0;
+							
+							&.active {
+								background-color: #870557!important;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		
+	}
+}
+
+
+
+/* Lesson */
+
+body.sfwd-lessons-template-default.single-sfwd-lessons {
+	font-family: freight-sans-pro, sans-serif !important;
+	
+	#learndash-content {
+		.bb-grid {
+			margin: 0 !important;
+		}
+		
+		.lms-topic-sidebar-wrapper  {
+			
+			.lms-topic-sidebar-progress {
+				.course-progress-wrap {
+					padding-bottom: 15px;
+					margin: 20px 30px;
+					
+					.ld-progress-stats {
+						.ld-progress-percentage {
+							color: #3b3b3b;
+							font-size: 16px;
+						}
+						
+						.ld-progress-steps {
+							color: #3b3b3b;
+							font-size: 15px;
+							font-weight: 400;
+						}
+					}
+				}
+			}
+			
+			.bb-lesson-title  {
+				color: #3B3B3B;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 105%;
+			}
+			
+			
+			.i-progress-completed {
+				.bb-icon-check {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					height: 100%;
+					margin: 0 !important;
+					
+					&:before {
+						position: relative;
+						padding-top: 2px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+/**/
+
+
+
+
 .learndash.learndash_post_sfwd-courses #et-boc .et-l .courses-text-block {
     margin-top: 20px !important;
+	
     .delimiter  {
         padding: 2px 0 !important;
         margin: 10px 0 20px !important;
@@ -110,6 +598,8 @@
 
     }
 }
+
+
 .learndash.learndash_post_sfwd-courses #et-boc .et-l .courses-text-block-grey {
     background: rgba(146, 164, 183, 0.05);
     padding: 5% 0;
@@ -183,161 +673,25 @@
 body .buddyboss-theme.learndash-theme {
     background-color: #fff;
 }
-.bb-vw-container.bb-learndash-banner {
-    height: 550px;
-    @include laptopL {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    @include tablet{ 
-        height: 540px;
-        margin-bottom: 20px;
-    }
-}
-.bb-course-banner-inner h1.entry-title {
-    text-transform: capitalize;
-    font-family: 'FreightSansProMedium-Regular';
-    font-weight: 400!important;
-    font-size: 48px;
-    line-height: 1.1;
-    color: #FBF5F3;
-    text-align: left;
-    margin-top: 0;
-    max-width: 700px;
-    padding-top: 0;
-    @include tablet {
-        margin-left: 0;
-    }
-    @include phone {
-       font-size: 40px;
-    }
-}
-.bb-course-excerpt {
-    font-size: 24px;
-    line-height: 1.4;
-    color: #FBF5F3;
-    opacity: 1;
-    max-width: 640px;
-    @include tablet {
-        font-size: 21px;
-    }
-}
-.bb-course-banner-inner .avatar {
-    max-width: 55px;
-}
-.bb-course-banner-inner .author-name {
-    font-size: 18px;
-    line-height: 24px;
-    color: #FBF5F3;
-    @include tablet {
-        font-size: 19px;
-    }
-    @include phone {
-        text-align: center;
-    }
-}
+
+
+
 .bb-course-points a.anchor-course-points {
     display: none;
 }
-.bb-course-banner-inner .author-name {
-    font-size: 18px;
-    line-height: 24px;
-    color: #FBF5F3;
-    letter-spacing: 1px;
-    @include tablet {
-        font-size: 19px;
-    }
-}
-#content {
-    .bb-learndash-banner {
-        display: flex;
-        align-items: center;
-    }
-    .bb-course-banner-info {
-        max-width: 1280px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 90%!important;
-        @include phone {
-            padding-top: 120px;
-        }
-        &.container {
-            margin: auto;
-            @include tablet {
-                margin: 5% auto;
-            }
-            @include phone {
-                margin: auto;
-            }
-            
-        }
-    }
-    .learndash.learndash_post_sfwd-courses {
-        
-        .ld-item-lesson-item {
-            background: #FDFDFD;
-            border: 1px solid #D6D6D6;
-            border-radius: 4px;
-            .ld-item-title {
-                font-family: 'FreightSansProMedium-Regular';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 24px;
-                line-height: 28px;
-                color: #1D1D1D;
-                @include phone {
-                    font-size: 20px;
-                }
-            }
-        }
-    }
-}
+
+
 #et_builder_outer_content>div>div>div.et_pb_section.et_pb_section_1.courses-text-block-grey.et_section_regular.et_section_transparent>div>div>div.et_pb_module.et_pb_text.et_pb_text_5.et_pb_text_align_left.et_pb_bg_layout_light>div>p {
     max-width: 250px;
 }
 #et_builder_outer_content>div>div>div.et_pb_section.et_pb_section_1.courses-text-block-grey.et_section_regular.et_section_transparent>div>div>div.et_pb_module.et_pb_text.et_pb_text_5.et_pb_text_align_left.et_pb_bg_layout_light>div>ul {
     padding: 5px 0 0;
 }
-.learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-name {
-    font-size: 24px;
-    line-height: 1.3;
-    @include tablet {
-        font-size: 19px;
-    }
-    &:hover {
-        color: #870557 !important;
-    }
-}
-#content .learndash-wrapper .ld-item-list.ld-lesson-list .ld-section-heading h2 {
-    font-family: 'FreightSansProMedium-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px !important;
-    line-height: 1.4;
-    text-transform: capitalize !important;
-    
-    color: #1D1D1D;
-}
-.learndash-wrapper .ld-item-list {
-    margin-top: 18px;
-}
-.learndash-wrapper  .bb-learndash-content-wrap>div {
-    margin-bottom: 0px;
-}
-.learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-list-item-preview {
-    &:hover a.ld-item-name .ld-item-title {
-        color: #870557 !important;
-    }
-    background-color: #fff;
-    padding: 2.5rem 2.4rem;
-    @include phone {
-        padding: 1.5rem 2.4rem 1.5rem 1rem;
-    }
-}
 
-.ld-item-list-section-heading.ld-item-section-heading-1634351737938 {
-    display: none;
-}
+
+
+
+
 .bb-about-instructor .bb-content-wrap p {
     font-size: 18px;
     line-height: 24px;
@@ -452,16 +806,7 @@ div>div.bb-grid>div.bb-learndash-content-wrap>div.bb-about-instructor.bb-about-i
         }
     }
 }
-.bb-learndash-content-wrap {
-    @include phone {
-        padding-top: 0;
-    }
-}
-@media screen and (min-width: 800px) {
-    .bb-grid .bb-learndash-content-wrap {
-        padding-right: 0;
-    }
-}
+
 .lms-topic-sidebar-wrapper .lms-lessions-list>ol li a.bb-lesson-head {
     color: #1D1D1D!important;
 }
@@ -491,11 +836,7 @@ div>div.bb-grid>div.bb-single-course-sidebar.bb-preview-wrap>div.bb-ld-sticky-si
        align-items: center;
     }
 }
-.et-db #et-boc .et-l .et_pb_column .et_pb_module {
-    @include phone {
-        margin-bottom: 0;
-    }
-}
+
 .learndash-theme.single-sfwd-courses .bb-about-instructor .bb-avatar-wrap {
     @include phone {
         margin-right: 0;
@@ -525,37 +866,7 @@ div>div.bb-grid>div.bb-single-course-sidebar.bb-preview-wrap>div.bb-ld-sticky-si
 }
 
 .learndash-wrapper {
-    .add-button-start,
-    .btn-advance-start {
-        a.btn-advance {
-            box-shadow: inset 0 0 0 99999px rgb(0 0 0 / 10%) !important;
-            border-radius: 100px;
-            background-color: #870557;
-            color: #fff;
-            -webkit-transition: all linear 0.2s;
-            transition: all linear 0.2s;
-            font-family: 'FreightSansProSemibold-Regular';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 21px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            max-width: 160px;
-            height: 53px;
-            background: #870557;
-            border-radius: 4px!important;
-            margin-bottom: 20px;
-            border: none !important;
-
-            &:hover {
-                text-decoration: none;
-                background-color: #7D225C
-            }
-        }
-    }
+    
 
     .btn-advance-completed {
         a.btn-advance {
@@ -592,133 +903,11 @@ div>div.bb-grid>div.bb-single-course-sidebar.bb-preview-wrap>div.bb-ld-sticky-si
         padding-bottom: 15px;
     }
 }
-.testimonial-row {
-    overflow: hidden;
-    margin: 5% 0 !important;
-    position: relative;
-    @media (max-width: 799px) {
-        max-width: 700px;
-        width: 100%!important;
-        margin: 5% auto !important;
-    }
-    @media (max-width: 730px) {
-        max-width: 600px;
-    }
-    & > div  {  
-        box-shadow: 0px 8px 24px rgb(136 136 136 / 15%) !important;
-        border-radius: 4px !important;
-        div.et_pb_testimonial {
-            display: flex !important;
-            align-items: center;
-            padding: 30px 3% !important;
-            background: #FDFDFD !important;
-            @media (max-width: 799px) {
-                flex-direction: column !important; 
-                max-width: 100%;
-            }
-            .et_pb_testimonial_description {
-                width: calc(100% - 340px);
-                margin-left: 40px !important;
-                padding-right: 30px !important;
-                @media (max-width: 799px) {
-                   width: 100%;
-                   margin-top: 30px !important;
-                   padding-right: 0 !important;
-                   margin-right: 40px !important;
-                }
-                @media (max-width: 500px) {
-                    margin-right: 20px !important;
-                    margin-left: 20px !important;
-                }
-                .et_pb_testimonial_author {
-                    font-weight: 500;
-                    font-size: 24px;
-                    line-height: 31px;
-                    color: #870557 !important;
-                    margin-top: 20px !important;
-                    display: block;
-                }
-                .et_pb_testimonial_position {
-                    font-size: 16px;
-                    line-height: 1.3;
-                }
-            }
 
-            .et_pb_testimonial_portrait {
-                width: 300px !important;
-                height: 300px !important;
-                background-size: cover !important;
-                background-position: center !important;
-                border-radius: 4px !important;
-                overflow: hidden;
-                @media (max-width: 500px) {
-                    width: 100% !important;
-                }
-            }
-        }
-    }
-    .owl-stage {
-        display: flex !important;
-    }
-    .owl-nav {
-        position: absolute;
-        top: calc(45% - 25px);
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        @media (max-width: 500px) {
-            top: calc(173px - 25px);
-        }
-        button {
-            background: #fff;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            border: 2px solid #870557 !important;
-            color: #870557 !important;
-            font-size: 40px;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            span {
-                line-height: .9;
-                height: 42px;
-            }
-            &:hover {
-                color: #fff !important;
-                background-color: #870557 !important;                
-            }
-        }
-    }
-    .owl-dots {
-        text-align: center !important;
-        .owl-dot {
-            width: 15px;
-            height: 15px;
-            max-width: 15px;
-            background-color: #ccc!important;
-            border-radius: 50%!important;
-            margin: 0 5px;
-            padding: 0;
-            &.active {
-                background-color: #870557!important;
-            }
-        }
-    }
-}
-.sfwd-courses-template-default.single-sfwd-courses {
-    background-color: #f8f8f8;
-}
+
+/*
 .sfwd-courses-template-default.single-sfwd-courses  #content .bb-grid {
-    max-width: 1280px;
-    width: 97%;
-    padding-right: 0;
-    padding-left: 0;
-    margin: auto;
-    @include phone {
-        width: 100%;
-    }
+
     #et-boc .et-l  .section-toggle.et_section_regular {
         max-width: 100%!important;
         & > div {
@@ -750,7 +939,7 @@ div>div.bb-grid>div.bb-single-course-sidebar.bb-preview-wrap>div.bb-ld-sticky-si
             }
         }
     }
-}
+}*/
 .lms-topic-sidebar-course-navigation .ld-course-navigation .course-entry-title,
 div.bb-lms-header h1 {
     color: #1D1D1D !important;
@@ -767,13 +956,7 @@ div.bb-lms-header h1 {
     }
 }
 
-.lms-topic-sidebar-wrapper .bb-lesson-title  {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
-    color: #3B3B3B;
-}
+
 .bb-lesson-head:hover,
 .bb-lesson-title:hover,
 .single-sfwd-lessons h1,
@@ -787,13 +970,10 @@ div.bb-lms-header h1 {
 .single-sfwd-lessons .show-support h6,
 .single-sfwd-lessons label,
 .single-sfwd-lessons h4 .bp-reported-type,
-.single-sfwd-lessons .ld-lesson-section-heading,
-.single-sfwd-courses .ld-lesson-section-heading {
+.single-sfwd-lessons .ld-lesson-section-heading {
     color: #1D1D1D!important;
 }
-.single-sfwd-courses .ld-lesson-section-heading {
-    text-transform: uppercase;
-}
+
 .lms-header-instructor .bb-about-instructor .avatar {
     max-width: 32px !important;
     max-height: 32px !important;

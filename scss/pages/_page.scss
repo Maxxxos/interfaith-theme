@@ -82,7 +82,7 @@
 			
 			@include desktop {
 				position: sticky;
-				top: calc(0vh + 100px);
+				top: calc(0vh + 150px);
 			}
 			
 			@include tablet {
@@ -132,7 +132,6 @@
 				}
 				
 				a {
-					position: relative;
 					display: block;
 					color: #7E7E7E !important;
 					font-size: 20px;
@@ -146,29 +145,9 @@
 						text-align: center;
 					}
 					
-					@include phoneS {
-						
-					}
-					
-					&:after {
-						content: '';
-						position: absolute;
-						right: 0;
-						bottom: 0;
-						width: 0;
-						height: 1px;
-						background-color: $violet;
-						transition: all 0.35s ease-in-out;
-					}
-					
 					&:hover {
 						color: $violet !important;
-						text-decoration: none !important;
-						
-						&:after {
-							width: 100%;
-							left: 0;
-						}
+						opacity: 1;
 					}
 					
 				}
