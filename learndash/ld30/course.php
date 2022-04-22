@@ -280,9 +280,15 @@ $has_lesson_quizzes = learndash_30_has_lesson_quizzes($course_id, $lessons); ?>
             <div class="bb-about-instructor bb-about-instructor--is-info" id="et-boc">
                 <div class="bb-grid et-l">
                     <div class="container-wrap section-contact-course et_pb_module">
-                        <h3><?php the_field('section_contact_title'); ?></h3>
+                        <?php if (get_field('section_contact_title')){ ?>
+                            <h3><?php the_field('section_contact_title'); ?></h3>
+                        <?php } ?>
+                        <?php if (get_field('section_contact_subtitle')){ ?>
                         <p><?php the_field('section_contact_subtitle'); ?></p>
+                        <?php } ?>
+                        <?php if (get_field('link') && get_field('title_btn')){ ?>
                         <a class="main-btn" href="<?php the_field('link'); ?>"><?php the_field('title_btn'); ?></a>
+                        <?php } ?>
                     </div>
                     <!--   <div class="bb-instructor-wrap flex">
                         <div class="bb-avatar-wrap">

@@ -171,7 +171,7 @@ $logo_class = ($logo_align <= 1 && (!buddyboss_is_learndash_inner() && !buddybos
 				<?php //} 
 				?>
 				<div class="bb-header-buttons">
-					<a class="btn-login" id="view-login-form">Login</a>
+					<a class="btn-login" id="view-login-form" href="/wp-login.php">Login</a>
 				</div>
 			<?php } else { ?>
 				<a href="<?php echo wp_logout_url(); ?>" class="button small full sign-out"><?php _e('Log Out', 'buddyboss-theme'); ?></a>

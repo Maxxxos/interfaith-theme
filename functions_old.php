@@ -90,6 +90,316 @@ function cr_register_sidebars()
 	));
 }
 
+add_action('wp_footer', 'add_form_login', 99);
+
+function add_form_login()
+{
+	ob_start();
+	?>
+	<div class="popup-wrap" <?php if (isset($_GET['popup'])) {
+								echo 'style="display: block;" ';
+							} ?>>
+		<div class="popup-overview">
+			<div class="popup-block" id="login-form">
+				<span id="popup-close" class="popup-block-close">+</span>
+				
+				<div class="popup-column popup-column-header popup-block__item1 color-bg">
+					<img class="logo" src="/wp-content/uploads/2022/04/OneSpirit_Interfaith_Foundation_logo.png" alt="logo">
+					<div class="popup-block__title">Welcome back!</div>
+				</div>
+				
+				<div class="popup-column popup-column-form popup-block__item2 form-sing-up">
+					<div id="popup-form-login" class="popup-form__row popup-form__row-login">
+						
+						<div class="signup">Not a member yet? <span id="btn-signup">Sign up</span></div>
+						
+						<form method="post" id="login-form">
+
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+									<label for="register_email"><?php esc_html_e('Email', 'framework'); ?><span></span></label>
+									<input id="register_email" name="register_email" type="email" class="email required" title="<?php esc_html_e('* Provide valid email address!', 'framework'); ?>" required />
+								</div>
+
+							</div>
+
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+									<div class="login-agent__password-row">
+										<label for="password"><?php esc_html_e('Password', 'framework'); ?><span></span></label>
+										<a id="forgot-password" href=""><?php esc_html_e('Forgot password', 'framework') ?></a>
+									</div>
+									<span class="view-pass"></span>
+									<input autocomplete="current-password" id="password-login-user" name="pwd" type="password" class="required" required />
+
+								</div>
+
+							</div>
+							<div class="rh_form__row">
+								<div class="checker" id="uniform-login-remember">
+									<input type="checkbox" value="1" id="login-remember">
+									<label class="label-remember">Remember me</label>
+								</div>
+							</div> 
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_input_btn_wrapper rh_form--3-column rh_form--columnAlign">
+
+									<button type="submit" id="login-button-user" class="et_pb_button login-button"><?php esc_html_e('Log In', 'framework'); ?></button>
+								</div>
+							</div>
+							
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_form--1-column rh_form--columnAlign rh_form__response">
+									<p id="login-message-user" class="rh_form__msg"></p>
+								</div>
+
+							</div>
+						</form>
+					</div>
+					
+					<div id="popup-form-register" class="popup-form__row rh_form__register">
+						
+						<div class="signup">Have an account? <span id="btn-login">Log in</span></div>
+						
+						<form method="post" id="register-form">
+							<div class="rh_form__row-two">
+								<div class="rh_form__row">
+									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+										<label for="register_first-name"><?php esc_html_e('First name', 'framework'); ?><span></span></label>
+										<input id="register_first-name" name="register_first-name" type="text" class="name-user required" title="<?php esc_html_e('* Provide valid name!', 'framework'); ?>" required />
+									</div>
+								</div>
+								
+								<div class="rh_form__row">
+									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+										<label for="register_last-name"><?php esc_html_e('Last name', 'framework'); ?><span></span></label>
+										<input id="register_last-name" name="register_last-name" type="text" class="name-user required" title="<?php esc_html_e('* Provide valid name!', 'framework'); ?>" required />
+									</div>
+								</div>
+							</div>
+							
+							<div class="rh_form__row-two">
+								<div class="rh_form__row">
+									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+										<label for="register_mobile-phone"><?php esc_html_e('Mobile phone', 'framework'); ?><span></span></label>
+										<input id="register_mobile-phone" name="register_mobile-phone" type="text" class="name-user required" title="<?php esc_html_e('* Provide valid phone!', 'framework'); ?>" required />
+									</div>
+								</div>
+								
+								<div class="rh_form__row">
+									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+										<label for="register_email2"><?php esc_html_e('Email', 'framework'); ?><span></span></label>
+										<input id="register_email2" name="register_email2" type="email" class="email required" title="<?php esc_html_e('* Provide valid email address!', 'framework'); ?>" required />
+									</div>
+								</div>
+							</div>
+							<div class="rh_form__row ">
+								<div class="radio-fields">
+									<div class="radio-item">
+										<input type="radio" id="contactChoice2" name="gender" value="male">
+										<label for="contactChoice2">Male</label>
+									</div>
+									<div class="radio-item">
+										<input type="radio" id="contactChoice3" name="gender" value="female">
+										<label for="contactChoice3">Female</label>
+									</div>
+								</div>
+							</div>
+							<div class="rh_form__row-two">
+								<div class="rh_form__row">
+									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+										<label for="register_country"><?php esc_html_e('Country', 'framework'); ?><span></span></label>
+										<input id="register_country" name="register_country" type="text" class="country-user required" title="<?php esc_html_e('* Provide valid country!', 'framework'); ?>" required />
+									</div>
+								</div>
+								
+								<div class="rh_form__row">
+									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+										<label for="register_zip"><?php esc_html_e('Zip code', 'framework'); ?><span></span></label>
+										<input id="register_zip" name="register_zip" type="text" class="zip-user required" title="<?php esc_html_e('* Provide valid zip!', 'framework'); ?>" required />
+									</div>
+								</div>
+							</div>
+							
+							<div class="rh_form__row-two">
+								<div class="rh_form__row">
+									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+										<label for="register_city"><?php esc_html_e('City', 'framework'); ?><span></span></label>
+										<input id="register_city" name="register_city" type="text" class="city-user required" title="<?php esc_html_e('* Provide valid city!', 'framework'); ?>" required />
+									</div>
+								</div>
+								
+								<div class="rh_form__row">
+									<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+										<label for="register_street"><?php esc_html_e('Street', 'framework'); ?><span></span></label>
+										<input id="register_street" name="register_street" type="text" class="street-user required" title="<?php esc_html_e('* Provide valid street!', 'framework'); ?>" required />
+									</div>
+								</div>
+							</div>
+							
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+									<div class="login-agent__password-row">
+										<label for="password-signup-user"><?php esc_html_e('Password', 'framework'); ?><span></span></label>
+										<a id="forgot-password" href=""><?php esc_html_e('Forgot password', 'framework') ?></a>
+									</div>
+									<span class="view-pass"></span>
+									<input autocomplete="current-password" id="password-signup-user" name="password" type="password" class="required" required />
+								</div>
+							</div>
+							
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_input_btn_wrapper rh_form--3-column rh_form--columnAlign">
+									<button type="submit" id="signup-button-user" class="login-button"><?php esc_html_e('Sign up', 'framework'); ?></button>
+								</div>
+							</div>
+
+							<div class="rh_form__row">
+								<div class="rh_form__item rh_form--1-column rh_form--columnAlign rh_form__response">
+									<p id="singup-message-user" class="rh_form__msg"></p>
+								</div>
+							</div>
+						</form>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup-block  <?php if (isset($_GET['popup']) && $_GET['popup'] == 'forgot-pass') {
+										echo 'active';
+									} ?>" id="custom-passreset">
+			<span id="popup-close2" class="popup-block-close">+</span>
+			<div class="popup-block__item1 color-bg">
+				<div class="popup-logo__row">
+					<img src="/wp-content/uploads/2021/09/image-11-1.png" alt="logo">
+					<div class="popup-block__title">Forgot password?</div>
+				</div>
+			</div>
+			<div class="popup-block__item2">
+				<div class="signup-row">Not a member yet? <a id="signup">Sign Up</a></div>
+				<div class="passreset-wrap">
+					<?php echo do_shortcode('[custom_passreset]');
+					?>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+<?php
+}
+add_action('wp_ajax_nopriv_signup_func', 'signup_func');
+add_action('wp_ajax_signup_func', 'signup_func');
+
+function signup_func()
+{
+
+	$first_name = sanitize_text_field(trim($_POST['first_name']));
+	$last_name = sanitize_text_field(trim($_POST['last_name']));
+	$mobile_phone = sanitize_text_field($_POST['mobile_phone']);
+	$city = sanitize_text_field($_POST['city']);
+	$country = sanitize_text_field($_POST['country']);
+	$street = sanitize_text_field($_POST['street']);
+	$gender = sanitize_text_field($_POST['gender']);
+	$zip_code = sanitize_text_field($_POST['zip_code']);
+	$email = sanitize_text_field(trim($_POST['email']));
+	$password = sanitize_text_field(trim($_POST['login_password']));
+	$username = $first_name . '_' . $last_name;
+
+	$user_id = wp_create_user($first_name, $password, $email);
+
+	update_user_meta($user_id, 'first_name', $first_name);
+	update_user_meta($user_id, 'last_name', $last_name);
+	global $wpdb;
+	$wpdb->update(
+		$wpdb->users,
+		['mobile_phone' => $mobile_phone, 'user_roles' => 'subscriber', 'gender' => $gender, 'zip_code' => $zip_code, 'country' => $country, 'city' => $city, 'street' => $street,],
+		['ID' => $user_id]
+	);
+
+	// add Knak
+	// $url2 = 'https://api.knack.com/v1/objects/object_21/records';
+	// $data2 = array(
+	//     'field_181' => array(
+	//         'first' => $first_name,
+	//         'last' => $last_name,
+	//     ),
+	//     'field_182' => $email,
+	//     'field_183' => md5($password),
+	//     'field_185' => 'Student',
+	//     'field_184' => 'active',
+	//     'account_status' => 'active',
+	//     'field_304' => ucfirst($gender),
+	//     'field_409' => $mobile_phone, //контактный тел
+	//     'field_263' => $mobile_phone,
+	//     // 'field_264' => '333-33-33', //home phone
+	//     //'field_259' => 'https://interfaith.sitepreview.app/wp-content/uploads/2021/10/Rectangle-55-2.jpg',
+	//     //  'field_268' => '01/01/1978',
+	//     //  'field_266' => 'England-test',
+	//     'field_204' => array(
+	//         'street' => $street,
+	//         'city' => $city,
+	//         'zip' => $zip_code,
+	//         'country' => $country
+	//     ),
+	// );
+	// $args2 = array(
+	//     'headers' => array(
+	//         "Content-type" => "application/json",
+	//         'X-Knack-Application-ID' => '5b9e72d273ceb36d5e611a76',
+	//         'X-Knack-REST-API-KEY' => '5d05e530-bb2d-11e8-afc6-e9e6b74e07a8'
+	//     ),
+	//     'body' => json_encode($data2),
+	//     'timeout'     => 45,
+	//     'redirection' => 5,
+	//     // 'httpversion' => '1.0',
+	//     // 'blocking'    => false
+	// );
+
+
+	//wp_remote_post($url2, $args2);
+
+	wp_set_current_user($user_id);
+	wp_set_auth_cookie($user_id);
+
+	if (is_wp_error($user_id)) {
+		$return = array('error' => $user_id->get_error_message());
+	} else {
+		$return = array('login' => get_user_meta($user_id, 'first_name'));
+	}
+
+	wp_send_json($return);
+	die;
+}
+
+add_action('wp_ajax_nopriv_login_func', 'login_func');
+add_action('wp_ajax_login_func', 'login_func');
+
+function login_func()
+{
+	$user_data = array();
+	$password = sanitize_text_field(trim($_POST['login_password']));
+	if (!empty($_POST['login_remember'])) {
+		$remember = sanitize_text_field($_POST['login_remember']);
+	} else {
+		$remember = 0;
+	}
+	$login_field = sanitize_text_field(trim($_POST['login_field']));
+
+	$user_data['user_login'] = $login_field;
+	$user_data['user_password'] = $password;
+	$user_data['remember'] = $remember;
+
+	$user = wp_signon($user_data, false);
+
+	if ($user->get_error_message()) {
+		$return = array('error' => $user->get_error_message());
+	} else {
+		$return = array('login' => $user->user_login);
+	}
+
+	wp_send_json($return);
+	die;
+}
 // когда пользователь сам редактирует свой профиль
 add_action('personal_options_update', 'true_save_profile_fields');
 // когда чей-то профиль редактируется админом например
@@ -100,6 +410,219 @@ function true_save_profile_fields($user_id)
 	update_user_meta($user_id, 'name_agency', sanitize_text_field($_POST['name_agency']));
 }
 
+// форма восстановления пароля
+add_shortcode('custom_passreset', 'misha_render_pass_reset_form'); // шорткод [custom_passreset]
+
+function misha_render_pass_reset_form()
+{
+
+	// если пользователь авторизован, просто выводим сообщение и выходим из функции
+	if (is_user_logged_in()) {
+		return sprintf("You are already authorized on the site. <a href='%s'>Sign out</a>.", wp_logout_url());
+	}
+
+	$return = ''; // переменная, в которую всё будем записывать
+
+	// обработка ошибок, если вам нужны такие же стили уведомлений, как в видео, CSS-код прикладываю чуть ниже
+	if (isset($_REQUEST['errno'])) {
+		$errors = explode(',', $_REQUEST['errno']);
+
+		foreach ($errors as $error) {
+			switch ($error) {
+				case 'empty_username':
+					$return .= '<p class="errno">You forgot to enter your email</p>';
+					break;
+				case 'password_reset_empty':
+					$return .= '<p class="errno">Enter your password!</p>';
+					break;
+				case 'password_reset_mismatch':
+					$return .= '<p class="errno">Password mismatch!</p>';
+					break;
+				case 'invalid_email':
+				case 'invalidcombo':
+					$return .= '<p class="errno">No user with the specified email was found on the site.</p>';
+					break;
+			}
+		}
+	}
+
+	// тем, кто пришёл сюда по ссылке из email, показываем форму установки нового пароля
+	if (isset($_REQUEST['login']) && isset($_REQUEST['key'])) {
+
+		$return .= '<h3 class="lostpassword-title">Enter new password</h3>
+            <form name="resetpassform" id="resetpassform" action="' . site_url('wp-login.php?action=resetpass') . '" method="post" autocomplete="off">
+                <input type="hidden" id="user_login" name="login" value="' . esc_attr($_REQUEST['login']) . '" autocomplete="off" />
+                <input type="hidden" name="key" value="' . esc_attr($_REQUEST['key']) . '" />
+
+				<div class="rh_form__row form-row">
+					<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+						<label for="pass1">New password</label>
+						<span class="view-pass"></span>
+						    <input type="password" name="pass1" id="pass1" class="input" size="20" value="" autocomplete="off" />						
+					</div>
+				</div>
+				<div class="rh_form__row form-row">
+					<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+						<label for="pass2">Confirm password</label>
+						<span class="view-pass"></span>
+                    	<input type="password" name="pass2" id="pass2" class="input" size="20" value="" autocomplete="off" />
+						
+					</div>
+				</div>
+                <p class="description lostpassword-description">' . wp_get_password_hint() . '</p>
+ 
+				<div class="rh_form__row">
+					<div class="rh_form__item rh_input_btn_wrapper rh_form--3-column rh_form--columnAlign resetpass-submit">
+						 <input type="submit" name="submit" id="resetpass-button" class="button" value="Reset" />
+					</div>
+				</div>
+            </form>';
+
+		// возвращаем форму и выходим из функции
+		return $return;
+	}
+
+	//всем остальным - обычная форма сброса пароля (1-й шаг, где указываем email)
+	$return .= '
+        <h3 class="lostpassword-title">Forgot password?</h3>
+        <p class="lostpassword-description">Enter your email address, and we’ll send you a password reset link.</p>
+        <form id="lostpasswordform" action="' . wp_lostpassword_url() . '" method="post">
+				<div class="rh_form__row form-row">
+					<div class="rh_form__item rh_form--1-column rh_form--columnAlign">
+						<label for="register_email">E-mail<span></span></label>
+						<input type="text" name="user_login" id="user_login">
+					</div>
+				</div>
+				<div class="rh_form__row">
+					<div class="rh_form__item rh_input_btn_wrapper rh_form--3-column rh_form--columnAlign lostpassword-submit">
+						<input type="submit" name="submit" class="lostpassword-button" value="Reset" />
+					</div>
+				</div>
+        </form>';
+
+	//возвращаем форму и выходим из функции
+	return $return;
+}
+
+/*
+ * перенаправляем стандартную форму
+ */
+//add_action('login_form_lostpassword', 'misha_pass_reset_redir');
+
+function misha_pass_reset_redir()
+{
+	// если используете другой ярлык страницы сброса пароля, укажите здесь
+	$forgot_pass_page_slug = '/?popup=forgot-pass';
+	// если используете другой ярлык страницы входа, укажите здесь
+	$login_page_slug = '/?popup=login';
+	// если кто-то перешел на страницу сброса пароля
+	// (!) именно перешел, а не отправил формой,
+	// тогда перенаправляем на нашу кастомную страницу сброса пароля
+	if ('GET' == $_SERVER['REQUEST_METHOD'] && !is_user_logged_in()) {
+		wp_redirect(site_url($forgot_pass_page_slug));
+		exit;
+	} else if ('POST' == $_SERVER['REQUEST_METHOD']) {
+		// если же напротив, была отправлена форма
+		// юзаем retrieve_password()
+		// которая отправляет на почту ссылку сброса пароля
+		// пользователю, который указан в $_POST['user_login']
+		$errors = retrieve_password();
+		if (is_wp_error($errors)) {
+			// если возникли ошибки, возвращаем пользователя назад на форму
+			$to = site_url($forgot_pass_page_slug);
+			$to = add_query_arg('errno', join(',', $errors->get_error_codes()), $to);
+		} else {
+			// если ошибок не было, перенаправляем на логин с сообщением об успехе
+			$to = site_url($login_page_slug);
+			$to = add_query_arg('errno', 'confirm', $to);
+		}
+
+		// собственно сам редирект
+		wp_redirect($to);
+		exit;
+	}
+}
+/*
+ * Манипуляции уже после перехода по ссылке из письма
+ */
+//add_action('login_form_rp', 'misha_to_custom_password_reset');
+//add_action('login_form_resetpass', 'misha_to_custom_password_reset');
+
+function misha_to_custom_password_reset()
+{
+
+	$key = $_REQUEST['key'];
+	$login = $_REQUEST['login'];
+	// если используете другой ярлык страницы сброса пароля, укажите здесь
+	$forgot_pass_page_slug = '/?popup=forgot-pass';
+	// если используете другой ярлык страницы входа, укажите здесь
+	$login_page_slug = '/?popup=login';
+
+	// проверку соответствия ключа и логина проводим в обоих случаях
+	if (('GET' == $_SERVER['REQUEST_METHOD'] || 'POST' == $_SERVER['REQUEST_METHOD'])
+		&& isset($key) && isset($login)
+	) {
+
+		$user = check_password_reset_key($key, $login);
+
+		if (!$user || is_wp_error($user)) {
+			if ($user && $user->get_error_code() === 'expired_key') {
+				wp_redirect(site_url($login_page_slug . '?errno=expiredkey'));
+			} else {
+				wp_redirect(site_url($login_page_slug . '?errno=invalidkey'));
+			}
+			exit;
+		}
+	}
+
+	if ('GET' == $_SERVER['REQUEST_METHOD']) {
+
+		$to = site_url($forgot_pass_page_slug);
+		$to = add_query_arg('login', esc_attr($login), $to);
+		$to = add_query_arg('key', esc_attr($key), $to);
+
+		wp_redirect($to);
+		exit;
+	} elseif ('POST' == $_SERVER['REQUEST_METHOD']) {
+
+		if (isset($_POST['pass1'])) {
+
+			if ($_POST['pass1'] != $_POST['pass2']) {
+				// если пароли не совпадают
+				$to = site_url($forgot_pass_page_slug);
+
+				$to = add_query_arg('key', esc_attr($key), $to);
+				$to = add_query_arg('login', esc_attr($login), $to);
+				$to = add_query_arg('errno', 'password_reset_mismatch', $to);
+
+				wp_redirect($to);
+				exit;
+			}
+
+			if (empty($_POST['pass1'])) {
+				// если поле с паролем пустое
+				$to = site_url($forgot_pass_page_slug);
+
+				$to = add_query_arg('key', esc_attr($key), $to);
+				$to = add_query_arg('login', esc_attr($login), $to);
+				$to = add_query_arg('errno', 'password_reset_empty', $to);
+
+				wp_redirect($to);
+				exit;
+			}
+
+			// тут кстати вы можете задать и свои проверки, например, чтобы длина пароля была 8 символов
+			// с паролями всё окей, можно сбрасывать
+			reset_password($user, $_POST['pass1']);
+			wp_redirect(site_url($login_page_slug . '?errno=changed'));
+		} else {
+			// если что-то пошло не так
+			echo "Error";
+		}
+
+		exit;
+	}
+}
 // add Postal address user
 add_action('show_user_profile', 'true_show_profile_fields');
 // когда чей-то профиль редактируется админом например
@@ -2616,4 +3139,14 @@ function related_stories (){
 		return ob_get_clean();
 }
 
+//add_shortcode('lost_password_short', 'lost_password_short');
+//function lost_password_short(){
+//
+//}
+//
+//add_filter( 'lostpassword_redirect', 'my_redirect_lostpass', 1, 999 );
+// 
+//function my_redirect_lostpass( $lostpassword_redirect ) {
+//    return get_home_url() . '/log-in/forgot-password/'; 
+//}
 

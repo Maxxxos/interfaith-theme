@@ -94,7 +94,7 @@ $user_info = wp_get_current_user();
 
 		<?php else : ?>
 			<div class="bb-header-buttons">
-				<a class="btn-login" id="view-login-form">Login</a>
+				<a class="btn-login" id="view-login-form" href="/wp-login.php">Login</a>
 			</div>
 			<span class="search-separator bb-separator" style="background: none;"></span>
 			<?php if ($show_search) : ?>

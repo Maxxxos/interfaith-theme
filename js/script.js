@@ -24,11 +24,11 @@ jQuery(document).ready(function($) {
         $('.popup-block').removeClass('active');
         $('#custom-passreset').addClass('active');
     });
-    $('#view-login-form, #view-login-form').click(function(e) {
-        e.preventDefault();
-        $('.popup-wrap').fadeIn();
-        $('#login-form').addClass('active');
-    });
+//    $('#view-login-form, #view-login-form').click(function(e) {
+//        e.preventDefault();
+//        $('.popup-wrap').fadeIn();
+//        $('#login-form').addClass('active');
+//    });
     // валидация
     jQuery('#register_email, #password-login-user').focus(function() {
         jQuery(this).removeClass('wp-not-valid');
